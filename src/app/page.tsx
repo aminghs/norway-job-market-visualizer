@@ -82,11 +82,16 @@ export default function HomePage() {
 
       {/* Top Header */}
       <header className="bg-slate-900 shadow-sm z-20 p-4 border-b border-slate-800 flex justify-between items-center shrink-0">
-        <div>
-          <h1 className="text-xl md:text-2xl font-black text-slate-50 tracking-tight">
-            Sweden Job Market Visualizer
-          </h1>
-          <p className="text-sm text-slate-400 font-medium">AI Exposure & Adoption Analysis</p>
+        <div className="flex items-center gap-4">
+          <div className="w-10 h-10 rounded-lg overflow-hidden border border-slate-700 shadow-lg shrink-0">
+            <img src="/icon.png" alt="Sweden Flag" className="w-full h-full object-cover" />
+          </div>
+          <div>
+            <h1 className="text-xl md:text-2xl font-black text-slate-50 tracking-tight">
+              Sweden Job Market Visualizer
+            </h1>
+            <p className="text-sm text-slate-400 font-medium">AI Exposure & Adoption Analysis</p>
+          </div>
         </div>
         <div className="hidden sm:block">
           <Legend metric={metric} />
