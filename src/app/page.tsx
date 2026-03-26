@@ -1,65 +1,139 @@
-import Image from "next/image";
+"use client";
 
-export default function Home() {
+import React, { useEffect, useState } from 'react';
+import useSWR from 'swr';
+import { useAppStore } from '@/lib/store';
+import { FilterBar } from '@/components/FilterBar';
+import { Treemap } from '@/components/Treemap';
+import { ScatterPlot } from '@/components/ScatterPlot';
+import { OccupationCard } from '@/components/OccupationCard';
+import { Legend } from '@/components/Legend';
+import { DisclaimerBanner } from '@/components/DisclaimerBanner';
+import { Skeleton } from '@/components/ui/skeleton';
+import type { Occupation } from '@/lib/types';
+
+const fetcher = (url: string) => fetch(url).then(r => r.json());
+
+export default function HomePage() {
+  const { metric, searchQuery, view, selectedSsyk, setSelectedSsyk } = useAppStore();
+  const [debouncedSearch, setDebouncedSearch] = useState(searchQuery);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  // Debounce search query to avoid spamming the API
+  useEffect(() => {
+    const handler = setTimeout(() => {
+      setDebouncedSearch(searchQuery);
+    }, 300);
+    return () => clearTimeout(handler);
+  }, [searchQuery]);
+
+  const queryParams = new URLSearchParams({
+    metric,
+    search: debouncedSearch
+  });
+
+  const { data: occupations, error, isLoading } = useSWR<Occupation[]>(
+    `/api/occupations?${queryParams}`,
+    fetcher,
+    { keepPreviousData: true }
+  );
+
+  const selectedOccupation = selectedSsyk && occupations
+    ? occupations.find(o => o.ssyk === selectedSsyk)
+    : null;
+
+  // Keyboard navigation
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (!occupations || occupations.length === 0) return;
+
+      if (e.key === 'Escape') {
+        setSelectedSsyk(null);
+        return;
+      }
+
+      const currentIndex = occupations.findIndex(o => o.ssyk === selectedSsyk);
+
+      if (e.key === 'ArrowDown' || e.key === 'ArrowRight') {
+        e.preventDefault();
+        const nextIndex = currentIndex < 0 ? 0 : (currentIndex + 1) % occupations.length;
+        setSelectedSsyk(occupations[nextIndex].ssyk);
+      } else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') {
+        e.preventDefault();
+        const prevIndex = currentIndex <= 0 ? occupations.length - 1 : currentIndex - 1;
+        setSelectedSsyk(occupations[prevIndex].ssyk);
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [occupations, selectedSsyk, setSelectedSsyk]);
+
+  if (!mounted) {
+    return <div className="min-h-screen bg-slate-950" />;
+  }
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
+    <div className="flex flex-col h-screen overflow-hidden bg-slate-950 text-slate-200">
+
+      {/* Top Header */}
+      <header className="bg-slate-900 shadow-sm z-20 p-4 border-b border-slate-800 flex justify-between items-center shrink-0">
+        <div>
+          <h1 className="text-xl md:text-2xl font-black text-slate-50 tracking-tight">
+            Sweden Job Market Visualizer
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+          <p className="text-sm text-slate-400 font-medium">AI Exposure & Adoption Analysis</p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
+        <div className="hidden sm:block">
+          <Legend metric={metric} />
+        </div>
+      </header>
+
+      {/* Filter Bar */}
+      <div className="shrink-0 z-10 relative">
+        <FilterBar />
+      </div>
+
+      {/* Main Content Area */}
+      <main className="flex-1 flex overflow-hidden relative">
+
+        {/* Chart Area */}
+        <section className="flex-1 w-full h-full relative">
+          {isLoading && !occupations ? (
+            <div className="absolute inset-0 p-4 flex gap-4">
+              <Skeleton className="w-full h-full rounded-xl bg-slate-800" />
+            </div>
+          ) : error ? (
+            <div className="absolute inset-0 flex items-center justify-center text-red-500 text-center px-4">
+              <p>Failed to load data. Ensure the database pipeline has run.</p>
+            </div>
+          ) : (
+            <div className="absolute inset-0 w-full h-full p-2">
+              {view === 'treemap' && <Treemap data={occupations || []} />}
+              {view === 'scatter' && <ScatterPlot data={occupations || []} />}
+            </div>
+          )}
+        </section>
+
+        {/* Sidebar Overlay for Details */}
+        {selectedOccupation && (
+          <>
+            <div
+              className="absolute inset-0 z-30 bg-black/40 backdrop-blur-sm cursor-pointer"
+              onClick={() => setSelectedSsyk(null)}
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+            <aside className="absolute z-40 top-0 right-0 w-full sm:w-96 md:w-[420px] h-full overflow-y-auto bg-slate-900 shadow-2xl border-l border-slate-800 animate-in slide-in-from-right-8">
+              <OccupationCard occupation={selectedOccupation} />
+            </aside>
+          </>
+        )}
       </main>
+
+      <DisclaimerBanner />
     </div>
   );
 }
