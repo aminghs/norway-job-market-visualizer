@@ -100,7 +100,7 @@ export function ScatterPlot({ data }: ScatterPlotProps) {
               <strong>${occName} (SSYK ${ssyk})</strong><br/>
               Theoretical Exposure: ${x.toFixed(1)}/10<br/>
               Current Adoption: ${y.toFixed(1)}/10<br/>
-              Employed: ${emp}
+              Employed: ${emp.toLocaleString('en-US')}
             </div>
           `;
         }

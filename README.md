@@ -1,6 +1,9 @@
 # Sweden Job Market Visualizer
 
-AI Exposure & Adoption Analysis of Swedish labor market occupations, inspired by [karpathy.ai/jobs](https://karpathy.ai/jobs/).
+Interactive AI Exposure & Adoption Analysis of Swedish labor market occupations.
+
+### 🌟 Inspiration
+This project is deeply inspired by [Andrej Karpathy's analysis of US occupations](https://karpathy.ai/jobs/). We have adapted his methodology for the Swedish context, utilizing local data from SCB and Arbetsförmedlingen to provide a specialized view of the Nordic labor market.
 
 ---
 
@@ -11,9 +14,9 @@ All scripts require `OPENAI_API_KEY` set in `.env.local`.
 
 | # | Script | What it does | How often |
 |---|--------|-------------|-----------|
-| 01 | `npx tsx scripts/01_fetch_yrkesprognoser.ts` | Downloads Arbetsförmedlingen forecast data (bristvärde, outlook text) and **translates** the Swedish forecast text to English using `gpt-4o-mini`. Writes `data/raw/yrkesprognoser.json`. | Monthly (Arbetsförmedlingen updates quarterly) |
+| 01 | `npx tsx scripts/01_fetch_yrkesprognoser.ts` | Downloads Arbetsförmedlingen forecast data (bristvärde, outlook text) and **translates** the Swedish forecast text to English using `gpt-5.4-mini`. Writes `data/raw/yrkesprognoser.json`. | Monthly (Arbetsförmedlingen updates quarterly) |
 | 02 | `npx tsx scripts/02_fetch_ssyk.ts` | Downloads SSYK 2012 occupation codes from JobTech taxonomy, fetches real employment counts from SCB (`YREG56N` table, national level 2021), and **translates** all names + descriptions to English. Writes `data/raw/ssyk_occupations.json`. | Yearly (SSYK taxonomy is stable) |
-| 03 | `npx tsx scripts/03_score_occupations.ts` | Scores every occupation for **Theoretical AI Exposure** (0–10) and **Current Adoption** (0–10) using `gpt-4o-mini`. Results are cached in `data/scores.db` (SQLite) so re-runs are fast and cheap. **Rationale text is always returned in English.** | Once, or when you want to re-score with a new model |
+| 03 | `npx tsx scripts/03_score_occupations.ts` | Scores every occupation for **Theoretical AI Exposure** (0–10) and **Current Adoption** (0–10) using `gpt-5.4-mini`. Results are cached in `data/scores.db` (SQLite) so re-runs are fast and cheap. **Rationale text is always returned in English.** | Once, or when you want to re-score with a new model |
 | 04 | `npx tsx scripts/04_merge.ts` | Joins all three datasets into `data/occupations.json`, the file the Next.js app reads. | After any of the above scripts |
 | 05 | `npx tsx scripts/05_validate.ts` | Sanity-checks the merged file (missing scores, null values, etc.). | After `04_merge` |
 
@@ -39,21 +42,7 @@ npx tsx scripts/04_merge.ts
 npx tsx scripts/05_validate.ts
 ```
 
-> After a clean-slate run, scripts 06–09 are not needed — they only exist to patch data fetched before translations were built into 01 and 02.
-
----
-
-## Backfill / Migration Scripts (one-time only)
-
-These scripts only exist to fix data that was collected before the pipeline had built-in English translation.
-**Safe to delete once you've run a full fresh pipeline (`01 → 05`).**
-
-| Script | Purpose |
-|--------|---------|
-| `scripts/06_translate.ts` | Translates names + descriptions already in `data/raw/ssyk_occupations.json` |
-| `scripts/07_translate_db.ts` | Translates rationale text already stored in `data/scores.db` |
-| `scripts/08_fix_employment.ts` | Patches employment counts that were `0` due to the old SCB query bug |
-| `scripts/09_translate_forecasts.ts` | Translates `stycke1`/`stycke2` in `data/raw/yrkesprognoser.json` |
+> After a clean-slate run, all scores and translations will be fully generated for the UI.
 
 ---
 
@@ -88,7 +77,7 @@ ADMIN_SECRET=your-secret       # Optional: protects the /api/score endpoint
 - **Next.js 16** (App Router, TypeScript)
 - **ECharts** (Treemap + Scatter visualizations)
 - **Zustand** (global UI state)
-- **Vercel AI SDK** + `gpt-4o-mini` (scoring + translation)
+- **Vercel AI SDK** + `gpt-5.4-mini` (scoring + translation)
 - **SQLite** via `better-sqlite3` (score cache)
 - **Shadcn/UI + Tailwind CSS**
 

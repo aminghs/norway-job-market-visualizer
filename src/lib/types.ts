@@ -12,14 +12,14 @@ export interface Occupation {
   medianWageSEK?: number;     // Median monthly wage in SEK (from SCB lön statistics if available)
   educationLevel: string;     // Required typical education level
 
-  // Arbetsförmedlingen forecast
+  // Arbetsförmedlingen forecast (translated to English)
   forecast?: {
     outlookScore: number;       // 1–5 mapped from competition level
-    competitionLevel: string;   // e.g. "Stor konkurrens", "Balans", "Brist"
-    shortTermOutlook: string;   // Swedish text
+    competitionLevel: string;   // e.g. "Very high competition", "Balanced", "Labour shortage"
+    shortTermOutlook: string;   // English-translated outlook text
     mediumTermOutlook: string;
     conceptId?: string | null;
-    ingress?: string | null;
+    ingress?: string | null;    // English-translated short summary
   };
 
   // LLM-generated scores

@@ -102,7 +102,7 @@ function mergeData() {
         shortTermOutlook: forecast?.stycke1En || forecast?.stycke1 || 'No forecast available.',
         mediumTermOutlook: forecast?.stycke2En || forecast?.stycke2 || 'No forecast available.',
         conceptId: forecast?.concept_id || null,
-        ingress: forecast?.ingress || null,
+        ingress: forecast?.ingressEn || forecast?.ingress || null,
       },
 
       scores: scoreMap.get(code) || null,

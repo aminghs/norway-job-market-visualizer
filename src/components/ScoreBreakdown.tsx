@@ -21,6 +21,11 @@ interface ScoreBreakdownProps {
 export function ScoreBreakdown({ scores }: ScoreBreakdownProps) {
   const [isOpen, setIsOpen] = React.useState(false);
   const [showPrompt, setShowPrompt] = React.useState(false);
+  const [mounted, setMounted] = React.useState(false);
+
+  React.useEffect(() => {
+    setMounted(true);
+  }, []);
 
   return (
     <div className="mt-4 border border-slate-700 rounded-md shadow-sm bg-slate-800/50 relative overflow-hidden">
@@ -28,7 +33,7 @@ export function ScoreBreakdown({ scores }: ScoreBreakdownProps) {
         <CollapsibleTrigger className="flex items-center justify-between w-full px-4 py-3 text-sm font-semibold bg-slate-900 border-b border-slate-700 hover:bg-slate-800 transition-colors text-slate-200">
           <div className="flex items-center gap-2">
             <span className="text-blue-400">🔍</span>
-            WHY THIS SCORE?
+            Why this score?
           </div>
           {isOpen ? <ChevronDown size={16} /> : <ChevronRight size={16} />}
         </CollapsibleTrigger>
@@ -45,9 +50,11 @@ export function ScoreBreakdown({ scores }: ScoreBreakdownProps) {
           </div>
           
           <div className="pt-2 flex flex-col sm:flex-row justify-between sm:items-center text-xs text-slate-500 border-t border-slate-700">
-            <div className="flex flex-col">
-              <span>Model: <strong className="text-slate-400">{scores.modelName || 'gpt-4o-mini'}</strong></span>
-              <span>Scored: {new Date(scores.scoredAt).toLocaleDateString()}</span>
+            <div className="flex flex-col text-[10px] leading-tight">
+              <span>Model: <strong className="text-slate-400">{scores.modelName || 'gpt-5.4-mini'}</strong></span>
+              {mounted && (
+                <span>Scored: {new Date(scores.scoredAt).toLocaleDateString('en-US')}</span>
+              )}
             </div>
             
             <button 

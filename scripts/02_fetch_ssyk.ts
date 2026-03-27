@@ -1,12 +1,13 @@
 import fs from 'fs';
 import path from 'path';
-import 'dotenv/config';
+import dotenv from 'dotenv';
+dotenv.config({ path: path.resolve(process.cwd(), '.env.local') });
 import { generateObject } from 'ai';
 import { openai } from '@ai-sdk/openai';
 import { z } from 'zod';
 
 const JOBTECH_TAXONOMY_URL = 'https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%0A%20%20concepts%28type%3A%20%22ssyk-level-4%22%29%20%7B%0A%20%20%20%20id%0A%20%20%20%20preferred_label%0A%20%20%20%20ssyk_code_2012%0A%20%20%20%20definition%0A%20%20%7D%0A%7D';
-const SCB_API_URL = 'https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208D/YREG56N';
+const SCB_API_URL = 'https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208M/YREG60N';
 
 async function fetchSsyk() {
   console.log('Fetching SSYK occupations from JobTech...');
@@ -14,8 +15,14 @@ async function fetchSsyk() {
     const jobtechRes = await fetch(JOBTECH_TAXONOMY_URL);
     if (!jobtechRes.ok) throw new Error('JobTech fetch failed: ' + jobtechRes.status);
     const jobtechData = await jobtechRes.json();
-    
     const concepts = jobtechData.data.concepts.filter((c: any) => c.ssyk_code_2012 && c.ssyk_code_2012.length === 4);
+    
+    // Count how many 4-digit occupations belong to each 3-digit group for fair distribution
+    const ssyk3ChildrenCount: Record<string, number> = {};
+    for (const c of concepts) {
+      const ssyk3 = c.ssyk_code_2012.substring(0, 3);
+      ssyk3ChildrenCount[ssyk3] = (ssyk3ChildrenCount[ssyk3] || 0) + 1;
+    }
 
     console.log('Fetching employment counts from SCB (Yrke2012 × national × all industries)...');
     // SCB YREG56N — filter by national region + all SSYK 3-digit codes + year
@@ -24,7 +31,8 @@ async function fetchSsyk() {
     const scbQueryWithOcc = {
       query: [
         { code: 'Region',    selection: { filter: 'item', values: ['00'] } },
-        { code: 'Yrke2012',  selection: { filter: 'all', values: ['*']  } },
+        { code: 'Yrke2012',  selection: { filter: 'all',  values: ['*']  } },
+        { code: 'Kon',       selection: { filter: 'all',  values: ['*']  } },
         { code: 'Tid',       selection: { filter: 'item', values: ['2021'] } }
       ],
       response: { format: 'json' }
@@ -41,15 +49,15 @@ async function fetchSsyk() {
       const scbData = await scbRes.json();
       if (scbData && scbData.data) {
         for (const item of scbData.data) {
-          // Sum all industry + sex combinations per 3-digit SSYK
-          const ssyk3 = item.key[1];
+          // Sum both sexes for each 4-digit SSYK
+          const ssyk4 = item.key[1];
           const count = parseInt(item.values[0], 10);
-          if (ssyk3 && !isNaN(count)) {
-            scbEmploymentData[ssyk3] = (scbEmploymentData[ssyk3] || 0) + count;
+          if (ssyk4 && !isNaN(count)) {
+            scbEmploymentData[ssyk4] = (scbEmploymentData[ssyk4] || 0) + count;
           }
         }
       }
-      console.log(`Got SCB employment data for ${Object.keys(scbEmploymentData).length} occupation groups`);
+      console.log(`Got SCB employment data for ${Object.keys(scbEmploymentData).length} 4-digit occupation codes`);
     } else {
       console.warn('Could not fetch SCB employment metrics — will use estimates.');
     }
@@ -58,21 +66,16 @@ async function fetchSsyk() {
       const code = c.ssyk_code_2012;
       let count = scbEmploymentData[code] || 0;
 
-      // SCB data is 3-digit SSYK — look up by 3-digit prefix (minorGroup)
+      // Some 4-digit codes in taxonomy are 3-digit in SCB? Check prefix
       if (!count) {
         const ssyk3 = code.substring(0, 3);
         count = scbEmploymentData[ssyk3] || 0;
       }
 
-      // Last resort: deterministic estimate if SCB returned nothing for this minor group
+      // Final fallback estimate if still zero
       if (!count) {
-        const majorGroup = code.substring(0, 1);
-        let base = 5000, variance = 15000;
-        if (majorGroup === '5' || majorGroup === '2') { base = 15000; variance = 40000; }
-        else if (majorGroup === '1') { base = 3000; variance = 8000; }
-        else if (majorGroup === '9') { base = 8000; variance = 20000; }
-        const det = parseInt(code) % variance;
-        count = Math.floor(base + det * 1.5);
+        const det = parseInt(code) % 10000;
+        count = Math.floor(1000 + det * 0.5);
       }
 
       return {
@@ -101,7 +104,7 @@ async function fetchSsyk() {
             .join('\n\n');
 
           const { object } = await generateObject({
-            model: openai('gpt-4o-mini'),
+            model: openai('gpt-5.4-mini'),
             schema: z.object({
               translations: z.array(z.object({
                 ssyk: z.string(),

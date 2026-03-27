@@ -8,7 +8,7 @@ import dotenv from 'dotenv';
 
 dotenv.config({ path: path.resolve(process.cwd(), '.env.local') });
 
-const dataFile = path.resolve(process.cwd(), 'data/occupations.json');
+const dataFile = path.resolve(process.cwd(), 'data/raw/ssyk_occupations.json');
 const occupations = JSON.parse(fs.readFileSync(dataFile, 'utf-8'));
 
 // Parse CLI arguments
@@ -48,10 +48,11 @@ async function scoreOccupation(occ: any) {
     };
   }
 
+  const description = occ.descriptionEnglish || occ.description;
   const theoreticalPrompt = `You are scoring Swedish occupations for AI exposure. Assess the occupation below and return a JSON object.
 
-OCCUPATION (SSYK code: ${occ.ssyk}): ${occ.nameSwedish} / ${occ.nameEnglish}
-DESCRIPTION: ${occ.description}
+OCCUPATION (SSYK code: ${occ.ssyk}): ${occ.nameEnglish || occ.nameSwedish}
+DESCRIPTION: ${description}
 
 SCORING RUBRIC for "theoreticalExposure" (0–10):
 - 9–10: Almost entirely screen/knowledge-based; output is text, code, data, or decisions AI models excel at
@@ -72,9 +73,9 @@ You MUST output your 'rationale' strictly in English, regardless of the input la
 
   const adoptionPrompt = `You are assessing current AI adoption signals for a Swedish occupation, NOT theoretical potential.
 
-OCCUPATION: ${occ.nameSwedish} / ${occ.nameEnglish}
+OCCUPATION: ${occ.nameEnglish || occ.nameSwedish}
 SSYK: ${occ.ssyk}
-DESCRIPTION: ${occ.description}
+DESCRIPTION: ${description}
 
 Rate "currentAdoption" (0–10) based on OBSERVABLE signals as of early 2026:
 - 8–10: Tools actively used (e.g. GitHub Copilot for devs, AI drafting for lawyers, AI diagnostics for radiologists)
@@ -164,15 +165,27 @@ async function run() {
         modelUsed: "simulation",
         scoredAt: new Date().toISOString()
       };
+      
+      // Store simulated score in DB Cache
+      db.prepare(`
+        INSERT INTO scores (
+          ssyk, modelName, theoreticalExposure, theoreticalExposureRationale,
+          currentAdoption, currentAdoptionRationale, promptUsed, scoredAt
+        )
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+        ON CONFLICT(ssyk, modelName) DO UPDATE SET
+          theoreticalExposure=excluded.theoreticalExposure,
+          theoreticalExposureRationale=excluded.theoreticalExposureRationale,
+          currentAdoption=excluded.currentAdoption,
+          currentAdoptionRationale=excluded.currentAdoptionRationale,
+          promptUsed=excluded.promptUsed,
+          scoredAt=excluded.scoredAt
+      `).run(
+        occ.ssyk, "simulation", simulatedScore.theoreticalExposure, simulatedScore.theoreticalExposureRationale,
+        simulatedScore.currentAdoption, simulatedScore.currentAdoptionRationale, simulatedScore.promptUsed, simulatedScore.scoredAt
+      );
+      
       occ.scores = simulatedScore;
-
-      const exposure = simulatedScore.theoreticalExposure;
-      const adoption = simulatedScore.currentAdoption;
-      let q = "low-exposure-low-adoption";
-      if (exposure >= 5 && adoption >= 5) q = "high-exposure-high-adoption";
-      else if (exposure >= 5 && adoption < 5) q = "high-exposure-low-adoption";
-      else if (exposure < 5 && adoption >= 5) q = "low-exposure-high-adoption";
-      occ.quadrant = q;
     } else {
       // Real scoring
       const scores = await scoreOccupation(occ);
@@ -193,8 +206,7 @@ async function run() {
     }
   }
 
-  fs.writeFileSync(dataFile, JSON.stringify(occupations, null, 2));
-  console.log(`Successfully scored and updated ${dataFile}`);
+  console.log(`Successfully scored occupations. Run 04_merge.ts to build the final dataset.`);
 }
 
 run();

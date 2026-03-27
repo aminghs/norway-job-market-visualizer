@@ -27,7 +27,7 @@ export function Legend({ metric }: LegendProps) {
     title = 'Labor Market Outlook (Shortage Index)';
     style = { background: outlookGradient };
     startLabel = 'High Competition';
-    endLabel = 'Shortage (Brist)';
+    endLabel = 'Labour Shortage';
   } else {
     return null;
   }

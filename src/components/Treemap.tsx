@@ -105,7 +105,13 @@ export function Treemap({ data }: TreemapProps) {
           const emp = (info.value || 0).toLocaleString('en-US');
           const ssyk = info.data?.ssyk || 'N/A';
           const score = info.data?.colorValue != null ? info.data.colorValue.toFixed(1) : 'N/A';
-          return `<strong>${occName} (SSYK ${ssyk})</strong><br />Employed: ${emp}<br />Score: ${score}`;
+          const metricLabels: Record<string, string> = {
+            theoreticalExposure: 'Exposure',
+            currentAdoption: 'Adoption',
+            outlook: 'Outlook'
+          };
+          const metricLabel = metricLabels[metric] || 'Score';
+          return `<strong>${occName} (SSYK ${ssyk})</strong><br />Employed: ${emp}<br />${metricLabel}: ${score}`;
         }
       },
       series: [{

@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
-import 'dotenv/config';
+import dotenv from 'dotenv';
+dotenv.config({ path: path.resolve(process.cwd(), '.env.local') });
 import { generateObject } from 'ai';
 import { openai } from '@ai-sdk/openai';
 import { z } from 'zod';
@@ -23,25 +24,27 @@ async function fetchYrkesprognoser() {
         console.log(`  Batch ${i + 1}–${i + chunk.length}`);
         try {
           const payload = chunk
-            .map((r: any) => `SSYK: ${r.ssyk}\nShort: ${r.stycke1 || ''}\nMedium: ${r.stycke2 || ''}`)
+            .map((r: any) => `SSYK: ${r.ssyk}\nIngress: ${r.ingress || ''}\nShort: ${r.stycke1 || ''}\nMedium: ${r.stycke2 || ''}`)
             .join('\n\n');
 
           const { object } = await generateObject({
-            model: openai('gpt-4o-mini'),
+            model: openai('gpt-5.4-mini'),
             schema: z.object({
               forecasts: z.array(z.object({
                 ssyk: z.number(),
+                ingressEn: z.string(),
                 shortTermEn: z.string(),
                 mediumTermEn: z.string()
               }))
             }),
-            prompt: `Translate these Swedish short-term and medium-term labor market outlook texts to standard English.
+            prompt: `Translate these Swedish labor market texts (ingress, short-term outlook, medium-term outlook) to standard English.
 Return one item per SSYK number.\n\n${payload}`
           });
 
           for (const t of object.forecasts) {
             // Use filter/forEach to apply translation to ALL entries for this SSYK (2024, 2026 etc)
             data.filter((r: any) => r.ssyk === t.ssyk).forEach((r: any) => {
+              r.ingressEn = t.ingressEn;
               r.stycke1En = t.shortTermEn;
               r.stycke2En = t.mediumTermEn;
             });
