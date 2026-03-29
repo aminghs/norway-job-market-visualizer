@@ -1,4 +1,4 @@
-﻿import fs from 'fs';
+import fs from 'fs';
 import path from 'path';
 import { generateObject } from 'ai';
 import { openai } from '@ai-sdk/openai';
@@ -150,6 +150,11 @@ You MUST output your rationale strictly in English.`;
 }
 
 async function run() {
+  if (process.env.OPENAI_API_KEY && allowSim) {
+    console.warn(
+      'OPENAI_API_KEY is set — using real OpenAI (PIPELINE_ALLOW_SIMULATED_SCORES is ignored).',
+    );
+  }
   if (!process.env.OPENAI_API_KEY && !allowSim) {
     console.error('Missing OPENAI_API_KEY. Set PIPELINE_ALLOW_SIMULATED_SCORES=1 for local testing only.');
     process.exit(1);
@@ -164,9 +169,9 @@ async function run() {
     if (!process.env.OPENAI_API_KEY && allowSim) {
       const simulatedScore = {
         theoreticalExposure: 5,
-        theoreticalExposureRationale: 'Simulated â€” PIPELINE_ALLOW_SIMULATED_SCORES=1',
+        theoreticalExposureRationale: 'Simulated (PIPELINE_ALLOW_SIMULATED_SCORES=1)',
         currentAdoption: 3,
-        currentAdoptionRationale: 'Simulated â€” local testing only.',
+        currentAdoptionRationale: 'Simulated local testing only.',
         promptUsed: 'simulated',
         modelUsed: 'simulation',
         scoredAt: new Date().toISOString(),
