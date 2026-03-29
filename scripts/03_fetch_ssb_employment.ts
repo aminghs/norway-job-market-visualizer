@@ -1,6 +1,6 @@
-﻿/**
+/**
  * SSB register-based employment by 4-digit STYRK (table 12542).
- * Values are in 1000 persons; we store persons as integers (null if suppressed).
+ * PxWeb JSON values are already in persons (whole numbers); store as integers (null if suppressed).
  * Output: data/raw/ssb_employment.json
  */
 import fs from 'fs';
@@ -52,7 +52,7 @@ async function main() {
     if (!/^\d{4}$/.test(code)) continue;
     let employment: number | null = null;
     if (raw !== null && raw !== undefined && !Number.isNaN(Number(raw))) {
-      employment = Math.round(Number(raw) * 1000);
+      employment = Math.round(Number(raw));
     }
     rows.push({
       code,

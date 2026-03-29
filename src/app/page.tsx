@@ -83,8 +83,23 @@ export default function HomePage() {
       {/* Top Header */}
       <header className="bg-slate-900 shadow-sm z-20 p-4 border-b border-slate-800 flex justify-between items-center shrink-0">
         <div className="flex items-center gap-4">
-          <div className="w-10 h-10 rounded-lg overflow-hidden border border-slate-700 shadow-lg shrink-0">
-            <span className="text-4xl leading-none" aria-hidden>🇳🇴</span>
+          <div
+            className="w-10 h-10 rounded-lg overflow-hidden border border-slate-700 shadow-lg shrink-0 bg-[#BA0C2F]"
+            title="Norway"
+            aria-label="Norway flag"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 110 80"
+              className="w-full h-full block"
+              aria-hidden
+            >
+              <rect width="110" height="80" fill="#BA0C2F" />
+              <rect x="40" width="30" height="80" fill="#fff" />
+              <rect y="30" width="110" height="20" fill="#fff" />
+              <rect x="45" width="20" height="80" fill="#00205B" />
+              <rect y="35" width="110" height="10" fill="#00205B" />
+            </svg>
           </div>
           <div>
             <h1 className="text-xl md:text-2xl font-black text-slate-50 tracking-tight">
@@ -98,7 +113,7 @@ export default function HomePage() {
             <Legend metric={metric} />
           </div>
           <a 
-            href="https://github.com/hamidfarmani/sweden-job-market-visualizer" 
+            href="https://github.com/aminghs/norway-job-market-visualizer" 
             target="_blank" 
             rel="noreferrer"
             className="p-2 rounded-full hover:bg-slate-800 transition-colors text-slate-400 hover:text-white"
