@@ -4,7 +4,7 @@ import { openai } from '@ai-sdk/openai';
 import { z } from 'zod';
 import { db } from '@/lib/db';
 import fs from 'fs';
-import path from 'path';
+import { countryConfig } from '@/config/country.config';
 
 const ScoringSchema = z.object({
   score: z.number().min(0).max(10),
@@ -30,7 +30,7 @@ export async function POST(request: Request) {
     const modelName = reqModel || 'gpt-4o-mini';
 
     // Verify occupation exists in generated data
-    const dataFile = path.resolve(process.cwd(), 'data/occupations.json');
+    const dataFile = countryConfig.paths.mergedOccupationsJson;
     if (!fs.existsSync(dataFile)) {
       return NextResponse.json({ error: 'Data file missing' }, { status: 503 });
     }
@@ -50,39 +50,39 @@ export async function POST(request: Request) {
       }
     }
 
-    const theoreticalPrompt = `You are scoring Swedish occupations for AI exposure. Assess the occupation below and return a JSON object.
+    const theoreticalPrompt = `You are scoring Norwegian occupations (STYRK-08) for AI exposure. Assess the occupation below and return a JSON object.
 
-OCCUPATION (SSYK code: ${occ.ssyk}): ${occ.nameSwedish} / ${occ.nameEnglish}
+OCCUPATION (STYRK code: ${occ.ssyk}): ${occ.nameSwedish} / ${occ.nameEnglish}
 DESCRIPTION: ${occ.description}
 
-SCORING RUBRIC for "theoreticalExposure" (0–10):
-- 9–10: Almost entirely screen/knowledge-based; output is text, code, data, or decisions AI models excel at
-- 7–8: Majority of tasks are cognitive/digital but with some physical or interpersonal components
-- 5–6: Mixed — significant cognitive tasks that AI could assist with, significant physical/relational tasks it cannot
-- 3–4: Mostly physical, hands-on, interpersonal, or highly context-dependent (Swedish welfare/care setting)
-- 1–2: Almost entirely physical, outdoor, or dependent on real-world embodiment
+SCORING RUBRIC for "theoreticalExposure" (0â€“10):
+- 9â€“10: Almost entirely screen/knowledge-based; output is text, code, data, or decisions AI models excel at
+- 7â€“8: Majority of tasks are cognitive/digital but with some physical or interpersonal components
+- 5â€“6: Mixed â€” significant cognitive tasks that AI could assist with, significant physical/relational tasks it cannot
+- 3â€“4: Mostly physical, hands-on, interpersonal, or highly context-dependent (Norwegian welfare/care setting)
+- 1â€“2: Almost entirely physical, outdoor, or dependent on real-world embodiment
 - 0: No plausible AI impact on core task structure
 
-IMPORTANT CONTEXT (Sweden-specific):
-- Sweden has high union density and strong collective agreements that slow adoption even in exposed occupations
-- Many public sector roles (nurses, teachers, social workers) involve statutory duties that cannot be delegated to AI by law
-- Consider the TASK composition, not just the job title
+IMPORTANT CONTEXT (Norway-specific):
+- Strong unions and collective agreements can slow adoption even in exposed occupations
+- Many public sector roles involve statutory duties that cannot be delegated to AI
+- Consider TASK composition, not just the job title
 - High exposure does NOT mean job loss — demand may rise`;
 
-    const adoptionPrompt = `You are assessing current AI adoption signals for a Swedish occupation, NOT theoretical potential.
+    const adoptionPrompt = `You are assessing current AI adoption signals for a Norwegian occupation, NOT theoretical potential.
 
 OCCUPATION: ${occ.nameSwedish} / ${occ.nameEnglish}
-SSYK: ${occ.ssyk}
+STYRK: ${occ.ssyk}
 DESCRIPTION: ${occ.description}
 
-Rate "currentAdoption" (0–10) based on OBSERVABLE signals as of early 2026:
-- 8–10: Tools actively used (e.g. GitHub Copilot for devs, AI drafting for lawyers, AI diagnostics for radiologists)
-- 6–7: Significant tooling available and many employers adopting (e.g. AI-assisted customer service, data analysts using LLMs)
-- 4–5: Early adoption — some employers experimenting, tools exist but not mainstream
-- 2–3: Marginal — a few pilot programs, mostly talk, little deployment
-- 0–1: No meaningful current adoption signals
+Rate "currentAdoption" (0â€“10) based on OBSERVABLE signals as of early 2026:
+- 8â€“10: Tools actively used (e.g. GitHub Copilot for devs, AI drafting for lawyers, AI diagnostics for radiologists)
+- 6â€“7: Significant tooling available and many employers adopting (e.g. AI-assisted customer service, data analysts using LLMs)
+- 4â€“5: Early adoption â€” some employers experimenting, tools exist but not mainstream
+- 2â€“3: Marginal â€” a few pilot programs, mostly talk, little deployment
+- 0â€“1: No meaningful current adoption signals
 
-Swedish context: AI adoption in Swedish workplaces is accelerating (AI tool mentions in job ads +328% since 2016, TechSverige 2026), but penetration is uneven. Public sector adoption is structurally slower.`;
+Norwegian context: adoption varies by sector; public sector can be slower.`;
 
     const model = openai(modelName);
 

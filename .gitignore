@@ -39,3 +39,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Pipeline cache & secrets
+/data/scores.db
+
+# Legacy Sweden merged file (app uses data/processed/occupations.json)
+/data/occupations.json
+
+# Old Sweden raw extracts (optional — remove if you want them versioned)
+/data/raw/ssyk_occupations.json
+/data/raw/yrkesprognoser.json

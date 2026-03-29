@@ -1,9 +1,14 @@
-import { NextResponse } from 'next/server';
+﻿import { NextResponse } from 'next/server';
 import fs from 'fs';
-import path from 'path';
 import type { Occupation } from '@/lib/types';
+import { countryConfig } from '@/config/country.config';
 
 export const dynamic = 'force-dynamic';
+
+function numOrNegInf(n: number | null | undefined) {
+  if (n === null || n === undefined) return Number.NEGATIVE_INFINITY;
+  return n;
+}
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
@@ -13,7 +18,7 @@ export async function GET(request: Request) {
   const search = searchParams.get('search')?.toLowerCase();
 
   try {
-    const dataFile = path.resolve(process.cwd(), 'data/occupations.json');
+    const dataFile = countryConfig.paths.mergedOccupationsJson;
     if (!fs.existsSync(dataFile)) {
       return NextResponse.json({ error: 'Data not available yet' }, { status: 503 });
     }
@@ -21,39 +26,35 @@ export async function GET(request: Request) {
     const fileContent = fs.readFileSync(dataFile, 'utf-8');
     let occupations: Occupation[] = JSON.parse(fileContent);
 
-    // Filter by sector
     if (sector && sector !== 'all') {
-      occupations = occupations.filter(o => o.sector === sector);
+      occupations = occupations.filter((o) => o.sector === sector);
     }
 
-    // Filter by major group
     if (majorGroup && majorGroup !== 'all') {
-      occupations = occupations.filter(o => o.majorGroup === majorGroup);
+      occupations = occupations.filter((o) => o.majorGroup === majorGroup);
     }
 
-    // Filter by search query
     if (search) {
-      occupations = occupations.filter(o => 
-        o.nameSwedish.toLowerCase().includes(search) || 
-        (o.nameEnglish && o.nameEnglish.toLowerCase().includes(search)) ||
-        o.ssyk.includes(search)
+      occupations = occupations.filter(
+        (o) =>
+          o.nameSwedish.toLowerCase().includes(search) ||
+          (o.nameEnglish && o.nameEnglish.toLowerCase().includes(search)) ||
+          o.ssyk.includes(search),
       );
     }
 
-    // Sort by metric
     occupations.sort((a, b) => {
       if (metric === 'theoreticalExposure') {
-        const scoreA = a.scores?.theoreticalExposure || 0;
-        const scoreB = b.scores?.theoreticalExposure || 0;
+        const scoreA = numOrNegInf(a.scores?.theoreticalExposure ?? null);
+        const scoreB = numOrNegInf(b.scores?.theoreticalExposure ?? null);
         return scoreB - scoreA;
       } else if (metric === 'currentAdoption') {
-        const scoreA = a.scores?.currentAdoption || 0;
-        const scoreB = b.scores?.currentAdoption || 0;
+        const scoreA = numOrNegInf(a.scores?.currentAdoption ?? null);
+        const scoreB = numOrNegInf(b.scores?.currentAdoption ?? null);
         return scoreB - scoreA;
       } else if (metric === 'outlook') {
-        const scoreA = a.forecast?.outlookScore || 0;
-        const scoreB = b.forecast?.outlookScore || 0;
-        // higher outlook score = more shortage = better outlook. Sort descending
+        const scoreA = numOrNegInf(a.forecast?.outlookScore ?? null);
+        const scoreB = numOrNegInf(b.forecast?.outlookScore ?? null);
         return scoreB - scoreA;
       }
       return 0;

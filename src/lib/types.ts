@@ -1,38 +1,54 @@
+/** STYRK-08 four-digit code; field name `ssyk` kept for UI compatibility. */
 export interface Occupation {
-  ssyk: string;               // 4-digit SSYK 2012 code
-  nameSwedish: string;        // Swedish name
-  nameEnglish: string;        // English name
+  ssyk: string;
+  /** Norwegian title (alias name retained for minimal UI churn). */
+  nameSwedish: string;
+  nameEnglish: string;
   description?: string;
   descriptionEnglish?: string;
-  majorGroup: string;         // SSYK major group (1–9)
+  majorGroup: string;
   subMajorGroup: string;
   minorGroup: string;
-  employed: number;           // Number of employed persons in Sweden (from SCB)
-  sector: "public" | "private" | "mixed";
-  medianWageSEK?: number;     // Median monthly wage in SEK (from SCB lön statistics if available)
-  educationLevel: string;     // Required typical education level
+  hierarchy?: {
+    major: string;
+    subMajor: string;
+    minor: string;
+    unitGroup: string;
+  };
+  /** SSB register employment (persons); null if missing/suppressed — never 0 unless official zero. */
+  employed: number | null;
+  sector: 'public' | 'private' | 'mixed';
+  medianWageSEK?: number;
+  educationLevel: string;
 
-  // Arbetsförmedlingen forecast (translated to English)
   forecast?: {
-    outlookScore: number;       // 1–5 mapped from competition level
-    competitionLevel: string;   // e.g. "Very high competition", "Balanced", "Labour shortage"
-    shortTermOutlook: string;   // English-translated outlook text
+    outlookScore: number;
+    competitionLevel: string;
+    shortTermOutlook: string;
     mediumTermOutlook: string;
     conceptId?: string | null;
-    ingress?: string | null;    // English-translated short summary
-  };
+    ingress?: string | null;
+  } | null;
 
-  // LLM-generated scores
   scores: {
-    theoreticalExposure: number;      // 0–10
+    theoreticalExposure: number;
     theoreticalExposureRationale: string;
-    currentAdoption: number;          // 0–10
+    currentAdoption: number;
     currentAdoptionRationale: string;
-    promptUsed: string;               // Exact prompt used — stored for transparency
-    modelName: string;                 // e.g. "gpt-4o-mini" — from DB column modelName
-    scoredAt: string;                 // ISO timestamp
-  };
+    promptUsed: string;
+    modelName: string;
+    scoredAt: string;
+  } | null;
 
-  // Derived
-  quadrant: "high-exposure-high-adoption" | "high-exposure-low-adoption" | "low-exposure-high-adoption" | "low-exposure-low-adoption";
+  quadrant:
+    | 'high-exposure-high-adoption'
+    | 'high-exposure-low-adoption'
+    | 'low-exposure-high-adoption'
+    | 'low-exposure-low-adoption'
+    | null;
+
+  taxonomySource?: string | null;
+  employmentSource?: string | null;
+  outlookSource?: string | null;
+  scoringSource?: string | null;
 }

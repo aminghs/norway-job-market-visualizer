@@ -44,7 +44,7 @@ export function OccupationCard({ occupation }: OccupationCardProps) {
 
   const exposureScore = occupation.scores?.theoreticalExposure || 0;
   const adoptionScore = occupation.scores?.currentAdoption || 0;
-  // App is English-only — prefer English translations, fall back to Swedish source
+  // App is English-only â€” prefer English translations, fall back to Swedish source
   const displayName = occupation.nameEnglish || occupation.nameSwedish;
   const displayDescription = occupation.descriptionEnglish || occupation.description;
 
@@ -55,7 +55,7 @@ export function OccupationCard({ occupation }: OccupationCardProps) {
       <div className="sticky top-0 bg-slate-900/95 backdrop-blur z-10 p-4 border-b border-slate-800">
         <div className="flex justify-between items-start mb-2">
           <div>
-            <div className="text-xs font-mono text-slate-400 mb-1">SSYK {occupation.ssyk}</div>
+            <div className="text-xs font-mono text-slate-400 mb-1">STYRK {occupation.ssyk}</div>
             <h2 className="text-xl font-bold text-slate-50 leading-tight">
               {displayName}
             </h2>
@@ -75,9 +75,9 @@ export function OccupationCard({ occupation }: OccupationCardProps) {
         {/* Basic Stats */}
         <section className="flex flex-col gap-2">
           <div className="flex justify-between items-center py-2 border-slate-800">
-            <span className="text-sm text-slate-400">Employed in Sweden</span>
+            <span className="text-sm text-slate-400">Employed in Norway (SSB)</span>
             <span className="font-semibold text-slate-200">
-              {mounted ? new Intl.NumberFormat('en-US').format(occupation.employed || 0) : '...'}
+              {mounted ? (occupation.employed === null || occupation.employed === undefined) ? '—' : new Intl.NumberFormat('nb-NO').format(occupation.employed) : '...'}
             </span>
           </div>
         </section>
@@ -122,7 +122,7 @@ export function OccupationCard({ occupation }: OccupationCardProps) {
         {/* Market Outlook */}
         {occupation.forecast && (
           <section>
-            <h3 className="text-xs font-bold tracking-wider text-slate-500 uppercase mb-3 border-b border-slate-800 pb-2">Outlook (Arbetsförmedlingen)</h3>
+            <h3 className="text-xs font-bold tracking-wider text-slate-500 uppercase mb-3 border-b border-slate-800 pb-2">Outlook (ArbetsfÃ¶rmedlingen)</h3>
             <div className="mb-4 flex items-center gap-2">
               <span className="text-sm font-medium text-slate-400">Competition:</span>
               <Badge variant={occupation.forecast.outlookScore >= 4 ? "destructive" : occupation.forecast.outlookScore <= 2 ? "default" : "secondary"}>

@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "source": "none",
+    "note": "v1: No NAV/EURES occupation-level outlook imported. forecast fields in merge will be null. Add API or parse official tables here."
+  },
+  "records": []
+}

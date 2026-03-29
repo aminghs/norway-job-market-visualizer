@@ -1,0 +1,6514 @@
+[
+  {
+    "ssyk": "0000",
+    "nameSwedish": "Uoppgitt / yrker som ikke kan identifiseres",
+    "nameEnglish": "Unspecified or unidentifiable occupations",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "0",
+    "subMajorGroup": "00",
+    "minorGroup": "000",
+    "hierarchy": {
+      "major": "Militære yrker og uoppgitt",
+      "subMajor": "Uoppgitt / yrker som ikke kan identifiseres",
+      "minor": "Uoppgitt / yrker som ikke kan identifiseres",
+      "unitGroup": "Uoppgitt / yrker som ikke kan identifiseres"
+    }
+  },
+  {
+    "ssyk": "0110",
+    "nameSwedish": "Offiserer fra fenrik og høyere grad",
+    "nameEnglish": "Commissioned armed forces officers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "0",
+    "subMajorGroup": "01",
+    "minorGroup": "011",
+    "hierarchy": {
+      "major": "Militære yrker og uoppgitt",
+      "subMajor": "Offiserer fra fenrik og høyere grad",
+      "minor": "Offiserer fra fenrik og høyere grad",
+      "unitGroup": "Offiserer fra fenrik og høyere grad"
+    }
+  },
+  {
+    "ssyk": "0210",
+    "nameSwedish": "Befal med sersjant grad",
+    "nameEnglish": "Non-commissioned armed forces officers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "0",
+    "subMajorGroup": "02",
+    "minorGroup": "021",
+    "hierarchy": {
+      "major": "Militære yrker og uoppgitt",
+      "subMajor": "Befal med sersjant grad",
+      "minor": "Befal med sersjant grad",
+      "unitGroup": "Befal med sersjant grad"
+    }
+  },
+  {
+    "ssyk": "0310",
+    "nameSwedish": "Menige",
+    "nameEnglish": "Armed forces occupations, other ranks",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "0",
+    "subMajorGroup": "03",
+    "minorGroup": "031",
+    "hierarchy": {
+      "major": "Militære yrker og uoppgitt",
+      "subMajor": "Menige",
+      "minor": "Menige",
+      "unitGroup": "Menige"
+    }
+  },
+  {
+    "ssyk": "1111",
+    "nameSwedish": "Politikere",
+    "nameEnglish": "Legislators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "1",
+    "subMajorGroup": "11",
+    "minorGroup": "111",
+    "hierarchy": {
+      "major": "Ledere",
+      "subMajor": "Politikere og toppledere",
+      "minor": "Politikere og toppledere i offentlig administrasjon",
+      "unitGroup": "Politikere"
+    }
+  },
+  {
+    "ssyk": "1112",
+    "nameSwedish": "Toppledere i offentlig administrasjon",
+    "nameEnglish": "Senior government officials",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "1",
+    "subMajorGroup": "11",
+    "minorGroup": "111",
+    "hierarchy": {
+      "major": "Ledere",
+      "subMajor": "Politikere og toppledere",
+      "minor": "Politikere og toppledere i offentlig administrasjon",
+      "unitGroup": "Toppledere i offentlig administrasjon"
+    }
+  },
+  {
+    "ssyk": "1114",
+    "nameSwedish": "Toppledere i interesseorganisasjoner",
+    "nameEnglish": "Senior officials of special-interest organisations",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "1",
+    "subMajorGroup": "11",
+    "minorGroup": "111",
+    "hierarchy": {
+      "major": "Ledere",
+      "subMajor": "Politikere og toppledere",
+      "minor": "Politikere og toppledere i offentlig administrasjon",
+      "unitGroup": "Toppledere i interesseorganisasjoner"
+    }
+  },
+  {
+    "ssyk": "1120",
+    "nameSwedish": "Administrerende direktører",
+    "nameEnglish": "Managing directors and chief executives",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "1",
+    "subMajorGroup": "11",
+    "minorGroup": "112",
+    "hierarchy": {
+      "major": "Ledere",
+      "subMajor": "Politikere og toppledere",
+      "minor": "Administrerende direktører",
+      "unitGroup": "Administrerende direktører"
+    }
+  },
+  {
+    "ssyk": "1211",
+    "nameSwedish": "Finans- og økonomisjefer",
+    "nameEnglish": "Finance managers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "1",
+    "subMajorGroup": "12",
+    "minorGroup": "121",
+    "hierarchy": {
+      "major": "Ledere",
+      "subMajor": "Administrative og merkantile ledere",
+      "minor": "Ledere av administrative enheter",
+      "unitGroup": "Finans- og økonomisjefer"
+    }
+  },
+  {
+    "ssyk": "1212",
+    "nameSwedish": "Personalsjefer",
+    "nameEnglish": "Human resource managers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "1",
+    "subMajorGroup": "12",
+    "minorGroup": "121",
+    "hierarchy": {
+      "major": "Ledere",
+      "subMajor": "Administrative og merkantile ledere",
+      "minor": "Ledere av administrative enheter",
+      "unitGroup": "Personalsjefer"
+    }
+  },
+  {
+    "ssyk": "1213",
+    "nameSwedish": "Strategi- og planleggingssjefer",
+    "nameEnglish": "Policy and planning managers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "1",
+    "subMajorGroup": "12",
+    "minorGroup": "121",
+    "hierarchy": {
+      "major": "Ledere",
+      "subMajor": "Administrative og merkantile ledere",
+      "minor": "Ledere av administrative enheter",
+      "unitGroup": "Strategi- og planleggingssjefer"
+    }
+  },
+  {
+    "ssyk": "1219",
+    "nameSwedish": "Andre administrative ledere",
+    "nameEnglish": "Business services and administration managers not elsewhere classified",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "1",
+    "subMajorGroup": "12",
+    "minorGroup": "121",
+    "hierarchy": {
+      "major": "Ledere",
+      "subMajor": "Administrative og merkantile ledere",
+      "minor": "Ledere av administrative enheter",
+      "unitGroup": "Andre administrative ledere"
+    }
+  },
+  {
+    "ssyk": "1221",
+    "nameSwedish": "Salgs- og markedssjefer",
+    "nameEnglish": "Sales and marketing managers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "1",
+    "subMajorGroup": "12",
+    "minorGroup": "122",
+    "hierarchy": {
+      "major": "Ledere",
+      "subMajor": "Administrative og merkantile ledere",
+      "minor": "Ledere av salgs-, PR- og forskningsenheter",
+      "unitGroup": "Salgs- og markedssjefer"
+    }
+  },
+  {
+    "ssyk": "1222",
+    "nameSwedish": "PR- og informasjonssjefer",
+    "nameEnglish": "Advertising and public relations managers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "1",
+    "subMajorGroup": "12",
+    "minorGroup": "122",
+    "hierarchy": {
+      "major": "Ledere",
+      "subMajor": "Administrative og merkantile ledere",
+      "minor": "Ledere av salgs-, PR- og forskningsenheter",
+      "unitGroup": "PR- og informasjonssjefer"
+    }
+  },
+  {
+    "ssyk": "1223",
+    "nameSwedish": "Forsknings- og utviklingsledere",
+    "nameEnglish": "Research and development managers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "1",
+    "subMajorGroup": "12",
+    "minorGroup": "122",
+    "hierarchy": {
+      "major": "Ledere",
+      "subMajor": "Administrative og merkantile ledere",
+      "minor": "Ledere av salgs-, PR- og forskningsenheter",
+      "unitGroup": "Forsknings- og utviklingsledere"
+    }
+  },
+  {
+    "ssyk": "1311",
+    "nameSwedish": "Ledere i skogbruk, gartnerier mv.",
+    "nameEnglish": "Agricultural and forestry production managers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "1",
+    "subMajorGroup": "13",
+    "minorGroup": "131",
+    "hierarchy": {
+      "major": "Ledere",
+      "subMajor": "Ledere av enheter for vareproduksjon og tjenesteyting",
+      "minor": "Ledere i gartnerier, akvakultur mv.",
+      "unitGroup": "Ledere i skogbruk, gartnerier mv."
+    }
+  },
+  {
+    "ssyk": "1312",
+    "nameSwedish": "Ledere innen akvakultur mv.",
+    "nameEnglish": "Aquaculture and fisheries production managers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "1",
+    "subMajorGroup": "13",
+    "minorGroup": "131",
+    "hierarchy": {
+      "major": "Ledere",
+      "subMajor": "Ledere av enheter for vareproduksjon og tjenesteyting",
+      "minor": "Ledere i gartnerier, akvakultur mv.",
+      "unitGroup": "Ledere innen akvakultur mv."
+    }
+  },
+  {
+    "ssyk": "1321",
+    "nameSwedish": "Ledere av industriproduksjon mv.",
+    "nameEnglish": "Manufacturing managers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "1",
+    "subMajorGroup": "13",
+    "minorGroup": "132",
+    "hierarchy": {
+      "major": "Ledere",
+      "subMajor": "Ledere av enheter for vareproduksjon og tjenesteyting",
+      "minor": "Ledere av produksjon, utvinning, bygg og anlegg, transport",
+      "unitGroup": "Ledere av industriproduksjon mv."
+    }
+  },
+  {
+    "ssyk": "1322",
+    "nameSwedish": "Ledere av olje- og gassutvinning mv.",
+    "nameEnglish": "Mining managers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "1",
+    "subMajorGroup": "13",
+    "minorGroup": "132",
+    "hierarchy": {
+      "major": "Ledere",
+      "subMajor": "Ledere av enheter for vareproduksjon og tjenesteyting",
+      "minor": "Ledere av produksjon, utvinning, bygg og anlegg, transport",
+      "unitGroup": "Ledere av olje- og gassutvinning mv."
+    }
+  },
+  {
+    "ssyk": "1323",
+    "nameSwedish": "Ledere av bygge- og anleggsvirksomhet",
+    "nameEnglish": "Construction managers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "1",
+    "subMajorGroup": "13",
+    "minorGroup": "132",
+    "hierarchy": {
+      "major": "Ledere",
+      "subMajor": "Ledere av enheter for vareproduksjon og tjenesteyting",
+      "minor": "Ledere av produksjon, utvinning, bygg og anlegg, transport",
+      "unitGroup": "Ledere av bygge- og anleggsvirksomhet"
+    }
+  },
+  {
+    "ssyk": "1324",
+    "nameSwedish": "Ledere av logistikk og transport mv.",
+    "nameEnglish": "Supply, distribution and related managers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "1",
+    "subMajorGroup": "13",
+    "minorGroup": "132",
+    "hierarchy": {
+      "major": "Ledere",
+      "subMajor": "Ledere av enheter for vareproduksjon og tjenesteyting",
+      "minor": "Ledere av produksjon, utvinning, bygg og anlegg, transport",
+      "unitGroup": "Ledere av logistikk og transport mv."
+    }
+  },
+  {
+    "ssyk": "1330",
+    "nameSwedish": "Ledere av IKT-enheter",
+    "nameEnglish": "Information and communications technology service managers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "1",
+    "subMajorGroup": "13",
+    "minorGroup": "133",
+    "hierarchy": {
+      "major": "Ledere",
+      "subMajor": "Ledere av enheter for vareproduksjon og tjenesteyting",
+      "minor": "Ledere av IKT-enheter",
+      "unitGroup": "Ledere av IKT-enheter"
+    }
+  },
+  {
+    "ssyk": "1341",
+    "nameSwedish": "Ledere av omsorgstjenester for barn",
+    "nameEnglish": "Child care services managers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "1",
+    "subMajorGroup": "13",
+    "minorGroup": "134",
+    "hierarchy": {
+      "major": "Ledere",
+      "subMajor": "Ledere av enheter for vareproduksjon og tjenesteyting",
+      "minor": "Ledere av utdanning, helse- og sosialtjenester",
+      "unitGroup": "Ledere av omsorgstjenester for barn"
+    }
+  },
+  {
+    "ssyk": "1342",
+    "nameSwedish": "Ledere av helsetjenester",
+    "nameEnglish": "Health services managers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "1",
+    "subMajorGroup": "13",
+    "minorGroup": "134",
+    "hierarchy": {
+      "major": "Ledere",
+      "subMajor": "Ledere av enheter for vareproduksjon og tjenesteyting",
+      "minor": "Ledere av utdanning, helse- og sosialtjenester",
+      "unitGroup": "Ledere av helsetjenester"
+    }
+  },
+  {
+    "ssyk": "1343",
+    "nameSwedish": "Ledere av eldreomsorg",
+    "nameEnglish": "Aged care services managers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "1",
+    "subMajorGroup": "13",
+    "minorGroup": "134",
+    "hierarchy": {
+      "major": "Ledere",
+      "subMajor": "Ledere av enheter for vareproduksjon og tjenesteyting",
+      "minor": "Ledere av utdanning, helse- og sosialtjenester",
+      "unitGroup": "Ledere av eldreomsorg"
+    }
+  },
+  {
+    "ssyk": "1344",
+    "nameSwedish": "Ledere av sosialomsorg",
+    "nameEnglish": "Social welfare managers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "1",
+    "subMajorGroup": "13",
+    "minorGroup": "134",
+    "hierarchy": {
+      "major": "Ledere",
+      "subMajor": "Ledere av enheter for vareproduksjon og tjenesteyting",
+      "minor": "Ledere av utdanning, helse- og sosialtjenester",
+      "unitGroup": "Ledere av sosialomsorg"
+    }
+  },
+  {
+    "ssyk": "1345",
+    "nameSwedish": "Ledere av utdanning og undervisning",
+    "nameEnglish": "Education managers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "1",
+    "subMajorGroup": "13",
+    "minorGroup": "134",
+    "hierarchy": {
+      "major": "Ledere",
+      "subMajor": "Ledere av enheter for vareproduksjon og tjenesteyting",
+      "minor": "Ledere av utdanning, helse- og sosialtjenester",
+      "unitGroup": "Ledere av utdanning og undervisning"
+    }
+  },
+  {
+    "ssyk": "1346",
+    "nameSwedish": "Ledere av forsikring og finansvirksomhet",
+    "nameEnglish": "Financial and insurance services branch managers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "1",
+    "subMajorGroup": "13",
+    "minorGroup": "134",
+    "hierarchy": {
+      "major": "Ledere",
+      "subMajor": "Ledere av enheter for vareproduksjon og tjenesteyting",
+      "minor": "Ledere av utdanning, helse- og sosialtjenester",
+      "unitGroup": "Ledere av forsikring og finansvirksomhet"
+    }
+  },
+  {
+    "ssyk": "1349",
+    "nameSwedish": "Andre ledere av produksjon og tjenesteyting",
+    "nameEnglish": "Professional services managers not elsewhere classified",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "1",
+    "subMajorGroup": "13",
+    "minorGroup": "134",
+    "hierarchy": {
+      "major": "Ledere",
+      "subMajor": "Ledere av enheter for vareproduksjon og tjenesteyting",
+      "minor": "Ledere av utdanning, helse- og sosialtjenester",
+      "unitGroup": "Andre ledere av produksjon og tjenesteyting"
+    }
+  },
+  {
+    "ssyk": "1411",
+    "nameSwedish": "Hotellsjefer",
+    "nameEnglish": "Hotel managers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "1",
+    "subMajorGroup": "14",
+    "minorGroup": "141",
+    "hierarchy": {
+      "major": "Ledere",
+      "subMajor": "Ledere i hotell, restaurant, varehandel mv.",
+      "minor": "Ledere i hotell og restaurant",
+      "unitGroup": "Hotellsjefer"
+    }
+  },
+  {
+    "ssyk": "1412",
+    "nameSwedish": "Restaurantsjefer",
+    "nameEnglish": "Restaurant managers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "1",
+    "subMajorGroup": "14",
+    "minorGroup": "141",
+    "hierarchy": {
+      "major": "Ledere",
+      "subMajor": "Ledere i hotell, restaurant, varehandel mv.",
+      "minor": "Ledere i hotell og restaurant",
+      "unitGroup": "Restaurantsjefer"
+    }
+  },
+  {
+    "ssyk": "1420",
+    "nameSwedish": "Varehandelssjefer",
+    "nameEnglish": "Retail and wholesale trade managers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "1",
+    "subMajorGroup": "14",
+    "minorGroup": "142",
+    "hierarchy": {
+      "major": "Ledere",
+      "subMajor": "Ledere i hotell, restaurant, varehandel mv.",
+      "minor": "Varehandelssjefer",
+      "unitGroup": "Varehandelssjefer"
+    }
+  },
+  {
+    "ssyk": "1431",
+    "nameSwedish": "Sports-, rekreasjons- og kultursenterledere",
+    "nameEnglish": "Sports, recreation and cultural centre managers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "1",
+    "subMajorGroup": "14",
+    "minorGroup": "143",
+    "hierarchy": {
+      "major": "Ledere",
+      "subMajor": "Ledere i hotell, restaurant, varehandel mv.",
+      "minor": "Daglige ledere, andre tjenesteytende virksomheter",
+      "unitGroup": "Sports-, rekreasjons- og kultursenterledere"
+    }
+  },
+  {
+    "ssyk": "1439",
+    "nameSwedish": "Andre daglige ledere i tjenesteytende virksomheter",
+    "nameEnglish": "Services managers not elsewhere classified",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "1",
+    "subMajorGroup": "14",
+    "minorGroup": "143",
+    "hierarchy": {
+      "major": "Ledere",
+      "subMajor": "Ledere i hotell, restaurant, varehandel mv.",
+      "minor": "Daglige ledere, andre tjenesteytende virksomheter",
+      "unitGroup": "Andre daglige ledere i tjenesteytende virksomheter"
+    }
+  },
+  {
+    "ssyk": "2111",
+    "nameSwedish": "Fysikere og astronomer",
+    "nameEnglish": "Physicists and astronomers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "21",
+    "minorGroup": "211",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Realister, sivilingeniører mv.",
+      "minor": "Fysikere, kjemikere mv.",
+      "unitGroup": "Fysikere og astronomer"
+    }
+  },
+  {
+    "ssyk": "2112",
+    "nameSwedish": "Meteorologer",
+    "nameEnglish": "Meteorologists",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "21",
+    "minorGroup": "211",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Realister, sivilingeniører mv.",
+      "minor": "Fysikere, kjemikere mv.",
+      "unitGroup": "Meteorologer"
+    }
+  },
+  {
+    "ssyk": "2113",
+    "nameSwedish": "Kjemikere",
+    "nameEnglish": "Chemists",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "21",
+    "minorGroup": "211",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Realister, sivilingeniører mv.",
+      "minor": "Fysikere, kjemikere mv.",
+      "unitGroup": "Kjemikere"
+    }
+  },
+  {
+    "ssyk": "2114",
+    "nameSwedish": "Geologer og geofysikere",
+    "nameEnglish": "Geologists and geophysicists",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "21",
+    "minorGroup": "211",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Realister, sivilingeniører mv.",
+      "minor": "Fysikere, kjemikere mv.",
+      "unitGroup": "Geologer og geofysikere"
+    }
+  },
+  {
+    "ssyk": "2120",
+    "nameSwedish": "Matematikere, statistikere mv.",
+    "nameEnglish": "Mathematicians, actuaries and statisticians",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "21",
+    "minorGroup": "212",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Realister, sivilingeniører mv.",
+      "minor": "Matematikere, statistikere mv.",
+      "unitGroup": "Matematikere, statistikere mv."
+    }
+  },
+  {
+    "ssyk": "2131",
+    "nameSwedish": "Biologer, botanikere, zoologer mv.",
+    "nameEnglish": "Biologists, botanists, zoologists and related professionals",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "21",
+    "minorGroup": "213",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Realister, sivilingeniører mv.",
+      "minor": "Biologiske yrker mv.",
+      "unitGroup": "Biologer, botanikere, zoologer mv."
+    }
+  },
+  {
+    "ssyk": "2132",
+    "nameSwedish": "Sivilagronomer mv.",
+    "nameEnglish": "Farming, forestry and fisheries advisers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "21",
+    "minorGroup": "213",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Realister, sivilingeniører mv.",
+      "minor": "Biologiske yrker mv.",
+      "unitGroup": "Sivilagronomer mv."
+    }
+  },
+  {
+    "ssyk": "2133",
+    "nameSwedish": "Miljøvernrådgivere",
+    "nameEnglish": "Environmental protection professionals",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "21",
+    "minorGroup": "213",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Realister, sivilingeniører mv.",
+      "minor": "Biologiske yrker mv.",
+      "unitGroup": "Miljøvernrådgivere"
+    }
+  },
+  {
+    "ssyk": "2141",
+    "nameSwedish": "Sivilingeniører (industri og produksjon)",
+    "nameEnglish": "Industrial and production engineers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "21",
+    "minorGroup": "214",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Realister, sivilingeniører mv.",
+      "minor": "Sivilingeniører (unntatt elektroteknologi)",
+      "unitGroup": "Sivilingeniører (industri og produksjon)"
+    }
+  },
+  {
+    "ssyk": "2142",
+    "nameSwedish": "Sivilingeniører (bygg og anlegg)",
+    "nameEnglish": "Civil engineers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "21",
+    "minorGroup": "214",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Realister, sivilingeniører mv.",
+      "minor": "Sivilingeniører (unntatt elektroteknologi)",
+      "unitGroup": "Sivilingeniører (bygg og anlegg)"
+    }
+  },
+  {
+    "ssyk": "2143",
+    "nameSwedish": "Sivilingeniører (miljøteknikk)",
+    "nameEnglish": "Environmental engineers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "21",
+    "minorGroup": "214",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Realister, sivilingeniører mv.",
+      "minor": "Sivilingeniører (unntatt elektroteknologi)",
+      "unitGroup": "Sivilingeniører (miljøteknikk)"
+    }
+  },
+  {
+    "ssyk": "2144",
+    "nameSwedish": "Sivilingeniører (maskin- og marin-teknikk)",
+    "nameEnglish": "Mechanical engineers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "21",
+    "minorGroup": "214",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Realister, sivilingeniører mv.",
+      "minor": "Sivilingeniører (unntatt elektroteknologi)",
+      "unitGroup": "Sivilingeniører (maskin- og marin-teknikk)"
+    }
+  },
+  {
+    "ssyk": "2145",
+    "nameSwedish": "Sivilingeniører (kjemi)",
+    "nameEnglish": "Chemical engineers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "21",
+    "minorGroup": "214",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Realister, sivilingeniører mv.",
+      "minor": "Sivilingeniører (unntatt elektroteknologi)",
+      "unitGroup": "Sivilingeniører (kjemi)"
+    }
+  },
+  {
+    "ssyk": "2146",
+    "nameSwedish": "Sivilingeniører (geofag, petro-leumsteknologi, metallurgi mv.)",
+    "nameEnglish": "Mining engineers, metallurgists and related professionals",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "21",
+    "minorGroup": "214",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Realister, sivilingeniører mv.",
+      "minor": "Sivilingeniører (unntatt elektroteknologi)",
+      "unitGroup": "Sivilingeniører (geofag, petro-leumsteknologi, metallurgi mv.)"
+    }
+  },
+  {
+    "ssyk": "2149",
+    "nameSwedish": "Andre sivilingeniører (unntatt elektroteknologi)",
+    "nameEnglish": "Engineering professionals not elsewhere classified",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "21",
+    "minorGroup": "214",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Realister, sivilingeniører mv.",
+      "minor": "Sivilingeniører (unntatt elektroteknologi)",
+      "unitGroup": "Andre sivilingeniører (unntatt elektroteknologi)"
+    }
+  },
+  {
+    "ssyk": "2151",
+    "nameSwedish": "Sivilingeniører (elkraftteknikk)",
+    "nameEnglish": "Electrical engineers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "21",
+    "minorGroup": "215",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Realister, sivilingeniører mv.",
+      "minor": "Sivilingeniører elektroteknologi",
+      "unitGroup": "Sivilingeniører (elkraftteknikk)"
+    }
+  },
+  {
+    "ssyk": "2152",
+    "nameSwedish": "Sivilingeniører (elektronikk)",
+    "nameEnglish": "Electronics engineers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "21",
+    "minorGroup": "215",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Realister, sivilingeniører mv.",
+      "minor": "Sivilingeniører elektroteknologi",
+      "unitGroup": "Sivilingeniører (elektronikk)"
+    }
+  },
+  {
+    "ssyk": "2153",
+    "nameSwedish": "Sivilingeniører (telekommunikasjon)",
+    "nameEnglish": "Telecommunications engineers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "21",
+    "minorGroup": "215",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Realister, sivilingeniører mv.",
+      "minor": "Sivilingeniører elektroteknologi",
+      "unitGroup": "Sivilingeniører (telekommunikasjon)"
+    }
+  },
+  {
+    "ssyk": "2161",
+    "nameSwedish": "Sivilarkitekter",
+    "nameEnglish": "Building architects",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "21",
+    "minorGroup": "216",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Realister, sivilingeniører mv.",
+      "minor": "Arkitekter, designere mv.",
+      "unitGroup": "Sivilarkitekter"
+    }
+  },
+  {
+    "ssyk": "2162",
+    "nameSwedish": "Landskapsarkitekter",
+    "nameEnglish": "Landscape architects",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "21",
+    "minorGroup": "216",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Realister, sivilingeniører mv.",
+      "minor": "Arkitekter, designere mv.",
+      "unitGroup": "Landskapsarkitekter"
+    }
+  },
+  {
+    "ssyk": "2163",
+    "nameSwedish": "Produkt- og klesdesignere",
+    "nameEnglish": "Product and garment designers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "21",
+    "minorGroup": "216",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Realister, sivilingeniører mv.",
+      "minor": "Arkitekter, designere mv.",
+      "unitGroup": "Produkt- og klesdesignere"
+    }
+  },
+  {
+    "ssyk": "2164",
+    "nameSwedish": "Arealplanleggere",
+    "nameEnglish": "Town and traffic planners",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "21",
+    "minorGroup": "216",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Realister, sivilingeniører mv.",
+      "minor": "Arkitekter, designere mv.",
+      "unitGroup": "Arealplanleggere"
+    }
+  },
+  {
+    "ssyk": "2165",
+    "nameSwedish": "Landmålere, kartografer mv.",
+    "nameEnglish": "Cartographers and surveyors",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "21",
+    "minorGroup": "216",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Realister, sivilingeniører mv.",
+      "minor": "Arkitekter, designere mv.",
+      "unitGroup": "Landmålere, kartografer mv."
+    }
+  },
+  {
+    "ssyk": "2166",
+    "nameSwedish": "Grafiske- og multimediadesignere",
+    "nameEnglish": "Graphic and multimedia designers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "21",
+    "minorGroup": "216",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Realister, sivilingeniører mv.",
+      "minor": "Arkitekter, designere mv.",
+      "unitGroup": "Grafiske- og multimediadesignere"
+    }
+  },
+  {
+    "ssyk": "2211",
+    "nameSwedish": "Allmennpraktiserende leger",
+    "nameEnglish": "Generalist medical practitioners",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "22",
+    "minorGroup": "221",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Medisinske yrker",
+      "minor": "Leger",
+      "unitGroup": "Allmennpraktiserende leger"
+    }
+  },
+  {
+    "ssyk": "2212",
+    "nameSwedish": "Legespesialister",
+    "nameEnglish": "Specialist medical practitioners",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "22",
+    "minorGroup": "221",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Medisinske yrker",
+      "minor": "Leger",
+      "unitGroup": "Legespesialister"
+    }
+  },
+  {
+    "ssyk": "2221",
+    "nameSwedish": "Spesialsykepleiere",
+    "nameEnglish": "Nursing professionals",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "22",
+    "minorGroup": "222",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Medisinske yrker",
+      "minor": "Sykepleiere og spesialsykepleiere",
+      "unitGroup": "Spesialsykepleiere"
+    }
+  },
+  {
+    "ssyk": "2222",
+    "nameSwedish": "Jordmødre",
+    "nameEnglish": "Midwifery professionals",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "22",
+    "minorGroup": "222",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Medisinske yrker",
+      "minor": "Sykepleiere og spesialsykepleiere",
+      "unitGroup": "Jordmødre"
+    }
+  },
+  {
+    "ssyk": "2223",
+    "nameSwedish": "Sykepleiere",
+    "nameEnglish": "Nurses",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "22",
+    "minorGroup": "222",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Medisinske yrker",
+      "minor": "Sykepleiere og spesialsykepleiere",
+      "unitGroup": "Sykepleiere"
+    }
+  },
+  {
+    "ssyk": "2224",
+    "nameSwedish": "Vernepleiere",
+    "nameEnglish": "Social educators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "22",
+    "minorGroup": "222",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Medisinske yrker",
+      "minor": "Sykepleiere og spesialsykepleiere",
+      "unitGroup": "Vernepleiere"
+    }
+  },
+  {
+    "ssyk": "2250",
+    "nameSwedish": "Veterinærer",
+    "nameEnglish": "Veterinarians",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "22",
+    "minorGroup": "225",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Medisinske yrker",
+      "minor": "Veterinærer",
+      "unitGroup": "Veterinærer"
+    }
+  },
+  {
+    "ssyk": "2261",
+    "nameSwedish": "Tannleger",
+    "nameEnglish": "Dentists",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "22",
+    "minorGroup": "226",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Medisinske yrker",
+      "minor": "Andre medisinske yrker",
+      "unitGroup": "Tannleger"
+    }
+  },
+  {
+    "ssyk": "2262",
+    "nameSwedish": "Farmasøyter",
+    "nameEnglish": "Pharmacists",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "22",
+    "minorGroup": "226",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Medisinske yrker",
+      "minor": "Andre medisinske yrker",
+      "unitGroup": "Farmasøyter"
+    }
+  },
+  {
+    "ssyk": "2263",
+    "nameSwedish": "Helse- og miljørådgivere",
+    "nameEnglish": "Environmental and occupational health and hygiene professionals",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "22",
+    "minorGroup": "226",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Medisinske yrker",
+      "minor": "Andre medisinske yrker",
+      "unitGroup": "Helse- og miljørådgivere"
+    }
+  },
+  {
+    "ssyk": "2264",
+    "nameSwedish": "Fysioterapeuter",
+    "nameEnglish": "Physiotherapists",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "22",
+    "minorGroup": "226",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Medisinske yrker",
+      "minor": "Andre medisinske yrker",
+      "unitGroup": "Fysioterapeuter"
+    }
+  },
+  {
+    "ssyk": "2265",
+    "nameSwedish": "Ernæringsfysiologer",
+    "nameEnglish": "Dieticians and nutritionists",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "22",
+    "minorGroup": "226",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Medisinske yrker",
+      "minor": "Andre medisinske yrker",
+      "unitGroup": "Ernæringsfysiologer"
+    }
+  },
+  {
+    "ssyk": "2266",
+    "nameSwedish": "Audiografer og logopeder",
+    "nameEnglish": "Audiologists and speech therapists",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "22",
+    "minorGroup": "226",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Medisinske yrker",
+      "minor": "Andre medisinske yrker",
+      "unitGroup": "Audiografer og logopeder"
+    }
+  },
+  {
+    "ssyk": "2267",
+    "nameSwedish": "Ergoterapeuter",
+    "nameEnglish": "Ergotherapists",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "22",
+    "minorGroup": "226",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Medisinske yrker",
+      "minor": "Andre medisinske yrker",
+      "unitGroup": "Ergoterapeuter"
+    }
+  },
+  {
+    "ssyk": "2269",
+    "nameSwedish": "Kiropraktorer mv.",
+    "nameEnglish": "Chiropractors and other related professionals",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "22",
+    "minorGroup": "226",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Medisinske yrker",
+      "minor": "Andre medisinske yrker",
+      "unitGroup": "Kiropraktorer mv."
+    }
+  },
+  {
+    "ssyk": "2310",
+    "nameSwedish": "Universitets- og høyskolelektorer/-lærere",
+    "nameEnglish": "University and higher education teachers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "23",
+    "minorGroup": "231",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Undervisningsyrker",
+      "minor": "Universitets- og høyskolelektorer/-lærere",
+      "unitGroup": "Universitets- og høyskolelektorer/-lærere"
+    }
+  },
+  {
+    "ssyk": "2320",
+    "nameSwedish": "Yrkesfaglærere",
+    "nameEnglish": "Vocational education teachers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "23",
+    "minorGroup": "232",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Undervisningsyrker",
+      "minor": "Yrkesfaglærere",
+      "unitGroup": "Yrkesfaglærere"
+    }
+  },
+  {
+    "ssyk": "2330",
+    "nameSwedish": "Lektorer mv. (videregående skole)",
+    "nameEnglish": "Secondary education teachers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "23",
+    "minorGroup": "233",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Undervisningsyrker",
+      "minor": "Lektorer mv (videregående skole)",
+      "unitGroup": "Lektorer mv. (videregående skole)"
+    }
+  },
+  {
+    "ssyk": "2341",
+    "nameSwedish": "Grunnskolelærere",
+    "nameEnglish": "Primary school teachers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "23",
+    "minorGroup": "234",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Undervisningsyrker",
+      "minor": "Grunnskole- og førskole-/barnehagelærere",
+      "unitGroup": "Grunnskolelærere"
+    }
+  },
+  {
+    "ssyk": "2342",
+    "nameSwedish": "Førskole-/barnehagelærere",
+    "nameEnglish": "Early childhood teachers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "23",
+    "minorGroup": "234",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Undervisningsyrker",
+      "minor": "Grunnskole- og førskole-/barnehagelærere",
+      "unitGroup": "Førskole-/barnehagelærere"
+    }
+  },
+  {
+    "ssyk": "2351",
+    "nameSwedish": "Spesialister i pedagogikk",
+    "nameEnglish": "Education methods specialists",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "23",
+    "minorGroup": "235",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Undervisningsyrker",
+      "minor": "Andre lærere",
+      "unitGroup": "Spesialister i pedagogikk"
+    }
+  },
+  {
+    "ssyk": "2352",
+    "nameSwedish": "Spesiallærere / spesialpedagoger",
+    "nameEnglish": "Special needs teachers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "23",
+    "minorGroup": "235",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Undervisningsyrker",
+      "minor": "Andre lærere",
+      "unitGroup": "Spesiallærere / spesialpedagoger"
+    }
+  },
+  {
+    "ssyk": "2353",
+    "nameSwedish": "Andre språklærere",
+    "nameEnglish": "Other language teachers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "23",
+    "minorGroup": "235",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Undervisningsyrker",
+      "minor": "Andre lærere",
+      "unitGroup": "Andre språklærere"
+    }
+  },
+  {
+    "ssyk": "2354",
+    "nameSwedish": "Andre musikklærere",
+    "nameEnglish": "Other music teachers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "23",
+    "minorGroup": "235",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Undervisningsyrker",
+      "minor": "Andre lærere",
+      "unitGroup": "Andre musikklærere"
+    }
+  },
+  {
+    "ssyk": "2355",
+    "nameSwedish": "Andre lærere i estetiske fag",
+    "nameEnglish": "Other arts teachers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "23",
+    "minorGroup": "235",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Undervisningsyrker",
+      "minor": "Andre lærere",
+      "unitGroup": "Andre lærere i estetiske fag"
+    }
+  },
+  {
+    "ssyk": "2356",
+    "nameSwedish": "Andre IKT-lærere",
+    "nameEnglish": "Information technology trainers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "23",
+    "minorGroup": "235",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Undervisningsyrker",
+      "minor": "Andre lærere",
+      "unitGroup": "Andre IKT-lærere"
+    }
+  },
+  {
+    "ssyk": "2359",
+    "nameSwedish": "Andre lærere",
+    "nameEnglish": "Teaching professionals not elsewhere classified",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "23",
+    "minorGroup": "235",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Undervisningsyrker",
+      "minor": "Andre lærere",
+      "unitGroup": "Andre lærere"
+    }
+  },
+  {
+    "ssyk": "2411",
+    "nameSwedish": "Revisorer, regnskapsrådgivere",
+    "nameEnglish": "Accountants",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "24",
+    "minorGroup": "241",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Rådgivere innen økonomi, administrasjon og salg",
+      "minor": "Finansrådgivere",
+      "unitGroup": "Revisorer, regnskapsrådgivere"
+    }
+  },
+  {
+    "ssyk": "2412",
+    "nameSwedish": "Finans- og investeringsrådgivere",
+    "nameEnglish": "Financial and investment advisers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "24",
+    "minorGroup": "241",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Rådgivere innen økonomi, administrasjon og salg",
+      "minor": "Finansrådgivere",
+      "unitGroup": "Finans- og investeringsrådgivere"
+    }
+  },
+  {
+    "ssyk": "2413",
+    "nameSwedish": "Finansanalytikere",
+    "nameEnglish": "Financial analysts",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "24",
+    "minorGroup": "241",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Rådgivere innen økonomi, administrasjon og salg",
+      "minor": "Finansrådgivere",
+      "unitGroup": "Finansanalytikere"
+    }
+  },
+  {
+    "ssyk": "2421",
+    "nameSwedish": "Organisasjonsrådgivere mv.",
+    "nameEnglish": "Management and organisation analysts",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "24",
+    "minorGroup": "242",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Rådgivere innen økonomi, administrasjon og salg",
+      "minor": "Administrasjonsrådgivere",
+      "unitGroup": "Organisasjonsrådgivere mv."
+    }
+  },
+  {
+    "ssyk": "2422",
+    "nameSwedish": "Høyere saksbehandlere i offentlig og privat virksomhet",
+    "nameEnglish": "Policy administration professionals",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "24",
+    "minorGroup": "242",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Rådgivere innen økonomi, administrasjon og salg",
+      "minor": "Administrasjonsrådgivere",
+      "unitGroup": "Høyere saksbehandlere i offentlig og privat virksomhet"
+    }
+  },
+  {
+    "ssyk": "2423",
+    "nameSwedish": "Personal- og karriererådgivere",
+    "nameEnglish": "Personnel and careers professionals",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "24",
+    "minorGroup": "242",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Rådgivere innen økonomi, administrasjon og salg",
+      "minor": "Administrasjonsrådgivere",
+      "unitGroup": "Personal- og karriererådgivere"
+    }
+  },
+  {
+    "ssyk": "2424",
+    "nameSwedish": "Rådgivere innen kompetanseutvikling",
+    "nameEnglish": "Training and staff development professionals",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "24",
+    "minorGroup": "242",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Rådgivere innen økonomi, administrasjon og salg",
+      "minor": "Administrasjonsrådgivere",
+      "unitGroup": "Rådgivere innen kompetanseutvikling"
+    }
+  },
+  {
+    "ssyk": "2431",
+    "nameSwedish": "Reklame- og markedsføringsrådgivere",
+    "nameEnglish": "Advertising and marketing professionals",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "24",
+    "minorGroup": "243",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Rådgivere innen økonomi, administrasjon og salg",
+      "minor": "Rådgivere innen salg, markedsføring mv.",
+      "unitGroup": "Reklame- og markedsføringsrådgivere"
+    }
+  },
+  {
+    "ssyk": "2432",
+    "nameSwedish": "Informasjonsrådgivere",
+    "nameEnglish": "Public relations professionals",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "24",
+    "minorGroup": "243",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Rådgivere innen økonomi, administrasjon og salg",
+      "minor": "Rådgivere innen salg, markedsføring mv.",
+      "unitGroup": "Informasjonsrådgivere"
+    }
+  },
+  {
+    "ssyk": "2433",
+    "nameSwedish": "Salgskonsulenter innen tekniske og medisinske produkter",
+    "nameEnglish": "Technical and medical sales professionals (excluding ICT)",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "24",
+    "minorGroup": "243",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Rådgivere innen økonomi, administrasjon og salg",
+      "minor": "Rådgivere innen salg, markedsføring mv.",
+      "unitGroup": "Salgskonsulenter innen tekniske og medisinske produkter"
+    }
+  },
+  {
+    "ssyk": "2434",
+    "nameSwedish": "Salgskonsulenter innen IKT-produkter",
+    "nameEnglish": "Information and communications technology sales professionals",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "24",
+    "minorGroup": "243",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Rådgivere innen økonomi, administrasjon og salg",
+      "minor": "Rådgivere innen salg, markedsføring mv.",
+      "unitGroup": "Salgskonsulenter innen IKT-produkter"
+    }
+  },
+  {
+    "ssyk": "2511",
+    "nameSwedish": "Systemanalytikere/-arkitekter",
+    "nameEnglish": "Systems analysts",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "25",
+    "minorGroup": "251",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "IKT-rådgivere",
+      "minor": "Programvare- og applikasjonsutviklere/analytikere",
+      "unitGroup": "Systemanalytikere/-arkitekter"
+    }
+  },
+  {
+    "ssyk": "2512",
+    "nameSwedish": "Programvareutviklere",
+    "nameEnglish": "Software developers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "25",
+    "minorGroup": "251",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "IKT-rådgivere",
+      "minor": "Programvare- og applikasjonsutviklere/analytikere",
+      "unitGroup": "Programvareutviklere"
+    }
+  },
+  {
+    "ssyk": "2513",
+    "nameSwedish": "Nett- og multimediautviklere",
+    "nameEnglish": "Web and multimedia developers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "25",
+    "minorGroup": "251",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "IKT-rådgivere",
+      "minor": "Programvare- og applikasjonsutviklere/analytikere",
+      "unitGroup": "Nett- og multimediautviklere"
+    }
+  },
+  {
+    "ssyk": "2514",
+    "nameSwedish": "Applikasjonsprogrammerere",
+    "nameEnglish": "Applications programmers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "25",
+    "minorGroup": "251",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "IKT-rådgivere",
+      "minor": "Programvare- og applikasjonsutviklere/analytikere",
+      "unitGroup": "Applikasjonsprogrammerere"
+    }
+  },
+  {
+    "ssyk": "2519",
+    "nameSwedish": "Andre programvare- og applikasjonsutviklere",
+    "nameEnglish": "Software and applications developers and analysts not elsewhere classified",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "25",
+    "minorGroup": "251",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "IKT-rådgivere",
+      "minor": "Programvare- og applikasjonsutviklere/analytikere",
+      "unitGroup": "Andre programvare- og applikasjonsutviklere"
+    }
+  },
+  {
+    "ssyk": "2521",
+    "nameSwedish": "Databasedesignere og -administratorer",
+    "nameEnglish": "Database designers and administrators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "25",
+    "minorGroup": "252",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "IKT-rådgivere",
+      "minor": "Databasedesignere, systemadministratorer mv.",
+      "unitGroup": "Databasedesignere og -administratorer"
+    }
+  },
+  {
+    "ssyk": "2522",
+    "nameSwedish": "Systemadministratorer",
+    "nameEnglish": "Systems administrators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "25",
+    "minorGroup": "252",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "IKT-rådgivere",
+      "minor": "Databasedesignere, systemadministratorer mv.",
+      "unitGroup": "Systemadministratorer"
+    }
+  },
+  {
+    "ssyk": "2523",
+    "nameSwedish": "Nettverksansvarlige",
+    "nameEnglish": "Computer network professionals",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "25",
+    "minorGroup": "252",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "IKT-rådgivere",
+      "minor": "Databasedesignere, systemadministratorer mv.",
+      "unitGroup": "Nettverksansvarlige"
+    }
+  },
+  {
+    "ssyk": "2529",
+    "nameSwedish": "Sikkerhetsanalytikere mv.",
+    "nameEnglish": "Database and network professionals not elsewhere classified",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "25",
+    "minorGroup": "252",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "IKT-rådgivere",
+      "minor": "Databasedesignere, systemadministratorer mv.",
+      "unitGroup": "Sikkerhetsanalytikere mv."
+    }
+  },
+  {
+    "ssyk": "2611",
+    "nameSwedish": "Jurister og advokater",
+    "nameEnglish": "Lawyers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "26",
+    "minorGroup": "261",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Juridiske, samfunnsvitenskapelige og humanistiske yrker",
+      "minor": "Juridiske yrker",
+      "unitGroup": "Jurister og advokater"
+    }
+  },
+  {
+    "ssyk": "2612",
+    "nameSwedish": "Dommere",
+    "nameEnglish": "Judges",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "26",
+    "minorGroup": "261",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Juridiske, samfunnsvitenskapelige og humanistiske yrker",
+      "minor": "Juridiske yrker",
+      "unitGroup": "Dommere"
+    }
+  },
+  {
+    "ssyk": "2619",
+    "nameSwedish": "Andre juridiske yrker",
+    "nameEnglish": "Legal professionals not elsewhere classified",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "26",
+    "minorGroup": "261",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Juridiske, samfunnsvitenskapelige og humanistiske yrker",
+      "minor": "Juridiske yrker",
+      "unitGroup": "Andre juridiske yrker"
+    }
+  },
+  {
+    "ssyk": "2621",
+    "nameSwedish": "Arkivarer og kuratorer",
+    "nameEnglish": "Archivists and curators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "26",
+    "minorGroup": "262",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Juridiske, samfunnsvitenskapelige og humanistiske yrker",
+      "minor": "Bibliotekarer, arkivarer mv.",
+      "unitGroup": "Arkivarer og kuratorer"
+    }
+  },
+  {
+    "ssyk": "2622",
+    "nameSwedish": "Bibliotekarer og andre informasjonsarbeidere",
+    "nameEnglish": "Librarians and related information professionals",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "26",
+    "minorGroup": "262",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Juridiske, samfunnsvitenskapelige og humanistiske yrker",
+      "minor": "Bibliotekarer, arkivarer mv.",
+      "unitGroup": "Bibliotekarer og andre informasjonsarbeidere"
+    }
+  },
+  {
+    "ssyk": "2631",
+    "nameSwedish": "Rådgivere/forskere, samfunnsøkonomi",
+    "nameEnglish": "Economics",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "26",
+    "minorGroup": "263",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Juridiske, samfunnsvitenskapelige og humanistiske yrker",
+      "minor": "Samfunnsvitenskapelige, humanistiske og religiøse yrker",
+      "unitGroup": "Rådgivere/forskere, samfunnsøkonomi"
+    }
+  },
+  {
+    "ssyk": "2632",
+    "nameSwedish": "Rådgivere/forskere, samfunnsvitenskap",
+    "nameEnglish": "Sociologists, anthropologists and related professionals",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "26",
+    "minorGroup": "263",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Juridiske, samfunnsvitenskapelige og humanistiske yrker",
+      "minor": "Samfunnsvitenskapelige, humanistiske og religiøse yrker",
+      "unitGroup": "Rådgivere/forskere, samfunnsvitenskap"
+    }
+  },
+  {
+    "ssyk": "2633",
+    "nameSwedish": "Rådgivere/forskere, humanistiske fag",
+    "nameEnglish": "Philosophers, historians and political scientists",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "26",
+    "minorGroup": "263",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Juridiske, samfunnsvitenskapelige og humanistiske yrker",
+      "minor": "Samfunnsvitenskapelige, humanistiske og religiøse yrker",
+      "unitGroup": "Rådgivere/forskere, humanistiske fag"
+    }
+  },
+  {
+    "ssyk": "2634",
+    "nameSwedish": "Psykologer",
+    "nameEnglish": "Psychologists",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "26",
+    "minorGroup": "263",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Juridiske, samfunnsvitenskapelige og humanistiske yrker",
+      "minor": "Samfunnsvitenskapelige, humanistiske og religiøse yrker",
+      "unitGroup": "Psykologer"
+    }
+  },
+  {
+    "ssyk": "2635",
+    "nameSwedish": "Rådgivere innen sosiale fagfelt",
+    "nameEnglish": "Social work and counselling professionals",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "26",
+    "minorGroup": "263",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Juridiske, samfunnsvitenskapelige og humanistiske yrker",
+      "minor": "Samfunnsvitenskapelige, humanistiske og religiøse yrker",
+      "unitGroup": "Rådgivere innen sosiale fagfelt"
+    }
+  },
+  {
+    "ssyk": "2636",
+    "nameSwedish": "Geistlige yrker",
+    "nameEnglish": "Religious professionals",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "26",
+    "minorGroup": "263",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Juridiske, samfunnsvitenskapelige og humanistiske yrker",
+      "minor": "Samfunnsvitenskapelige, humanistiske og religiøse yrker",
+      "unitGroup": "Geistlige yrker"
+    }
+  },
+  {
+    "ssyk": "2641",
+    "nameSwedish": "Forfattere mv.",
+    "nameEnglish": "Authors and related writers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "26",
+    "minorGroup": "264",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Juridiske, samfunnsvitenskapelige og humanistiske yrker",
+      "minor": "Forfattere, journalister mv.",
+      "unitGroup": "Forfattere mv."
+    }
+  },
+  {
+    "ssyk": "2642",
+    "nameSwedish": "Journalister",
+    "nameEnglish": "Journalists",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "26",
+    "minorGroup": "264",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Juridiske, samfunnsvitenskapelige og humanistiske yrker",
+      "minor": "Forfattere, journalister mv.",
+      "unitGroup": "Journalister"
+    }
+  },
+  {
+    "ssyk": "2643",
+    "nameSwedish": "Oversettere, tolker mv.",
+    "nameEnglish": "Translators, interpreters and other linguists",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "26",
+    "minorGroup": "264",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Juridiske, samfunnsvitenskapelige og humanistiske yrker",
+      "minor": "Forfattere, journalister mv.",
+      "unitGroup": "Oversettere, tolker mv."
+    }
+  },
+  {
+    "ssyk": "2651",
+    "nameSwedish": "Skulptører, kunstmalere og andre billedkunstnere",
+    "nameEnglish": "Visual artists",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "26",
+    "minorGroup": "265",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Juridiske, samfunnsvitenskapelige og humanistiske yrker",
+      "minor": "Profesjonelle kunstnere",
+      "unitGroup": "Skulptører, kunstmalere og andre billedkunstnere"
+    }
+  },
+  {
+    "ssyk": "2652",
+    "nameSwedish": "Dirigenter, komponister, musikere og sangere",
+    "nameEnglish": "Musicians, singers and composers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "26",
+    "minorGroup": "265",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Juridiske, samfunnsvitenskapelige og humanistiske yrker",
+      "minor": "Profesjonelle kunstnere",
+      "unitGroup": "Dirigenter, komponister, musikere og sangere"
+    }
+  },
+  {
+    "ssyk": "2653",
+    "nameSwedish": "Koreografer og dansere",
+    "nameEnglish": "Dancers and choreographers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "26",
+    "minorGroup": "265",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Juridiske, samfunnsvitenskapelige og humanistiske yrker",
+      "minor": "Profesjonelle kunstnere",
+      "unitGroup": "Koreografer og dansere"
+    }
+  },
+  {
+    "ssyk": "2654",
+    "nameSwedish": "Regissører",
+    "nameEnglish": "Film, stage and related directors and producers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "26",
+    "minorGroup": "265",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Juridiske, samfunnsvitenskapelige og humanistiske yrker",
+      "minor": "Profesjonelle kunstnere",
+      "unitGroup": "Regissører"
+    }
+  },
+  {
+    "ssyk": "2655",
+    "nameSwedish": "Skuespillere",
+    "nameEnglish": "Actors",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "26",
+    "minorGroup": "265",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Juridiske, samfunnsvitenskapelige og humanistiske yrker",
+      "minor": "Profesjonelle kunstnere",
+      "unitGroup": "Skuespillere"
+    }
+  },
+  {
+    "ssyk": "2656",
+    "nameSwedish": "Programledere i TV og radio",
+    "nameEnglish": "Announcers on radio, television and other media",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "26",
+    "minorGroup": "265",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Juridiske, samfunnsvitenskapelige og humanistiske yrker",
+      "minor": "Profesjonelle kunstnere",
+      "unitGroup": "Programledere i TV og radio"
+    }
+  },
+  {
+    "ssyk": "2659",
+    "nameSwedish": "Andre utøvende kunstneriske yrker",
+    "nameEnglish": "Creative and performing artists not elsewhere classified",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "2",
+    "subMajorGroup": "26",
+    "minorGroup": "265",
+    "hierarchy": {
+      "major": "Akademiske yrker",
+      "subMajor": "Juridiske, samfunnsvitenskapelige og humanistiske yrker",
+      "minor": "Profesjonelle kunstnere",
+      "unitGroup": "Andre utøvende kunstneriske yrker"
+    }
+  },
+  {
+    "ssyk": "3112",
+    "nameSwedish": "Bygningsingeniører",
+    "nameEnglish": "Civil engineering technicians",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "31",
+    "minorGroup": "311",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Ingeniører mv.",
+      "minor": "Ingeniører",
+      "unitGroup": "Bygningsingeniører"
+    }
+  },
+  {
+    "ssyk": "3113",
+    "nameSwedish": "Elkraftingeniører",
+    "nameEnglish": "Electrical engineering technicians",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "31",
+    "minorGroup": "311",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Ingeniører mv.",
+      "minor": "Ingeniører",
+      "unitGroup": "Elkraftingeniører"
+    }
+  },
+  {
+    "ssyk": "3114",
+    "nameSwedish": "Elektronikkingeniører",
+    "nameEnglish": "Electronics engineering technicians",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "31",
+    "minorGroup": "311",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Ingeniører mv.",
+      "minor": "Ingeniører",
+      "unitGroup": "Elektronikkingeniører"
+    }
+  },
+  {
+    "ssyk": "3115",
+    "nameSwedish": "Maskiningeniører",
+    "nameEnglish": "Mechanical engineering technicians",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "31",
+    "minorGroup": "311",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Ingeniører mv.",
+      "minor": "Ingeniører",
+      "unitGroup": "Maskiningeniører"
+    }
+  },
+  {
+    "ssyk": "3116",
+    "nameSwedish": "Kjemiingeniører",
+    "nameEnglish": "Chemical engineering technicians",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "31",
+    "minorGroup": "311",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Ingeniører mv.",
+      "minor": "Ingeniører",
+      "unitGroup": "Kjemiingeniører"
+    }
+  },
+  {
+    "ssyk": "3117",
+    "nameSwedish": "Ingeniører innen petroleum, bergverk og metallurgi",
+    "nameEnglish": "Mining and metallurgical technicians",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "31",
+    "minorGroup": "311",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Ingeniører mv.",
+      "minor": "Ingeniører",
+      "unitGroup": "Ingeniører innen petroleum, bergverk og metallurgi"
+    }
+  },
+  {
+    "ssyk": "3118",
+    "nameSwedish": "Tekniske tegnere",
+    "nameEnglish": "Draughtspersons",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "31",
+    "minorGroup": "311",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Ingeniører mv.",
+      "minor": "Ingeniører",
+      "unitGroup": "Tekniske tegnere"
+    }
+  },
+  {
+    "ssyk": "3119",
+    "nameSwedish": "Andre ingeniører",
+    "nameEnglish": "Physical and engineering science technicians not elsewhere classified",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "31",
+    "minorGroup": "311",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Ingeniører mv.",
+      "minor": "Ingeniører",
+      "unitGroup": "Andre ingeniører"
+    }
+  },
+  {
+    "ssyk": "3121",
+    "nameSwedish": "Arbeidsleder, bergfag",
+    "nameEnglish": "Mining supervisors",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "31",
+    "minorGroup": "312",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Ingeniører mv.",
+      "minor": "Arbeidsledere innen bergfag, industri, bygg og anlegg",
+      "unitGroup": "Arbeidsleder, bergfag"
+    }
+  },
+  {
+    "ssyk": "3122",
+    "nameSwedish": "Arbeidsleder, industri",
+    "nameEnglish": "Manufacturing supervisors",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "31",
+    "minorGroup": "312",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Ingeniører mv.",
+      "minor": "Arbeidsledere innen bergfag, industri, bygg og anlegg",
+      "unitGroup": "Arbeidsleder, industri"
+    }
+  },
+  {
+    "ssyk": "3123",
+    "nameSwedish": "Arbeidsleder, bygg og anlegg",
+    "nameEnglish": "Construction supervisors",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "31",
+    "minorGroup": "312",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Ingeniører mv.",
+      "minor": "Arbeidsledere innen bergfag, industri, bygg og anlegg",
+      "unitGroup": "Arbeidsleder, bygg og anlegg"
+    }
+  },
+  {
+    "ssyk": "3131",
+    "nameSwedish": "Energikontrolloperatører",
+    "nameEnglish": "Power production plant operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "31",
+    "minorGroup": "313",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Ingeniører mv.",
+      "minor": "Prosesskontrollører",
+      "unitGroup": "Energikontrolloperatører"
+    }
+  },
+  {
+    "ssyk": "3132",
+    "nameSwedish": "Kontrolloperatører ved forbrennings- kjøle- og vannrenseanlegg mv.",
+    "nameEnglish": "Incinerator and water treatment plant operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "31",
+    "minorGroup": "313",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Ingeniører mv.",
+      "minor": "Prosesskontrollører",
+      "unitGroup": "Kontrolloperatører ved forbrennings- kjøle- og vannrenseanlegg mv."
+    }
+  },
+  {
+    "ssyk": "3133",
+    "nameSwedish": "Kontrolloperatører innen kjemisk prosessindustri",
+    "nameEnglish": "Chemical processing plant controllers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "31",
+    "minorGroup": "313",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Ingeniører mv.",
+      "minor": "Prosesskontrollører",
+      "unitGroup": "Kontrolloperatører innen kjemisk prosessindustri"
+    }
+  },
+  {
+    "ssyk": "3134",
+    "nameSwedish": "Kontrolloperatører ved olje- og naturgassraffineringsanlegg",
+    "nameEnglish": "Petroleum and natural gas refining plant operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "31",
+    "minorGroup": "313",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Ingeniører mv.",
+      "minor": "Prosesskontrollører",
+      "unitGroup": "Kontrolloperatører ved olje- og naturgassraffineringsanlegg"
+    }
+  },
+  {
+    "ssyk": "3135",
+    "nameSwedish": "Kontrolloperatører innen metallproduksjon",
+    "nameEnglish": "Metal production process controllers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "31",
+    "minorGroup": "313",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Ingeniører mv.",
+      "minor": "Prosesskontrollører",
+      "unitGroup": "Kontrolloperatører innen metallproduksjon"
+    }
+  },
+  {
+    "ssyk": "3139",
+    "nameSwedish": "Andre prosesskontrolloperatører",
+    "nameEnglish": "Process control technicians not elsewhere classified",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "31",
+    "minorGroup": "313",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Ingeniører mv.",
+      "minor": "Prosesskontrollører",
+      "unitGroup": "Andre prosesskontrolloperatører"
+    }
+  },
+  {
+    "ssyk": "3141",
+    "nameSwedish": "Bioteknikere (ikke-medisinske laboratorier)",
+    "nameEnglish": "Life science technicians (excluding medical)",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "31",
+    "minorGroup": "314",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Ingeniører mv.",
+      "minor": "Bioteknikere mv.",
+      "unitGroup": "Bioteknikere (ikke-medisinske laboratorier)"
+    }
+  },
+  {
+    "ssyk": "3142",
+    "nameSwedish": "Agroteknikere",
+    "nameEnglish": "Agricultural technicians",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "31",
+    "minorGroup": "314",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Ingeniører mv.",
+      "minor": "Bioteknikere mv.",
+      "unitGroup": "Agroteknikere"
+    }
+  },
+  {
+    "ssyk": "3143",
+    "nameSwedish": "Skogteknikere",
+    "nameEnglish": "Forestry technicians",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "31",
+    "minorGroup": "314",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Ingeniører mv.",
+      "minor": "Bioteknikere mv.",
+      "unitGroup": "Skogteknikere"
+    }
+  },
+  {
+    "ssyk": "3151",
+    "nameSwedish": "Skipsmaskinister",
+    "nameEnglish": "Ships engineers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "31",
+    "minorGroup": "315",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Ingeniører mv.",
+      "minor": "Skipoffiserer, flygere, flygeledere mv.",
+      "unitGroup": "Skipsmaskinister"
+    }
+  },
+  {
+    "ssyk": "3152",
+    "nameSwedish": "Dekksoffiserer og loser",
+    "nameEnglish": "Ships deck officers and pilots",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "31",
+    "minorGroup": "315",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Ingeniører mv.",
+      "minor": "Skipoffiserer, flygere, flygeledere mv.",
+      "unitGroup": "Dekksoffiserer og loser"
+    }
+  },
+  {
+    "ssyk": "3153",
+    "nameSwedish": "Flygere",
+    "nameEnglish": "Aircraft pilots and related associate professionals",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "31",
+    "minorGroup": "315",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Ingeniører mv.",
+      "minor": "Skipoffiserer, flygere, flygeledere mv.",
+      "unitGroup": "Flygere"
+    }
+  },
+  {
+    "ssyk": "3154",
+    "nameSwedish": "Flygeledere",
+    "nameEnglish": "Air traffic controllers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "31",
+    "minorGroup": "315",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Ingeniører mv.",
+      "minor": "Skipoffiserer, flygere, flygeledere mv.",
+      "unitGroup": "Flygeledere"
+    }
+  },
+  {
+    "ssyk": "3155",
+    "nameSwedish": "Teknikere innen luftfartssikkerhet",
+    "nameEnglish": "Air traffic safety electronics technicians",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "31",
+    "minorGroup": "315",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Ingeniører mv.",
+      "minor": "Skipoffiserer, flygere, flygeledere mv.",
+      "unitGroup": "Teknikere innen luftfartssikkerhet"
+    }
+  },
+  {
+    "ssyk": "3211",
+    "nameSwedish": "Radiografer mv.",
+    "nameEnglish": "Medical imaging and therapeutic equipment technicians",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "32",
+    "minorGroup": "321",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Helserelaterte yrker",
+      "minor": "Radiografer, proteseteknikere, reseptarer mv.",
+      "unitGroup": "Radiografer mv."
+    }
+  },
+  {
+    "ssyk": "3212",
+    "nameSwedish": "Bioingeniører",
+    "nameEnglish": "Medical and pathology laboratory technicians",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "32",
+    "minorGroup": "321",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Helserelaterte yrker",
+      "minor": "Radiografer, proteseteknikere, reseptarer mv.",
+      "unitGroup": "Bioingeniører"
+    }
+  },
+  {
+    "ssyk": "3213",
+    "nameSwedish": "Reseptarer",
+    "nameEnglish": "Pharmaceutical technicians and assistants",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "32",
+    "minorGroup": "321",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Helserelaterte yrker",
+      "minor": "Radiografer, proteseteknikere, reseptarer mv.",
+      "unitGroup": "Reseptarer"
+    }
+  },
+  {
+    "ssyk": "3214",
+    "nameSwedish": "Protese- og tannteknikere",
+    "nameEnglish": "Medical and dental prosthesis technicians",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "32",
+    "minorGroup": "321",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Helserelaterte yrker",
+      "minor": "Radiografer, proteseteknikere, reseptarer mv.",
+      "unitGroup": "Protese- og tannteknikere"
+    }
+  },
+  {
+    "ssyk": "3230",
+    "nameSwedish": "Yrker innen alternativ medisin",
+    "nameEnglish": "Traditional and complementary medicine associate professionals",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "32",
+    "minorGroup": "323",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Helserelaterte yrker",
+      "minor": "Yrker innen alternativ medisin",
+      "unitGroup": "Yrker innen alternativ medisin"
+    }
+  },
+  {
+    "ssyk": "3240",
+    "nameSwedish": "Dyrepleiere",
+    "nameEnglish": "Veterinary technicians and assistants",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "32",
+    "minorGroup": "324",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Helserelaterte yrker",
+      "minor": "Dyrepleiere",
+      "unitGroup": "Dyrepleiere"
+    }
+  },
+  {
+    "ssyk": "3251",
+    "nameSwedish": "Tannpleiere",
+    "nameEnglish": "Dental assistants and therapists",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "32",
+    "minorGroup": "325",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Helserelaterte yrker",
+      "minor": "Andre helseyrker",
+      "unitGroup": "Tannpleiere"
+    }
+  },
+  {
+    "ssyk": "3254",
+    "nameSwedish": "Optikere",
+    "nameEnglish": "Dispensing opticians",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "32",
+    "minorGroup": "325",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Helserelaterte yrker",
+      "minor": "Andre helseyrker",
+      "unitGroup": "Optikere"
+    }
+  },
+  {
+    "ssyk": "3256",
+    "nameSwedish": "Helsesekretærer",
+    "nameEnglish": "Medical assistants",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "32",
+    "minorGroup": "325",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Helserelaterte yrker",
+      "minor": "Andre helseyrker",
+      "unitGroup": "Helsesekretærer"
+    }
+  },
+  {
+    "ssyk": "3257",
+    "nameSwedish": "Helse- og miljøkontrollører",
+    "nameEnglish": "Environmental and occupational health inspectors and associates",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "32",
+    "minorGroup": "325",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Helserelaterte yrker",
+      "minor": "Andre helseyrker",
+      "unitGroup": "Helse- og miljøkontrollører"
+    }
+  },
+  {
+    "ssyk": "3258",
+    "nameSwedish": "Ambulansepersonell",
+    "nameEnglish": "Ambulance workers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "32",
+    "minorGroup": "325",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Helserelaterte yrker",
+      "minor": "Andre helseyrker",
+      "unitGroup": "Ambulansepersonell"
+    }
+  },
+  {
+    "ssyk": "3259",
+    "nameSwedish": "Andre helseyrker",
+    "nameEnglish": "Health associate professionals not elsewhere classified",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "32",
+    "minorGroup": "325",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Helserelaterte yrker",
+      "minor": "Andre helseyrker",
+      "unitGroup": "Andre helseyrker"
+    }
+  },
+  {
+    "ssyk": "3311",
+    "nameSwedish": "Finansmeglere",
+    "nameEnglish": "Securities and finance dealers and brokers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "33",
+    "minorGroup": "331",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Medarbeidere innen økonomi, administrasjon og salg",
+      "minor": "Yrker innen finanstjenester",
+      "unitGroup": "Finansmeglere"
+    }
+  },
+  {
+    "ssyk": "3312",
+    "nameSwedish": "Kundebehandlere lån og kreditt",
+    "nameEnglish": "Credit and loans officers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "33",
+    "minorGroup": "331",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Medarbeidere innen økonomi, administrasjon og salg",
+      "minor": "Yrker innen finanstjenester",
+      "unitGroup": "Kundebehandlere lån og kreditt"
+    }
+  },
+  {
+    "ssyk": "3313",
+    "nameSwedish": "Regnskapsførere",
+    "nameEnglish": "Accounting associate professionals",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "33",
+    "minorGroup": "331",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Medarbeidere innen økonomi, administrasjon og salg",
+      "minor": "Yrker innen finanstjenester",
+      "unitGroup": "Regnskapsførere"
+    }
+  },
+  {
+    "ssyk": "3315",
+    "nameSwedish": "Takstmenn",
+    "nameEnglish": "Valuers and loss assessors",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "33",
+    "minorGroup": "331",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Medarbeidere innen økonomi, administrasjon og salg",
+      "minor": "Yrker innen finanstjenester",
+      "unitGroup": "Takstmenn"
+    }
+  },
+  {
+    "ssyk": "3321",
+    "nameSwedish": "Forsikringsagenter",
+    "nameEnglish": "Insurance representatives",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "33",
+    "minorGroup": "332",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Medarbeidere innen økonomi, administrasjon og salg",
+      "minor": "Agenter og meglere",
+      "unitGroup": "Forsikringsagenter"
+    }
+  },
+  {
+    "ssyk": "3322",
+    "nameSwedish": "Selgere (engros)",
+    "nameEnglish": "Commercial sales representatives",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "33",
+    "minorGroup": "332",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Medarbeidere innen økonomi, administrasjon og salg",
+      "minor": "Agenter og meglere",
+      "unitGroup": "Selgere (engros)"
+    }
+  },
+  {
+    "ssyk": "3323",
+    "nameSwedish": "Innkjøpere",
+    "nameEnglish": "Buyers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "33",
+    "minorGroup": "332",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Medarbeidere innen økonomi, administrasjon og salg",
+      "minor": "Agenter og meglere",
+      "unitGroup": "Innkjøpere"
+    }
+  },
+  {
+    "ssyk": "3324",
+    "nameSwedish": "Handels- og skipsmeglere",
+    "nameEnglish": "Trade brokers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "33",
+    "minorGroup": "332",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Medarbeidere innen økonomi, administrasjon og salg",
+      "minor": "Agenter og meglere",
+      "unitGroup": "Handels- og skipsmeglere"
+    }
+  },
+  {
+    "ssyk": "3331",
+    "nameSwedish": "Speditører og befraktere",
+    "nameEnglish": "Clearing and forwarding agents",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "33",
+    "minorGroup": "333",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Medarbeidere innen økonomi, administrasjon og salg",
+      "minor": "Forretningstjenesteyrker",
+      "unitGroup": "Speditører og befraktere"
+    }
+  },
+  {
+    "ssyk": "3332",
+    "nameSwedish": "Konferanse- og arrangementsplanleggere mv.",
+    "nameEnglish": "Conference and event planners",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "33",
+    "minorGroup": "333",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Medarbeidere innen økonomi, administrasjon og salg",
+      "minor": "Forretningstjenesteyrker",
+      "unitGroup": "Konferanse- og arrangementsplanleggere mv."
+    }
+  },
+  {
+    "ssyk": "3333",
+    "nameSwedish": "Arbeidsformidlere",
+    "nameEnglish": "Employment agents and contractors",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "33",
+    "minorGroup": "333",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Medarbeidere innen økonomi, administrasjon og salg",
+      "minor": "Forretningstjenesteyrker",
+      "unitGroup": "Arbeidsformidlere"
+    }
+  },
+  {
+    "ssyk": "3334",
+    "nameSwedish": "Eiendomsmeglere og - forvaltere",
+    "nameEnglish": "Real estate agents and property mangers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "33",
+    "minorGroup": "333",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Medarbeidere innen økonomi, administrasjon og salg",
+      "minor": "Forretningstjenesteyrker",
+      "unitGroup": "Eiendomsmeglere og - forvaltere"
+    }
+  },
+  {
+    "ssyk": "3339",
+    "nameSwedish": "Andre yrker innen forretningstjenester",
+    "nameEnglish": "Business services agents not elsewhere classified",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "33",
+    "minorGroup": "333",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Medarbeidere innen økonomi, administrasjon og salg",
+      "minor": "Forretningstjenesteyrker",
+      "unitGroup": "Andre yrker innen forretningstjenester"
+    }
+  },
+  {
+    "ssyk": "3341",
+    "nameSwedish": "Arbeidsledere for kontorpersonell",
+    "nameEnglish": "Office supervisors",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "33",
+    "minorGroup": "334",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Medarbeidere innen økonomi, administrasjon og salg",
+      "minor": "Sekretærer og arbeidsledere for kontorpersonell",
+      "unitGroup": "Arbeidsledere for kontorpersonell"
+    }
+  },
+  {
+    "ssyk": "3342",
+    "nameSwedish": "Advokatsekretær",
+    "nameEnglish": "Legal secretaries",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "33",
+    "minorGroup": "334",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Medarbeidere innen økonomi, administrasjon og salg",
+      "minor": "Sekretærer og arbeidsledere for kontorpersonell",
+      "unitGroup": "Advokatsekretær"
+    }
+  },
+  {
+    "ssyk": "3343",
+    "nameSwedish": "Sjefssekretærer",
+    "nameEnglish": "Administrative and executive secretaries",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "33",
+    "minorGroup": "334",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Medarbeidere innen økonomi, administrasjon og salg",
+      "minor": "Sekretærer og arbeidsledere for kontorpersonell",
+      "unitGroup": "Sjefssekretærer"
+    }
+  },
+  {
+    "ssyk": "3351",
+    "nameSwedish": "Tollere",
+    "nameEnglish": "Customs and border inspectors",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "33",
+    "minorGroup": "335",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Medarbeidere innen økonomi, administrasjon og salg",
+      "minor": "Yrker innen offentlig forvaltning",
+      "unitGroup": "Tollere"
+    }
+  },
+  {
+    "ssyk": "3352",
+    "nameSwedish": "Skattefunksjonærer",
+    "nameEnglish": "Government tax and excise officials",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "33",
+    "minorGroup": "335",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Medarbeidere innen økonomi, administrasjon og salg",
+      "minor": "Yrker innen offentlig forvaltning",
+      "unitGroup": "Skattefunksjonærer"
+    }
+  },
+  {
+    "ssyk": "3353",
+    "nameSwedish": "Saksbehandlere innen sosiale ytelser",
+    "nameEnglish": "Government social benefits officials",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "33",
+    "minorGroup": "335",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Medarbeidere innen økonomi, administrasjon og salg",
+      "minor": "Yrker innen offentlig forvaltning",
+      "unitGroup": "Saksbehandlere innen sosiale ytelser"
+    }
+  },
+  {
+    "ssyk": "3354",
+    "nameSwedish": "Saksbehandlere for førerkort, importlisenser mv.",
+    "nameEnglish": "Government licensing officials",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "33",
+    "minorGroup": "335",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Medarbeidere innen økonomi, administrasjon og salg",
+      "minor": "Yrker innen offentlig forvaltning",
+      "unitGroup": "Saksbehandlere for førerkort, importlisenser mv."
+    }
+  },
+  {
+    "ssyk": "3355",
+    "nameSwedish": "Politibetjenter mv.",
+    "nameEnglish": "Police inspectors and detectives",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "33",
+    "minorGroup": "335",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Medarbeidere innen økonomi, administrasjon og salg",
+      "minor": "Yrker innen offentlig forvaltning",
+      "unitGroup": "Politibetjenter mv."
+    }
+  },
+  {
+    "ssyk": "3359",
+    "nameSwedish": "Andre yrker innen offentlig forvaltning",
+    "nameEnglish": "Regulatory government associate professionals not elsewhere classified",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "33",
+    "minorGroup": "335",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Medarbeidere innen økonomi, administrasjon og salg",
+      "minor": "Yrker innen offentlig forvaltning",
+      "unitGroup": "Andre yrker innen offentlig forvaltning"
+    }
+  },
+  {
+    "ssyk": "3411",
+    "nameSwedish": "Privatetterforskere mv.",
+    "nameEnglish": "Legal and related associate professionals",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "34",
+    "minorGroup": "341",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Yrker innen kultur, idrett mv.",
+      "minor": "Yrker innen sosialarbeid og kultur",
+      "unitGroup": "Privatetterforskere mv."
+    }
+  },
+  {
+    "ssyk": "3412",
+    "nameSwedish": "Miljøarbeidere innen sosiale fagfelt",
+    "nameEnglish": "Social work associate professionals",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "34",
+    "minorGroup": "341",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Yrker innen kultur, idrett mv.",
+      "minor": "Yrker innen sosialarbeid og kultur",
+      "unitGroup": "Miljøarbeidere innen sosiale fagfelt"
+    }
+  },
+  {
+    "ssyk": "3413",
+    "nameSwedish": "Religiøse yrker",
+    "nameEnglish": "Religious associate professionals",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "34",
+    "minorGroup": "341",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Yrker innen kultur, idrett mv.",
+      "minor": "Yrker innen sosialarbeid og kultur",
+      "unitGroup": "Religiøse yrker"
+    }
+  },
+  {
+    "ssyk": "3421",
+    "nameSwedish": "Idrettsutøvere",
+    "nameEnglish": "Athletes and sports players",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "34",
+    "minorGroup": "342",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Yrker innen kultur, idrett mv.",
+      "minor": "Yrker innen sport og idrett",
+      "unitGroup": "Idrettsutøvere"
+    }
+  },
+  {
+    "ssyk": "3422",
+    "nameSwedish": "Trenere og idrettsdommere",
+    "nameEnglish": "Sport coaches, instructors and officials",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "34",
+    "minorGroup": "342",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Yrker innen kultur, idrett mv.",
+      "minor": "Yrker innen sport og idrett",
+      "unitGroup": "Trenere og idrettsdommere"
+    }
+  },
+  {
+    "ssyk": "3423",
+    "nameSwedish": "Sports- og aktivitetsinstruktører",
+    "nameEnglish": "Fitness and recreation instructors and program leaders",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "34",
+    "minorGroup": "342",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Yrker innen kultur, idrett mv.",
+      "minor": "Yrker innen sport og idrett",
+      "unitGroup": "Sports- og aktivitetsinstruktører"
+    }
+  },
+  {
+    "ssyk": "3431",
+    "nameSwedish": "Fotografer og filmfotografer",
+    "nameEnglish": "Photographers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "34",
+    "minorGroup": "343",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Yrker innen kultur, idrett mv.",
+      "minor": "Yrker innen estetiske fag",
+      "unitGroup": "Fotografer og filmfotografer"
+    }
+  },
+  {
+    "ssyk": "3432",
+    "nameSwedish": "Interiørdesignere og dekoratører",
+    "nameEnglish": "Interior designers and decorators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "34",
+    "minorGroup": "343",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Yrker innen kultur, idrett mv.",
+      "minor": "Yrker innen estetiske fag",
+      "unitGroup": "Interiørdesignere og dekoratører"
+    }
+  },
+  {
+    "ssyk": "3433",
+    "nameSwedish": "Tekniske konservatorer",
+    "nameEnglish": "Gallery, museum and library technicians",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "34",
+    "minorGroup": "343",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Yrker innen kultur, idrett mv.",
+      "minor": "Yrker innen estetiske fag",
+      "unitGroup": "Tekniske konservatorer"
+    }
+  },
+  {
+    "ssyk": "3434",
+    "nameSwedish": "Sjefskokker",
+    "nameEnglish": "Chefs",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "34",
+    "minorGroup": "343",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Yrker innen kultur, idrett mv.",
+      "minor": "Yrker innen estetiske fag",
+      "unitGroup": "Sjefskokker"
+    }
+  },
+  {
+    "ssyk": "3439",
+    "nameSwedish": "Andre yrker innen estetiske fag",
+    "nameEnglish": "Other artistic and cultural associate professionals",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "34",
+    "minorGroup": "343",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "Yrker innen kultur, idrett mv.",
+      "minor": "Yrker innen estetiske fag",
+      "unitGroup": "Andre yrker innen estetiske fag"
+    }
+  },
+  {
+    "ssyk": "3511",
+    "nameSwedish": "Driftsteknikere, IKT",
+    "nameEnglish": "Information and communication technology operations technicians",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "35",
+    "minorGroup": "351",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "IKT-teknikere",
+      "minor": "Operatører og brukerstøtte, IKT",
+      "unitGroup": "Driftsteknikere, IKT"
+    }
+  },
+  {
+    "ssyk": "3512",
+    "nameSwedish": "Brukerstøtte, IKT",
+    "nameEnglish": "Information and communication technology user support technicians",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "35",
+    "minorGroup": "351",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "IKT-teknikere",
+      "minor": "Operatører og brukerstøtte, IKT",
+      "unitGroup": "Brukerstøtte, IKT"
+    }
+  },
+  {
+    "ssyk": "3513",
+    "nameSwedish": "Nettverks- og systemteknikere, IKT",
+    "nameEnglish": "Computer network and systems technicians",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "35",
+    "minorGroup": "351",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "IKT-teknikere",
+      "minor": "Operatører og brukerstøtte, IKT",
+      "unitGroup": "Nettverks- og systemteknikere, IKT"
+    }
+  },
+  {
+    "ssyk": "3514",
+    "nameSwedish": "Internett-teknikere",
+    "nameEnglish": "Web technicians",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "35",
+    "minorGroup": "351",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "IKT-teknikere",
+      "minor": "Operatører og brukerstøtte, IKT",
+      "unitGroup": "Internett-teknikere"
+    }
+  },
+  {
+    "ssyk": "3521",
+    "nameSwedish": "Teknikere innen radio og tv",
+    "nameEnglish": "Broadcasting and audio-visual technicians",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "35",
+    "minorGroup": "352",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "IKT-teknikere",
+      "minor": "Teknikere innen kringkasting og telekom",
+      "unitGroup": "Teknikere innen radio og tv"
+    }
+  },
+  {
+    "ssyk": "3522",
+    "nameSwedish": "Teknikere innen telekom",
+    "nameEnglish": "Telecommunications engineering technicians",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "3",
+    "subMajorGroup": "35",
+    "minorGroup": "352",
+    "hierarchy": {
+      "major": "Høyskoleyrker",
+      "subMajor": "IKT-teknikere",
+      "minor": "Teknikere innen kringkasting og telekom",
+      "unitGroup": "Teknikere innen telekom"
+    }
+  },
+  {
+    "ssyk": "4110",
+    "nameSwedish": "Kontormedarbeidere",
+    "nameEnglish": "General office clerks",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "4",
+    "subMajorGroup": "41",
+    "minorGroup": "411",
+    "hierarchy": {
+      "major": "Kontoryrker",
+      "subMajor": "Kontormedarbeidere",
+      "minor": "Kontormedarbeidere",
+      "unitGroup": "Kontormedarbeidere"
+    }
+  },
+  {
+    "ssyk": "4131",
+    "nameSwedish": "Stenografer mv.",
+    "nameEnglish": "Typists and word processing operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "4",
+    "subMajorGroup": "41",
+    "minorGroup": "413",
+    "hierarchy": {
+      "major": "Kontoryrker",
+      "subMajor": "Kontormedarbeidere",
+      "minor": "Dataregistrere og stenografer",
+      "unitGroup": "Stenografer mv."
+    }
+  },
+  {
+    "ssyk": "4132",
+    "nameSwedish": "Dataregistrere",
+    "nameEnglish": "Data entry clerks",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "4",
+    "subMajorGroup": "41",
+    "minorGroup": "413",
+    "hierarchy": {
+      "major": "Kontoryrker",
+      "subMajor": "Kontormedarbeidere",
+      "minor": "Dataregistrere og stenografer",
+      "unitGroup": "Dataregistrere"
+    }
+  },
+  {
+    "ssyk": "4211",
+    "nameSwedish": "Kundebehandlere, bank og postkontor",
+    "nameEnglish": "Bank tellers and related clerks",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "4",
+    "subMajorGroup": "42",
+    "minorGroup": "421",
+    "hierarchy": {
+      "major": "Kontoryrker",
+      "subMajor": "Kundeserviceyrker",
+      "minor": "Kundebehandlere, penger og pengespill",
+      "unitGroup": "Kundebehandlere, bank og postkontor"
+    }
+  },
+  {
+    "ssyk": "4212",
+    "nameSwedish": "Bingoverter, bookmakere mv.",
+    "nameEnglish": "Bookmakers, croupiers and related gaming workers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "4",
+    "subMajorGroup": "42",
+    "minorGroup": "421",
+    "hierarchy": {
+      "major": "Kontoryrker",
+      "subMajor": "Kundeserviceyrker",
+      "minor": "Kundebehandlere, penger og pengespill",
+      "unitGroup": "Bingoverter, bookmakere mv."
+    }
+  },
+  {
+    "ssyk": "4213",
+    "nameSwedish": "Pantelånere mv.",
+    "nameEnglish": "Pawnbrokers and money-lenders",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "4",
+    "subMajorGroup": "42",
+    "minorGroup": "421",
+    "hierarchy": {
+      "major": "Kontoryrker",
+      "subMajor": "Kundeserviceyrker",
+      "minor": "Kundebehandlere, penger og pengespill",
+      "unitGroup": "Pantelånere mv."
+    }
+  },
+  {
+    "ssyk": "4214",
+    "nameSwedish": "Inkassomedarbeidere mv.",
+    "nameEnglish": "Debt collectors and related clerks",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "4",
+    "subMajorGroup": "42",
+    "minorGroup": "421",
+    "hierarchy": {
+      "major": "Kontoryrker",
+      "subMajor": "Kundeserviceyrker",
+      "minor": "Kundebehandlere, penger og pengespill",
+      "unitGroup": "Inkassomedarbeidere mv."
+    }
+  },
+  {
+    "ssyk": "4221",
+    "nameSwedish": "Reisebyråmedarbeidere mv.",
+    "nameEnglish": "Travel consultants and clerks",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "4",
+    "subMajorGroup": "42",
+    "minorGroup": "422",
+    "hierarchy": {
+      "major": "Kontoryrker",
+      "subMajor": "Kundeserviceyrker",
+      "minor": "Reisebyrå-, resepsjons- og andre opplysningsmedarbeidere",
+      "unitGroup": "Reisebyråmedarbeidere mv."
+    }
+  },
+  {
+    "ssyk": "4222",
+    "nameSwedish": "Kundesentermedarbeidere",
+    "nameEnglish": "Contact centre information clerks",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "4",
+    "subMajorGroup": "42",
+    "minorGroup": "422",
+    "hierarchy": {
+      "major": "Kontoryrker",
+      "subMajor": "Kundeserviceyrker",
+      "minor": "Reisebyrå-, resepsjons- og andre opplysningsmedarbeidere",
+      "unitGroup": "Kundesentermedarbeidere"
+    }
+  },
+  {
+    "ssyk": "4223",
+    "nameSwedish": "Sentralbordoperatører",
+    "nameEnglish": "Telephone switchboard operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "4",
+    "subMajorGroup": "42",
+    "minorGroup": "422",
+    "hierarchy": {
+      "major": "Kontoryrker",
+      "subMajor": "Kundeserviceyrker",
+      "minor": "Reisebyrå-, resepsjons- og andre opplysningsmedarbeidere",
+      "unitGroup": "Sentralbordoperatører"
+    }
+  },
+  {
+    "ssyk": "4224",
+    "nameSwedish": "Hotellresepsjonister",
+    "nameEnglish": "Hotel receptionists",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "4",
+    "subMajorGroup": "42",
+    "minorGroup": "422",
+    "hierarchy": {
+      "major": "Kontoryrker",
+      "subMajor": "Kundeserviceyrker",
+      "minor": "Reisebyrå-, resepsjons- og andre opplysningsmedarbeidere",
+      "unitGroup": "Hotellresepsjonister"
+    }
+  },
+  {
+    "ssyk": "4225",
+    "nameSwedish": "Informasjonsskrankemedarbeidere",
+    "nameEnglish": "Enquiry clerks",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "4",
+    "subMajorGroup": "42",
+    "minorGroup": "422",
+    "hierarchy": {
+      "major": "Kontoryrker",
+      "subMajor": "Kundeserviceyrker",
+      "minor": "Reisebyrå-, resepsjons- og andre opplysningsmedarbeidere",
+      "unitGroup": "Informasjonsskrankemedarbeidere"
+    }
+  },
+  {
+    "ssyk": "4226",
+    "nameSwedish": "Resepsjonister (ekskl. hotell)",
+    "nameEnglish": "Receptionists (general)",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "4",
+    "subMajorGroup": "42",
+    "minorGroup": "422",
+    "hierarchy": {
+      "major": "Kontoryrker",
+      "subMajor": "Kundeserviceyrker",
+      "minor": "Reisebyrå-, resepsjons- og andre opplysningsmedarbeidere",
+      "unitGroup": "Resepsjonister (ekskl. hotell)"
+    }
+  },
+  {
+    "ssyk": "4227",
+    "nameSwedish": "Intervjuere",
+    "nameEnglish": "Survey and market research interviewers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "4",
+    "subMajorGroup": "42",
+    "minorGroup": "422",
+    "hierarchy": {
+      "major": "Kontoryrker",
+      "subMajor": "Kundeserviceyrker",
+      "minor": "Reisebyrå-, resepsjons- og andre opplysningsmedarbeidere",
+      "unitGroup": "Intervjuere"
+    }
+  },
+  {
+    "ssyk": "4229",
+    "nameSwedish": "Andre opplysningsmedarbeidere",
+    "nameEnglish": "Client information workers not elsewhere classified",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "4",
+    "subMajorGroup": "42",
+    "minorGroup": "422",
+    "hierarchy": {
+      "major": "Kontoryrker",
+      "subMajor": "Kundeserviceyrker",
+      "minor": "Reisebyrå-, resepsjons- og andre opplysningsmedarbeidere",
+      "unitGroup": "Andre opplysningsmedarbeidere"
+    }
+  },
+  {
+    "ssyk": "4311",
+    "nameSwedish": "Regnskapsmedarbeidere",
+    "nameEnglish": "Accounting and bookkeeping clerks",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "4",
+    "subMajorGroup": "43",
+    "minorGroup": "431",
+    "hierarchy": {
+      "major": "Kontoryrker",
+      "subMajor": "Økonomi- og logistikkmedarbeidere",
+      "minor": "Regnskaps- og lønnsmedarbeidere mv.",
+      "unitGroup": "Regnskapsmedarbeidere"
+    }
+  },
+  {
+    "ssyk": "4312",
+    "nameSwedish": "Forsikrings- og finansmedarbeidere",
+    "nameEnglish": "Statistical, finance and insurance clerks",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "4",
+    "subMajorGroup": "43",
+    "minorGroup": "431",
+    "hierarchy": {
+      "major": "Kontoryrker",
+      "subMajor": "Økonomi- og logistikkmedarbeidere",
+      "minor": "Regnskaps- og lønnsmedarbeidere mv.",
+      "unitGroup": "Forsikrings- og finansmedarbeidere"
+    }
+  },
+  {
+    "ssyk": "4313",
+    "nameSwedish": "Lønningsmedarbeidere",
+    "nameEnglish": "Payroll clerks",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "4",
+    "subMajorGroup": "43",
+    "minorGroup": "431",
+    "hierarchy": {
+      "major": "Kontoryrker",
+      "subMajor": "Økonomi- og logistikkmedarbeidere",
+      "minor": "Regnskaps- og lønnsmedarbeidere mv.",
+      "unitGroup": "Lønningsmedarbeidere"
+    }
+  },
+  {
+    "ssyk": "4321",
+    "nameSwedish": "Lagermedarbeidere og material-forvaltere",
+    "nameEnglish": "Stock clerks",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "4",
+    "subMajorGroup": "43",
+    "minorGroup": "432",
+    "hierarchy": {
+      "major": "Kontoryrker",
+      "subMajor": "Økonomi- og logistikkmedarbeidere",
+      "minor": "Lager- og transportmedarbeidere",
+      "unitGroup": "Lagermedarbeidere og material-forvaltere"
+    }
+  },
+  {
+    "ssyk": "4322",
+    "nameSwedish": "Logistikkmedarbeidere",
+    "nameEnglish": "Production clerks",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "4",
+    "subMajorGroup": "43",
+    "minorGroup": "432",
+    "hierarchy": {
+      "major": "Kontoryrker",
+      "subMajor": "Økonomi- og logistikkmedarbeidere",
+      "minor": "Lager- og transportmedarbeidere",
+      "unitGroup": "Logistikkmedarbeidere"
+    }
+  },
+  {
+    "ssyk": "4323",
+    "nameSwedish": "Transportfunksjonærer",
+    "nameEnglish": "Transport clerks",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "4",
+    "subMajorGroup": "43",
+    "minorGroup": "432",
+    "hierarchy": {
+      "major": "Kontoryrker",
+      "subMajor": "Økonomi- og logistikkmedarbeidere",
+      "minor": "Lager- og transportmedarbeidere",
+      "unitGroup": "Transportfunksjonærer"
+    }
+  },
+  {
+    "ssyk": "4411",
+    "nameSwedish": "Bibliotekassistenter",
+    "nameEnglish": "Library clerks",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "4",
+    "subMajorGroup": "44",
+    "minorGroup": "441",
+    "hierarchy": {
+      "major": "Kontoryrker",
+      "subMajor": "Postbud, arkiv- og personalkontormedarbeidere",
+      "minor": "Postbud, arkiv- og personalkontor-medarbeidere",
+      "unitGroup": "Bibliotekassistenter"
+    }
+  },
+  {
+    "ssyk": "4412",
+    "nameSwedish": "Postbud og postsorterere",
+    "nameEnglish": "Mail carriers and sorting clerks",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "4",
+    "subMajorGroup": "44",
+    "minorGroup": "441",
+    "hierarchy": {
+      "major": "Kontoryrker",
+      "subMajor": "Postbud, arkiv- og personalkontormedarbeidere",
+      "minor": "Postbud, arkiv- og personalkontor-medarbeidere",
+      "unitGroup": "Postbud og postsorterere"
+    }
+  },
+  {
+    "ssyk": "4413",
+    "nameSwedish": "Kodere mv.",
+    "nameEnglish": "Coding, proof-reading and related clerks",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "4",
+    "subMajorGroup": "44",
+    "minorGroup": "441",
+    "hierarchy": {
+      "major": "Kontoryrker",
+      "subMajor": "Postbud, arkiv- og personalkontormedarbeidere",
+      "minor": "Postbud, arkiv- og personalkontor-medarbeidere",
+      "unitGroup": "Kodere mv."
+    }
+  },
+  {
+    "ssyk": "4415",
+    "nameSwedish": "Arkivassistenter",
+    "nameEnglish": "Filing and copying clerks",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "4",
+    "subMajorGroup": "44",
+    "minorGroup": "441",
+    "hierarchy": {
+      "major": "Kontoryrker",
+      "subMajor": "Postbud, arkiv- og personalkontormedarbeidere",
+      "minor": "Postbud, arkiv- og personalkontor-medarbeidere",
+      "unitGroup": "Arkivassistenter"
+    }
+  },
+  {
+    "ssyk": "4416",
+    "nameSwedish": "Personalkontormedarbeidere",
+    "nameEnglish": "Personnel clerks",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "4",
+    "subMajorGroup": "44",
+    "minorGroup": "441",
+    "hierarchy": {
+      "major": "Kontoryrker",
+      "subMajor": "Postbud, arkiv- og personalkontormedarbeidere",
+      "minor": "Postbud, arkiv- og personalkontor-medarbeidere",
+      "unitGroup": "Personalkontormedarbeidere"
+    }
+  },
+  {
+    "ssyk": "5111",
+    "nameSwedish": "Flyverter, båtverter mv.",
+    "nameEnglish": "Travel attendants and travel stewards",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "51",
+    "minorGroup": "511",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Yrker innen personlig tjenesteyting",
+      "minor": "Persontransportpersonell",
+      "unitGroup": "Flyverter, båtverter mv."
+    }
+  },
+  {
+    "ssyk": "5112",
+    "nameSwedish": "Konduktører",
+    "nameEnglish": "Transport conductors",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "51",
+    "minorGroup": "511",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Yrker innen personlig tjenesteyting",
+      "minor": "Persontransportpersonell",
+      "unitGroup": "Konduktører"
+    }
+  },
+  {
+    "ssyk": "5113",
+    "nameSwedish": "Reiseledere og guider",
+    "nameEnglish": "Travel guides",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "51",
+    "minorGroup": "511",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Yrker innen personlig tjenesteyting",
+      "minor": "Persontransportpersonell",
+      "unitGroup": "Reiseledere og guider"
+    }
+  },
+  {
+    "ssyk": "5120",
+    "nameSwedish": "Kokker",
+    "nameEnglish": "Cooks",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "51",
+    "minorGroup": "512",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Yrker innen personlig tjenesteyting",
+      "minor": "Kokker",
+      "unitGroup": "Kokker"
+    }
+  },
+  {
+    "ssyk": "5131",
+    "nameSwedish": "Servitører",
+    "nameEnglish": "Waiters",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "51",
+    "minorGroup": "513",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Yrker innen personlig tjenesteyting",
+      "minor": "Servitører og bartendere",
+      "unitGroup": "Servitører"
+    }
+  },
+  {
+    "ssyk": "5132",
+    "nameSwedish": "Bartendere",
+    "nameEnglish": "Bartenders",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "51",
+    "minorGroup": "513",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Yrker innen personlig tjenesteyting",
+      "minor": "Servitører og bartendere",
+      "unitGroup": "Bartendere"
+    }
+  },
+  {
+    "ssyk": "5141",
+    "nameSwedish": "Frisører",
+    "nameEnglish": "Hairdressers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "51",
+    "minorGroup": "514",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Yrker innen personlig tjenesteyting",
+      "minor": "Frisører, kosmetologer mv.",
+      "unitGroup": "Frisører"
+    }
+  },
+  {
+    "ssyk": "5142",
+    "nameSwedish": "Kosmetologer mv.",
+    "nameEnglish": "Beauticians and related workers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "51",
+    "minorGroup": "514",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Yrker innen personlig tjenesteyting",
+      "minor": "Frisører, kosmetologer mv.",
+      "unitGroup": "Kosmetologer mv."
+    }
+  },
+  {
+    "ssyk": "5151",
+    "nameSwedish": "Renholdsledere i bedrifter",
+    "nameEnglish": "Cleaning and housekeeping supervisors in offices, hotels and other local kinds of activity units",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "51",
+    "minorGroup": "515",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Yrker innen personlig tjenesteyting",
+      "minor": "Renholdsledere og vaktmestre",
+      "unitGroup": "Renholdsledere i bedrifter"
+    }
+  },
+  {
+    "ssyk": "5152",
+    "nameSwedish": "Husholdere",
+    "nameEnglish": "Domestic housekeepers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "51",
+    "minorGroup": "515",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Yrker innen personlig tjenesteyting",
+      "minor": "Renholdsledere og vaktmestre",
+      "unitGroup": "Husholdere"
+    }
+  },
+  {
+    "ssyk": "5153",
+    "nameSwedish": "Vaktmestre",
+    "nameEnglish": "Building caretakers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "51",
+    "minorGroup": "515",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Yrker innen personlig tjenesteyting",
+      "minor": "Renholdsledere og vaktmestre",
+      "unitGroup": "Vaktmestre"
+    }
+  },
+  {
+    "ssyk": "5161",
+    "nameSwedish": "Astrologer mv.",
+    "nameEnglish": "Astrologers, fortune-tellers and related workers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "51",
+    "minorGroup": "516",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Yrker innen personlig tjenesteyting",
+      "minor": "Andre yrker innen personlig tjenesteyting",
+      "unitGroup": "Astrologer mv."
+    }
+  },
+  {
+    "ssyk": "5163",
+    "nameSwedish": "Begravelsesbyrå- og krematoriearbeidere",
+    "nameEnglish": "Undertakers and embalmers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "51",
+    "minorGroup": "516",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Yrker innen personlig tjenesteyting",
+      "minor": "Andre yrker innen personlig tjenesteyting",
+      "unitGroup": "Begravelsesbyrå- og krematoriearbeidere"
+    }
+  },
+  {
+    "ssyk": "5164",
+    "nameSwedish": "Dyrepassere og - trenere mv.",
+    "nameEnglish": "Pet groomers and animal care workers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "51",
+    "minorGroup": "516",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Yrker innen personlig tjenesteyting",
+      "minor": "Andre yrker innen personlig tjenesteyting",
+      "unitGroup": "Dyrepassere og - trenere mv."
+    }
+  },
+  {
+    "ssyk": "5165",
+    "nameSwedish": "Kjøreskolelærere",
+    "nameEnglish": "Driving instructors",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "51",
+    "minorGroup": "516",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Yrker innen personlig tjenesteyting",
+      "minor": "Andre yrker innen personlig tjenesteyting",
+      "unitGroup": "Kjøreskolelærere"
+    }
+  },
+  {
+    "ssyk": "5169",
+    "nameSwedish": "Andre personlige tjenesteytere",
+    "nameEnglish": "Personal services workers not elsewhere classified",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "51",
+    "minorGroup": "516",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Yrker innen personlig tjenesteyting",
+      "minor": "Andre yrker innen personlig tjenesteyting",
+      "unitGroup": "Andre personlige tjenesteytere"
+    }
+  },
+  {
+    "ssyk": "5211",
+    "nameSwedish": "Torghandlere",
+    "nameEnglish": "Stall and market salespersons",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "52",
+    "minorGroup": "521",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Salgsyrker",
+      "minor": "Torg og markedsselgere",
+      "unitGroup": "Torghandlere"
+    }
+  },
+  {
+    "ssyk": "5212",
+    "nameSwedish": "Gateselgere, mat",
+    "nameEnglish": "Street food salespersons",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "52",
+    "minorGroup": "521",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Salgsyrker",
+      "minor": "Torg og markedsselgere",
+      "unitGroup": "Gateselgere, mat"
+    }
+  },
+  {
+    "ssyk": "5221",
+    "nameSwedish": "Innehavere av kiosk/liten butikk",
+    "nameEnglish": "Shopkeepers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "52",
+    "minorGroup": "522",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Salgsyrker",
+      "minor": "Butikkselgere",
+      "unitGroup": "Innehavere av kiosk/liten butikk"
+    }
+  },
+  {
+    "ssyk": "5222",
+    "nameSwedish": "Butikkavdelingssjefer",
+    "nameEnglish": "Shop supervisors",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "52",
+    "minorGroup": "522",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Salgsyrker",
+      "minor": "Butikkselgere",
+      "unitGroup": "Butikkavdelingssjefer"
+    }
+  },
+  {
+    "ssyk": "5223",
+    "nameSwedish": "Butikkmedarbeidere",
+    "nameEnglish": "Shop sales assistants",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "52",
+    "minorGroup": "522",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Salgsyrker",
+      "minor": "Butikkselgere",
+      "unitGroup": "Butikkmedarbeidere"
+    }
+  },
+  {
+    "ssyk": "5230",
+    "nameSwedish": "Billettselgere",
+    "nameEnglish": "Cashiers and ticket clerks",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "52",
+    "minorGroup": "523",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Salgsyrker",
+      "minor": "Billettselgere",
+      "unitGroup": "Billettselgere"
+    }
+  },
+  {
+    "ssyk": "5241",
+    "nameSwedish": "Mannekenger og modeller",
+    "nameEnglish": "Fashion and other models",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "52",
+    "minorGroup": "524",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Salgsyrker",
+      "minor": "Andre salgsyrker",
+      "unitGroup": "Mannekenger og modeller"
+    }
+  },
+  {
+    "ssyk": "5242",
+    "nameSwedish": "Demonstrasjonsselgere",
+    "nameEnglish": "Sales demonstrators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "52",
+    "minorGroup": "524",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Salgsyrker",
+      "minor": "Andre salgsyrker",
+      "unitGroup": "Demonstrasjonsselgere"
+    }
+  },
+  {
+    "ssyk": "5243",
+    "nameSwedish": "Dørselgere",
+    "nameEnglish": "Door to door salespersons",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "52",
+    "minorGroup": "524",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Salgsyrker",
+      "minor": "Andre salgsyrker",
+      "unitGroup": "Dørselgere"
+    }
+  },
+  {
+    "ssyk": "5244",
+    "nameSwedish": "Telefon- og nettselgere",
+    "nameEnglish": "Contact centre salespersons",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "52",
+    "minorGroup": "524",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Salgsyrker",
+      "minor": "Andre salgsyrker",
+      "unitGroup": "Telefon- og nettselgere"
+    }
+  },
+  {
+    "ssyk": "5245",
+    "nameSwedish": "Servicemedarbeidere (bensinstasjon)",
+    "nameEnglish": "Service station attendants",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "52",
+    "minorGroup": "524",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Salgsyrker",
+      "minor": "Andre salgsyrker",
+      "unitGroup": "Servicemedarbeidere (bensinstasjon)"
+    }
+  },
+  {
+    "ssyk": "5246",
+    "nameSwedish": "Gatekjøkken- og kafémedarbeidere mv.",
+    "nameEnglish": "Food service counter attendants",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "52",
+    "minorGroup": "524",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Salgsyrker",
+      "minor": "Andre salgsyrker",
+      "unitGroup": "Gatekjøkken- og kafémedarbeidere mv."
+    }
+  },
+  {
+    "ssyk": "5249",
+    "nameSwedish": "Andre salgsmedarbeidere",
+    "nameEnglish": "Sales workers not elsewhere classified",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "52",
+    "minorGroup": "524",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Salgsyrker",
+      "minor": "Andre salgsyrker",
+      "unitGroup": "Andre salgsmedarbeidere"
+    }
+  },
+  {
+    "ssyk": "5311",
+    "nameSwedish": "Barnehage- og skolefritidsassistenter mv.",
+    "nameEnglish": "Child care workers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "53",
+    "minorGroup": "531",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Pleie- og omsorgsarbeidere",
+      "minor": "Barnehage- og skoleassistenter mv.",
+      "unitGroup": "Barnehage- og skolefritidsassistenter mv."
+    }
+  },
+  {
+    "ssyk": "5312",
+    "nameSwedish": "Skoleassistenter",
+    "nameEnglish": "Teachers¿ aides",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "53",
+    "minorGroup": "531",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Pleie- og omsorgsarbeidere",
+      "minor": "Barnehage- og skoleassistenter mv.",
+      "unitGroup": "Skoleassistenter"
+    }
+  },
+  {
+    "ssyk": "5321",
+    "nameSwedish": "Helsefagarbeidere",
+    "nameEnglish": "Health care assistants",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "53",
+    "minorGroup": "532",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Pleie- og omsorgsarbeidere",
+      "minor": "Pleiemedarbeidere",
+      "unitGroup": "Helsefagarbeidere"
+    }
+  },
+  {
+    "ssyk": "5322",
+    "nameSwedish": "Hjemmehjelper",
+    "nameEnglish": "Home-based personal care workers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "53",
+    "minorGroup": "532",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Pleie- og omsorgsarbeidere",
+      "minor": "Pleiemedarbeidere",
+      "unitGroup": "Hjemmehjelper"
+    }
+  },
+  {
+    "ssyk": "5329",
+    "nameSwedish": "Andre pleiemedarbeidere",
+    "nameEnglish": "Personal care workers in health services not elsewhere classified",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "53",
+    "minorGroup": "532",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Pleie- og omsorgsarbeidere",
+      "minor": "Pleiemedarbeidere",
+      "unitGroup": "Andre pleiemedarbeidere"
+    }
+  },
+  {
+    "ssyk": "5411",
+    "nameSwedish": "Brannkonstabler",
+    "nameEnglish": "Fire-fighters",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "54",
+    "minorGroup": "541",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Sikkerhetsarbeidere",
+      "minor": "Sikkerhetsarbeidere",
+      "unitGroup": "Brannkonstabler"
+    }
+  },
+  {
+    "ssyk": "5413",
+    "nameSwedish": "Fengselsbetjenter",
+    "nameEnglish": "Prison guards",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "54",
+    "minorGroup": "541",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Sikkerhetsarbeidere",
+      "minor": "Sikkerhetsarbeidere",
+      "unitGroup": "Fengselsbetjenter"
+    }
+  },
+  {
+    "ssyk": "5414",
+    "nameSwedish": "Vektere",
+    "nameEnglish": "Security guards",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "54",
+    "minorGroup": "541",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Sikkerhetsarbeidere",
+      "minor": "Sikkerhetsarbeidere",
+      "unitGroup": "Vektere"
+    }
+  },
+  {
+    "ssyk": "5419",
+    "nameSwedish": "Andre sikkerhetsarbeidere",
+    "nameEnglish": "Protective services workers not elsewhere classified",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "5",
+    "subMajorGroup": "54",
+    "minorGroup": "541",
+    "hierarchy": {
+      "major": "Salgs- og serviceyrker",
+      "subMajor": "Sikkerhetsarbeidere",
+      "minor": "Sikkerhetsarbeidere",
+      "unitGroup": "Andre sikkerhetsarbeidere"
+    }
+  },
+  {
+    "ssyk": "6111",
+    "nameSwedish": "Korn- og grønnsaksprodusenter",
+    "nameEnglish": "Field crop and vegetable growers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "6",
+    "subMajorGroup": "61",
+    "minorGroup": "611",
+    "hierarchy": {
+      "major": "Bønder, fiskere mv.",
+      "subMajor": "Jordbrukere",
+      "minor": "Korn-, grønnsaks-, frukt- og bærprodusenter, gartnere",
+      "unitGroup": "Korn- og grønnsaksprodusenter"
+    }
+  },
+  {
+    "ssyk": "6112",
+    "nameSwedish": "Frukt- og bærprodusenter",
+    "nameEnglish": "Tree and shrub crop growers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "6",
+    "subMajorGroup": "61",
+    "minorGroup": "611",
+    "hierarchy": {
+      "major": "Bønder, fiskere mv.",
+      "subMajor": "Jordbrukere",
+      "minor": "Korn-, grønnsaks-, frukt- og bærprodusenter, gartnere",
+      "unitGroup": "Frukt- og bærprodusenter"
+    }
+  },
+  {
+    "ssyk": "6113",
+    "nameSwedish": "Gartnere",
+    "nameEnglish": "Gardeners, horticultural and nursery growers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "6",
+    "subMajorGroup": "61",
+    "minorGroup": "611",
+    "hierarchy": {
+      "major": "Bønder, fiskere mv.",
+      "subMajor": "Jordbrukere",
+      "minor": "Korn-, grønnsaks-, frukt- og bærprodusenter, gartnere",
+      "unitGroup": "Gartnere"
+    }
+  },
+  {
+    "ssyk": "6114",
+    "nameSwedish": "Kombinasjonsbrukere, nyttevekster",
+    "nameEnglish": "Mixed crop growers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "6",
+    "subMajorGroup": "61",
+    "minorGroup": "611",
+    "hierarchy": {
+      "major": "Bønder, fiskere mv.",
+      "subMajor": "Jordbrukere",
+      "minor": "Korn-, grønnsaks-, frukt- og bærprodusenter, gartnere",
+      "unitGroup": "Kombinasjonsbrukere, nyttevekster"
+    }
+  },
+  {
+    "ssyk": "6121",
+    "nameSwedish": "Melke- og husdyrprodusenter",
+    "nameEnglish": "Livestock and dairy producers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "6",
+    "subMajorGroup": "61",
+    "minorGroup": "612",
+    "hierarchy": {
+      "major": "Bønder, fiskere mv.",
+      "subMajor": "Jordbrukere",
+      "minor": "Husdyr-, egg- og melkeprodusenter",
+      "unitGroup": "Melke- og husdyrprodusenter"
+    }
+  },
+  {
+    "ssyk": "6122",
+    "nameSwedish": "Egg- og fjærfeprodusenter",
+    "nameEnglish": "Poultry producers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "6",
+    "subMajorGroup": "61",
+    "minorGroup": "612",
+    "hierarchy": {
+      "major": "Bønder, fiskere mv.",
+      "subMajor": "Jordbrukere",
+      "minor": "Husdyr-, egg- og melkeprodusenter",
+      "unitGroup": "Egg- og fjærfeprodusenter"
+    }
+  },
+  {
+    "ssyk": "6123",
+    "nameSwedish": "Birøktere mv.",
+    "nameEnglish": "Apiarists and sericulturists",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "6",
+    "subMajorGroup": "61",
+    "minorGroup": "612",
+    "hierarchy": {
+      "major": "Bønder, fiskere mv.",
+      "subMajor": "Jordbrukere",
+      "minor": "Husdyr-, egg- og melkeprodusenter",
+      "unitGroup": "Birøktere mv."
+    }
+  },
+  {
+    "ssyk": "6129",
+    "nameSwedish": "Andre dyreoppdrettere og røktere",
+    "nameEnglish": "Animal producers not elsewhere classified",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "6",
+    "subMajorGroup": "61",
+    "minorGroup": "612",
+    "hierarchy": {
+      "major": "Bønder, fiskere mv.",
+      "subMajor": "Jordbrukere",
+      "minor": "Husdyr-, egg- og melkeprodusenter",
+      "unitGroup": "Andre dyreoppdrettere og røktere"
+    }
+  },
+  {
+    "ssyk": "6130",
+    "nameSwedish": "Plante- og husdyrprodusenter (kombinasjonsbruk)",
+    "nameEnglish": "Mixed crop and animal producers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "6",
+    "subMajorGroup": "61",
+    "minorGroup": "613",
+    "hierarchy": {
+      "major": "Bønder, fiskere mv.",
+      "subMajor": "Jordbrukere",
+      "minor": "Plante- og husdyrprodusenter (kombinasjonsbruk)",
+      "unitGroup": "Plante- og husdyrprodusenter (kombinasjonsbruk)"
+    }
+  },
+  {
+    "ssyk": "6210",
+    "nameSwedish": "Skogbrukere",
+    "nameEnglish": "Forestry and related workers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "6",
+    "subMajorGroup": "62",
+    "minorGroup": "621",
+    "hierarchy": {
+      "major": "Bønder, fiskere mv.",
+      "subMajor": "Skogbrukere, fiskere mv.",
+      "minor": "Skogbrukere",
+      "unitGroup": "Skogbrukere"
+    }
+  },
+  {
+    "ssyk": "6221",
+    "nameSwedish": "Havbruksarbeidere",
+    "nameEnglish": "Aquaculture workers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "6",
+    "subMajorGroup": "62",
+    "minorGroup": "622",
+    "hierarchy": {
+      "major": "Bønder, fiskere mv.",
+      "subMajor": "Skogbrukere, fiskere mv.",
+      "minor": "Havbruksarbeidere og fiskere",
+      "unitGroup": "Havbruksarbeidere"
+    }
+  },
+  {
+    "ssyk": "6222",
+    "nameSwedish": "Fiskere",
+    "nameEnglish": "Fishery workers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "6",
+    "subMajorGroup": "62",
+    "minorGroup": "622",
+    "hierarchy": {
+      "major": "Bønder, fiskere mv.",
+      "subMajor": "Skogbrukere, fiskere mv.",
+      "minor": "Havbruksarbeidere og fiskere",
+      "unitGroup": "Fiskere"
+    }
+  },
+  {
+    "ssyk": "6224",
+    "nameSwedish": "Fangstfolk",
+    "nameEnglish": "Hunters and trappers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "6",
+    "subMajorGroup": "62",
+    "minorGroup": "622",
+    "hierarchy": {
+      "major": "Bønder, fiskere mv.",
+      "subMajor": "Skogbrukere, fiskere mv.",
+      "minor": "Havbruksarbeidere og fiskere",
+      "unitGroup": "Fangstfolk"
+    }
+  },
+  {
+    "ssyk": "7112",
+    "nameSwedish": "Murere",
+    "nameEnglish": "Bricklayers and related workers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "71",
+    "minorGroup": "711",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Byggearbeidere",
+      "minor": "Bygningsarbeidere",
+      "unitGroup": "Murere"
+    }
+  },
+  {
+    "ssyk": "7113",
+    "nameSwedish": "Steinhoggere mv.",
+    "nameEnglish": "Stonemasons, stone cutters, splitters and carvers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "71",
+    "minorGroup": "711",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Byggearbeidere",
+      "minor": "Bygningsarbeidere",
+      "unitGroup": "Steinhoggere mv."
+    }
+  },
+  {
+    "ssyk": "7114",
+    "nameSwedish": "Betongarbeidere",
+    "nameEnglish": "Concrete placers, concrete finishers and related workers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "71",
+    "minorGroup": "711",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Byggearbeidere",
+      "minor": "Bygningsarbeidere",
+      "unitGroup": "Betongarbeidere"
+    }
+  },
+  {
+    "ssyk": "7115",
+    "nameSwedish": "Tømrere og snekkere",
+    "nameEnglish": "Carpenters and joiners",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "71",
+    "minorGroup": "711",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Byggearbeidere",
+      "minor": "Bygningsarbeidere",
+      "unitGroup": "Tømrere og snekkere"
+    }
+  },
+  {
+    "ssyk": "7119",
+    "nameSwedish": "Andre bygningsarbeidere",
+    "nameEnglish": "Building frame and related trades workers not elsewhere classified",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "71",
+    "minorGroup": "711",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Byggearbeidere",
+      "minor": "Bygningsarbeidere",
+      "unitGroup": "Andre bygningsarbeidere"
+    }
+  },
+  {
+    "ssyk": "7121",
+    "nameSwedish": "Taktekkere",
+    "nameEnglish": "Roofers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "71",
+    "minorGroup": "712",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Byggearbeidere",
+      "minor": "Bygningstekniske arbeidere",
+      "unitGroup": "Taktekkere"
+    }
+  },
+  {
+    "ssyk": "7122",
+    "nameSwedish": "Gulv- og flisleggere",
+    "nameEnglish": "Floor layers and tile setters",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "71",
+    "minorGroup": "712",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Byggearbeidere",
+      "minor": "Bygningstekniske arbeidere",
+      "unitGroup": "Gulv- og flisleggere"
+    }
+  },
+  {
+    "ssyk": "7123",
+    "nameSwedish": "Gips- og sparklingsarbeidere",
+    "nameEnglish": "Plasterers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "71",
+    "minorGroup": "712",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Byggearbeidere",
+      "minor": "Bygningstekniske arbeidere",
+      "unitGroup": "Gips- og sparklingsarbeidere"
+    }
+  },
+  {
+    "ssyk": "7124",
+    "nameSwedish": "Isolatører mv.",
+    "nameEnglish": "Insulation workers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "71",
+    "minorGroup": "712",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Byggearbeidere",
+      "minor": "Bygningstekniske arbeidere",
+      "unitGroup": "Isolatører mv."
+    }
+  },
+  {
+    "ssyk": "7125",
+    "nameSwedish": "Glassarbeidere",
+    "nameEnglish": "Glaziers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "71",
+    "minorGroup": "712",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Byggearbeidere",
+      "minor": "Bygningstekniske arbeidere",
+      "unitGroup": "Glassarbeidere"
+    }
+  },
+  {
+    "ssyk": "7126",
+    "nameSwedish": "Rørleggere og VVS-montører",
+    "nameEnglish": "Plumbers and pipe fitters",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "71",
+    "minorGroup": "712",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Byggearbeidere",
+      "minor": "Bygningstekniske arbeidere",
+      "unitGroup": "Rørleggere og VVS-montører"
+    }
+  },
+  {
+    "ssyk": "7127",
+    "nameSwedish": "Kuldemontører mv.",
+    "nameEnglish": "Air conditioning and refrigeration mechanics",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "71",
+    "minorGroup": "712",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Byggearbeidere",
+      "minor": "Bygningstekniske arbeidere",
+      "unitGroup": "Kuldemontører mv."
+    }
+  },
+  {
+    "ssyk": "7131",
+    "nameSwedish": "Malere og byggtapetserere",
+    "nameEnglish": "Painters and related workers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "71",
+    "minorGroup": "713",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Byggearbeidere",
+      "minor": "Malere, overflatebehandlere, feiere mv.",
+      "unitGroup": "Malere og byggtapetserere"
+    }
+  },
+  {
+    "ssyk": "7132",
+    "nameSwedish": "Overflatebehandlere og lakkerere",
+    "nameEnglish": "Spray painters and varnishers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "71",
+    "minorGroup": "713",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Byggearbeidere",
+      "minor": "Malere, overflatebehandlere, feiere mv.",
+      "unitGroup": "Overflatebehandlere og lakkerere"
+    }
+  },
+  {
+    "ssyk": "7133",
+    "nameSwedish": "Feiere, fasaderenholdere mv.",
+    "nameEnglish": "Building structure cleaners",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "71",
+    "minorGroup": "713",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Byggearbeidere",
+      "minor": "Malere, overflatebehandlere, feiere mv.",
+      "unitGroup": "Feiere, fasaderenholdere mv."
+    }
+  },
+  {
+    "ssyk": "7211",
+    "nameSwedish": "Støpere",
+    "nameEnglish": "Metal moulders and coremakers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "72",
+    "minorGroup": "721",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Metall- og maskinarbeidere",
+      "minor": "Støpere, sveisere, platearbeidere mv.",
+      "unitGroup": "Støpere"
+    }
+  },
+  {
+    "ssyk": "7212",
+    "nameSwedish": "Sveisere",
+    "nameEnglish": "Welders and flame cutters",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "72",
+    "minorGroup": "721",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Metall- og maskinarbeidere",
+      "minor": "Støpere, sveisere, platearbeidere mv.",
+      "unitGroup": "Sveisere"
+    }
+  },
+  {
+    "ssyk": "7213",
+    "nameSwedish": "Kopper- og blikkenslagere",
+    "nameEnglish": "Sheet metal workers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "72",
+    "minorGroup": "721",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Metall- og maskinarbeidere",
+      "minor": "Støpere, sveisere, platearbeidere mv.",
+      "unitGroup": "Kopper- og blikkenslagere"
+    }
+  },
+  {
+    "ssyk": "7214",
+    "nameSwedish": "Platearbeidere",
+    "nameEnglish": "Structural metal preparers and erectors",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "72",
+    "minorGroup": "721",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Metall- og maskinarbeidere",
+      "minor": "Støpere, sveisere, platearbeidere mv.",
+      "unitGroup": "Platearbeidere"
+    }
+  },
+  {
+    "ssyk": "7215",
+    "nameSwedish": "Riggere og spleisere",
+    "nameEnglish": "Riggers and cable splicers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "72",
+    "minorGroup": "721",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Metall- og maskinarbeidere",
+      "minor": "Støpere, sveisere, platearbeidere mv.",
+      "unitGroup": "Riggere og spleisere"
+    }
+  },
+  {
+    "ssyk": "7221",
+    "nameSwedish": "Smeder",
+    "nameEnglish": "Blacksmiths, hammersmiths and forging press workers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "72",
+    "minorGroup": "722",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Metall- og maskinarbeidere",
+      "minor": "Smeder, verktøymakere mv.",
+      "unitGroup": "Smeder"
+    }
+  },
+  {
+    "ssyk": "7222",
+    "nameSwedish": "Verktøymaker, låsesmeder mv.",
+    "nameEnglish": "Toolmakers and related workers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "72",
+    "minorGroup": "722",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Metall- og maskinarbeidere",
+      "minor": "Smeder, verktøymakere mv.",
+      "unitGroup": "Verktøymaker, låsesmeder mv."
+    }
+  },
+  {
+    "ssyk": "7223",
+    "nameSwedish": "Metalldreiere mv.",
+    "nameEnglish": "Metal working machine tool setters and operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "72",
+    "minorGroup": "722",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Metall- og maskinarbeidere",
+      "minor": "Smeder, verktøymakere mv.",
+      "unitGroup": "Metalldreiere mv."
+    }
+  },
+  {
+    "ssyk": "7224",
+    "nameSwedish": "Metallslipere",
+    "nameEnglish": "Metal polishers, wheel grinders and tool sharpeners",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "72",
+    "minorGroup": "722",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Metall- og maskinarbeidere",
+      "minor": "Smeder, verktøymakere mv.",
+      "unitGroup": "Metallslipere"
+    }
+  },
+  {
+    "ssyk": "7231",
+    "nameSwedish": "Bilmekanikere",
+    "nameEnglish": "Motor vehicle mechanics and repairers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "72",
+    "minorGroup": "723",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Metall- og maskinarbeidere",
+      "minor": "Mekanikere og reparatører",
+      "unitGroup": "Bilmekanikere"
+    }
+  },
+  {
+    "ssyk": "7232",
+    "nameSwedish": "Mekanikere innen flytekniske fag",
+    "nameEnglish": "Aircraft engine mechanics and repairers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "72",
+    "minorGroup": "723",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Metall- og maskinarbeidere",
+      "minor": "Mekanikere og reparatører",
+      "unitGroup": "Mekanikere innen flytekniske fag"
+    }
+  },
+  {
+    "ssyk": "7233",
+    "nameSwedish": "Anleggsmaskin- og industrimekanikere",
+    "nameEnglish": "Agricultural and industrial machinery mechanics and repairers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "72",
+    "minorGroup": "723",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Metall- og maskinarbeidere",
+      "minor": "Mekanikere og reparatører",
+      "unitGroup": "Anleggsmaskin- og industrimekanikere"
+    }
+  },
+  {
+    "ssyk": "7234",
+    "nameSwedish": "Sykkelreparatører mv.",
+    "nameEnglish": "Bicycle and related repairers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "72",
+    "minorGroup": "723",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Metall- og maskinarbeidere",
+      "minor": "Mekanikere og reparatører",
+      "unitGroup": "Sykkelreparatører mv."
+    }
+  },
+  {
+    "ssyk": "7311",
+    "nameSwedish": "Presisjonsinstrumentmakere og -reparatører",
+    "nameEnglish": "Precision-instrument makers and repairers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "73",
+    "minorGroup": "731",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Presisjonsarbeidere, kunsthåndverkere, grafiske arbeidere mv.",
+      "minor": "Presisjonsarbeidere og kunsthåndverkere",
+      "unitGroup": "Presisjonsinstrumentmakere og -reparatører"
+    }
+  },
+  {
+    "ssyk": "7312",
+    "nameSwedish": "Musikkinstrumentmakere og -stemmere",
+    "nameEnglish": "Musical instrument makers and tuners",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "73",
+    "minorGroup": "731",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Presisjonsarbeidere, kunsthåndverkere, grafiske arbeidere mv.",
+      "minor": "Presisjonsarbeidere og kunsthåndverkere",
+      "unitGroup": "Musikkinstrumentmakere og -stemmere"
+    }
+  },
+  {
+    "ssyk": "7313",
+    "nameSwedish": "Gull- og sølvsmeder, gravører mv.",
+    "nameEnglish": "Jewellery and precious metal workers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "73",
+    "minorGroup": "731",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Presisjonsarbeidere, kunsthåndverkere, grafiske arbeidere mv.",
+      "minor": "Presisjonsarbeidere og kunsthåndverkere",
+      "unitGroup": "Gull- og sølvsmeder, gravører mv."
+    }
+  },
+  {
+    "ssyk": "7314",
+    "nameSwedish": "Keramikere mv.",
+    "nameEnglish": "Potters and related workers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "73",
+    "minorGroup": "731",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Presisjonsarbeidere, kunsthåndverkere, grafiske arbeidere mv.",
+      "minor": "Presisjonsarbeidere og kunsthåndverkere",
+      "unitGroup": "Keramikere mv."
+    }
+  },
+  {
+    "ssyk": "7315",
+    "nameSwedish": "Glasshåndverkere",
+    "nameEnglish": "Glass makers, cutters, grinders and finishers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "73",
+    "minorGroup": "731",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Presisjonsarbeidere, kunsthåndverkere, grafiske arbeidere mv.",
+      "minor": "Presisjonsarbeidere og kunsthåndverkere",
+      "unitGroup": "Glasshåndverkere"
+    }
+  },
+  {
+    "ssyk": "7316",
+    "nameSwedish": "Dekormalere mv.",
+    "nameEnglish": "Sign writers, decorative painters, engravers and etchers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "73",
+    "minorGroup": "731",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Presisjonsarbeidere, kunsthåndverkere, grafiske arbeidere mv.",
+      "minor": "Presisjonsarbeidere og kunsthåndverkere",
+      "unitGroup": "Dekormalere mv."
+    }
+  },
+  {
+    "ssyk": "7317",
+    "nameSwedish": "Kunsthåndverkere i tre mv.",
+    "nameEnglish": "Handicraft workers in wood, basketry and related materials",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "73",
+    "minorGroup": "731",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Presisjonsarbeidere, kunsthåndverkere, grafiske arbeidere mv.",
+      "minor": "Presisjonsarbeidere og kunsthåndverkere",
+      "unitGroup": "Kunsthåndverkere i tre mv."
+    }
+  },
+  {
+    "ssyk": "7318",
+    "nameSwedish": "Vevere, strikkere mv. (innen husflidsproduksjon)",
+    "nameEnglish": "Handicraft workers in textile, leather and related materials",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "73",
+    "minorGroup": "731",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Presisjonsarbeidere, kunsthåndverkere, grafiske arbeidere mv.",
+      "minor": "Presisjonsarbeidere og kunsthåndverkere",
+      "unitGroup": "Vevere, strikkere mv. (innen husflidsproduksjon)"
+    }
+  },
+  {
+    "ssyk": "7319",
+    "nameSwedish": "Andre kunsthåndverkere",
+    "nameEnglish": "Handicraft workers not elsewhere classified",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "73",
+    "minorGroup": "731",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Presisjonsarbeidere, kunsthåndverkere, grafiske arbeidere mv.",
+      "minor": "Presisjonsarbeidere og kunsthåndverkere",
+      "unitGroup": "Andre kunsthåndverkere"
+    }
+  },
+  {
+    "ssyk": "7321",
+    "nameSwedish": "Førtrykkere",
+    "nameEnglish": "Pre-press technicians",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "73",
+    "minorGroup": "732",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Presisjonsarbeidere, kunsthåndverkere, grafiske arbeidere mv.",
+      "minor": "Grafiske arbeidere",
+      "unitGroup": "Førtrykkere"
+    }
+  },
+  {
+    "ssyk": "7322",
+    "nameSwedish": "Trykkere",
+    "nameEnglish": "Printers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "73",
+    "minorGroup": "732",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Presisjonsarbeidere, kunsthåndverkere, grafiske arbeidere mv.",
+      "minor": "Grafiske arbeidere",
+      "unitGroup": "Trykkere"
+    }
+  },
+  {
+    "ssyk": "7323",
+    "nameSwedish": "Innbindere mv.",
+    "nameEnglish": "Print finishing and binding workers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "73",
+    "minorGroup": "732",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Presisjonsarbeidere, kunsthåndverkere, grafiske arbeidere mv.",
+      "minor": "Grafiske arbeidere",
+      "unitGroup": "Innbindere mv."
+    }
+  },
+  {
+    "ssyk": "7411",
+    "nameSwedish": "Elektrikere",
+    "nameEnglish": "Building and related electricians",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "74",
+    "minorGroup": "741",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Elektrikere, elektronikere mv.",
+      "minor": "Elektrikere mv.",
+      "unitGroup": "Elektrikere"
+    }
+  },
+  {
+    "ssyk": "7412",
+    "nameSwedish": "Automatikere",
+    "nameEnglish": "Electrical mechanics and fitters",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "74",
+    "minorGroup": "741",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Elektrikere, elektronikere mv.",
+      "minor": "Elektrikere mv.",
+      "unitGroup": "Automatikere"
+    }
+  },
+  {
+    "ssyk": "7413",
+    "nameSwedish": "Energimontører",
+    "nameEnglish": "Electrical line installers and repairers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "74",
+    "minorGroup": "741",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Elektrikere, elektronikere mv.",
+      "minor": "Elektrikere mv.",
+      "unitGroup": "Energimontører"
+    }
+  },
+  {
+    "ssyk": "7421",
+    "nameSwedish": "Serviceelektronikere",
+    "nameEnglish": "Electronics mechanics and servicers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "74",
+    "minorGroup": "742",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Elektrikere, elektronikere mv.",
+      "minor": "Serviceelektronikere og tele- og IKT-installatører mv.",
+      "unitGroup": "Serviceelektronikere"
+    }
+  },
+  {
+    "ssyk": "7422",
+    "nameSwedish": "Tele- og IKT-installatører",
+    "nameEnglish": "Information and communications technology installers and servicers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "74",
+    "minorGroup": "742",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Elektrikere, elektronikere mv.",
+      "minor": "Serviceelektronikere og tele- og IKT-installatører mv.",
+      "unitGroup": "Tele- og IKT-installatører"
+    }
+  },
+  {
+    "ssyk": "7511",
+    "nameSwedish": "Slaktere, fiskehandlere mv.",
+    "nameEnglish": "Butchers, fishmongers and related food preparers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "75",
+    "minorGroup": "751",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Andre håndverkspregede yrker",
+      "minor": "Slaktere, fiskehandlere, konditorer mv.",
+      "unitGroup": "Slaktere, fiskehandlere mv."
+    }
+  },
+  {
+    "ssyk": "7512",
+    "nameSwedish": "Bakere, konditorer mv.",
+    "nameEnglish": "Bakers, pastry-cooks and confectionery makers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "75",
+    "minorGroup": "751",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Andre håndverkspregede yrker",
+      "minor": "Slaktere, fiskehandlere, konditorer mv.",
+      "unitGroup": "Bakere, konditorer mv."
+    }
+  },
+  {
+    "ssyk": "7513",
+    "nameSwedish": "Ystere mv. (gårdsproduksjon)",
+    "nameEnglish": "Dairy product makers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "75",
+    "minorGroup": "751",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Andre håndverkspregede yrker",
+      "minor": "Slaktere, fiskehandlere, konditorer mv.",
+      "unitGroup": "Ystere mv. (gårdsproduksjon)"
+    }
+  },
+  {
+    "ssyk": "7514",
+    "nameSwedish": "Saftere, syltere mv. (gårdsproduksjon)",
+    "nameEnglish": "Fruit, vegetables and related preservers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "75",
+    "minorGroup": "751",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Andre håndverkspregede yrker",
+      "minor": "Slaktere, fiskehandlere, konditorer mv.",
+      "unitGroup": "Saftere, syltere mv. (gårdsproduksjon)"
+    }
+  },
+  {
+    "ssyk": "7515",
+    "nameSwedish": "Prøvesmakere og kvalitetsbedømmere av mat og drikke",
+    "nameEnglish": "Food and beverage tasters and graders",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "75",
+    "minorGroup": "751",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Andre håndverkspregede yrker",
+      "minor": "Slaktere, fiskehandlere, konditorer mv.",
+      "unitGroup": "Prøvesmakere og kvalitetsbedømmere av mat og drikke"
+    }
+  },
+  {
+    "ssyk": "7522",
+    "nameSwedish": "Møbelsnekkere",
+    "nameEnglish": "Cabinet makers and related workers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "75",
+    "minorGroup": "752",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Andre håndverkspregede yrker",
+      "minor": "Møbelsnekkere",
+      "unitGroup": "Møbelsnekkere"
+    }
+  },
+  {
+    "ssyk": "7531",
+    "nameSwedish": "Skreddere, buntmakere mv.",
+    "nameEnglish": "Tailors, dressmakers, furriers and hatters",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "75",
+    "minorGroup": "753",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Andre håndverkspregede yrker",
+      "minor": "Skreddere, møbeltapetserere mv.",
+      "unitGroup": "Skreddere, buntmakere mv."
+    }
+  },
+  {
+    "ssyk": "7532",
+    "nameSwedish": "Gradører",
+    "nameEnglish": "Garment and related patternmakers and cutters",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "75",
+    "minorGroup": "753",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Andre håndverkspregede yrker",
+      "minor": "Skreddere, møbeltapetserere mv.",
+      "unitGroup": "Gradører"
+    }
+  },
+  {
+    "ssyk": "7534",
+    "nameSwedish": "Møbeltapetserere mv.",
+    "nameEnglish": "Upholsterers and related workers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "75",
+    "minorGroup": "753",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Andre håndverkspregede yrker",
+      "minor": "Skreddere, møbeltapetserere mv.",
+      "unitGroup": "Møbeltapetserere mv."
+    }
+  },
+  {
+    "ssyk": "7535",
+    "nameSwedish": "Skinnberedere og garvere",
+    "nameEnglish": "Pelt dressers, tanners and fellmongers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "75",
+    "minorGroup": "753",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Andre håndverkspregede yrker",
+      "minor": "Skreddere, møbeltapetserere mv.",
+      "unitGroup": "Skinnberedere og garvere"
+    }
+  },
+  {
+    "ssyk": "7536",
+    "nameSwedish": "Skomakere",
+    "nameEnglish": "Shoemakers and related workers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "75",
+    "minorGroup": "753",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Andre håndverkspregede yrker",
+      "minor": "Skreddere, møbeltapetserere mv.",
+      "unitGroup": "Skomakere"
+    }
+  },
+  {
+    "ssyk": "7541",
+    "nameSwedish": "Yrkesdykkere",
+    "nameEnglish": "Underwater divers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "75",
+    "minorGroup": "754",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Andre håndverkspregede yrker",
+      "minor": "Yrkesdykkere, skytebaser mv.",
+      "unitGroup": "Yrkesdykkere"
+    }
+  },
+  {
+    "ssyk": "7542",
+    "nameSwedish": "Skytebaser og sprengningsarbeidere",
+    "nameEnglish": "Shotfirers and blasters",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "75",
+    "minorGroup": "754",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Andre håndverkspregede yrker",
+      "minor": "Yrkesdykkere, skytebaser mv.",
+      "unitGroup": "Skytebaser og sprengningsarbeidere"
+    }
+  },
+  {
+    "ssyk": "7543",
+    "nameSwedish": "Produkttestere (ikke matprodukter)",
+    "nameEnglish": "Product graders and testers (excluding food and beverages)",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "75",
+    "minorGroup": "754",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Andre håndverkspregede yrker",
+      "minor": "Yrkesdykkere, skytebaser mv.",
+      "unitGroup": "Produkttestere (ikke matprodukter)"
+    }
+  },
+  {
+    "ssyk": "7544",
+    "nameSwedish": "Desinfeksjonsarbeidere og skadedyrbekjempere",
+    "nameEnglish": "Fumigators and other pest and weed controllers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "75",
+    "minorGroup": "754",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Andre håndverkspregede yrker",
+      "minor": "Yrkesdykkere, skytebaser mv.",
+      "unitGroup": "Desinfeksjonsarbeidere og skadedyrbekjempere"
+    }
+  },
+  {
+    "ssyk": "7549",
+    "nameSwedish": "Andre håndverkere",
+    "nameEnglish": "Craft and related workers not elsewhere classified",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "7",
+    "subMajorGroup": "75",
+    "minorGroup": "754",
+    "hierarchy": {
+      "major": "Håndverkere",
+      "subMajor": "Andre håndverkspregede yrker",
+      "minor": "Yrkesdykkere, skytebaser mv.",
+      "unitGroup": "Andre håndverkere"
+    }
+  },
+  {
+    "ssyk": "8111",
+    "nameSwedish": "Bergfagarbeidere",
+    "nameEnglish": "Miners and quarriers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "81",
+    "minorGroup": "811",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Prosess- og maskinoperatører",
+      "minor": "Operatører innen borefag mv.",
+      "unitGroup": "Bergfagarbeidere"
+    }
+  },
+  {
+    "ssyk": "8112",
+    "nameSwedish": "Prosessoperatører (oppredning)",
+    "nameEnglish": "Mineral and stone processing plant operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "81",
+    "minorGroup": "811",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Prosess- og maskinoperatører",
+      "minor": "Operatører innen borefag mv.",
+      "unitGroup": "Prosessoperatører (oppredning)"
+    }
+  },
+  {
+    "ssyk": "8113",
+    "nameSwedish": "Operatører innen boring mv.",
+    "nameEnglish": "Well drillers and borers and related workers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "81",
+    "minorGroup": "811",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Prosess- og maskinoperatører",
+      "minor": "Operatører innen borefag mv.",
+      "unitGroup": "Operatører innen boring mv."
+    }
+  },
+  {
+    "ssyk": "8114",
+    "nameSwedish": "Operatører innen produksjon av betong mv.",
+    "nameEnglish": "Cement, stone and other mineral products machine operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "81",
+    "minorGroup": "811",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Prosess- og maskinoperatører",
+      "minor": "Operatører innen borefag mv.",
+      "unitGroup": "Operatører innen produksjon av betong mv."
+    }
+  },
+  {
+    "ssyk": "8121",
+    "nameSwedish": "Operatører innen metallurgiske prosessfag",
+    "nameEnglish": "Metal processing plant operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "81",
+    "minorGroup": "812",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Prosess- og maskinoperatører",
+      "minor": "Operatører metallproduksjon",
+      "unitGroup": "Operatører innen metallurgiske prosessfag"
+    }
+  },
+  {
+    "ssyk": "8122",
+    "nameSwedish": "Operatører innen metallflatebehandling",
+    "nameEnglish": "Metal finishing, plating and coating machine operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "81",
+    "minorGroup": "812",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Prosess- og maskinoperatører",
+      "minor": "Operatører metallproduksjon",
+      "unitGroup": "Operatører innen metallflatebehandling"
+    }
+  },
+  {
+    "ssyk": "8131",
+    "nameSwedish": "Operatører innen kjemisk industri",
+    "nameEnglish": "Chemical products plant and machine operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "81",
+    "minorGroup": "813",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Prosess- og maskinoperatører",
+      "minor": "Operatører innen produksjon av kjemiske produkter",
+      "unitGroup": "Operatører innen kjemisk industri"
+    }
+  },
+  {
+    "ssyk": "8132",
+    "nameSwedish": "Operatører innen produksjon av fotofilm og -papir mv.",
+    "nameEnglish": "Photographic products machine operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "81",
+    "minorGroup": "813",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Prosess- og maskinoperatører",
+      "minor": "Operatører innen produksjon av kjemiske produkter",
+      "unitGroup": "Operatører innen produksjon av fotofilm og -papir mv."
+    }
+  },
+  {
+    "ssyk": "8141",
+    "nameSwedish": "Operatører innen produksjon av gummiprodukter",
+    "nameEnglish": "Rubber products machine operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "81",
+    "minorGroup": "814",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Prosess- og maskinoperatører",
+      "minor": "Operatører innen gummi, plast og papirproduksjon",
+      "unitGroup": "Operatører innen produksjon av gummiprodukter"
+    }
+  },
+  {
+    "ssyk": "8142",
+    "nameSwedish": "Operatører innen plastprodukter",
+    "nameEnglish": "Plastic products machine operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "81",
+    "minorGroup": "814",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Prosess- og maskinoperatører",
+      "minor": "Operatører innen gummi, plast og papirproduksjon",
+      "unitGroup": "Operatører innen plastprodukter"
+    }
+  },
+  {
+    "ssyk": "8143",
+    "nameSwedish": "Operatører innen papirprodukter",
+    "nameEnglish": "Paper products machine operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "81",
+    "minorGroup": "814",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Prosess- og maskinoperatører",
+      "minor": "Operatører innen gummi, plast og papirproduksjon",
+      "unitGroup": "Operatører innen papirprodukter"
+    }
+  },
+  {
+    "ssyk": "8151",
+    "nameSwedish": "Spinne- og nøstemaskinoperatører",
+    "nameEnglish": "Fibre preparing, spinning and winding machine operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "81",
+    "minorGroup": "815",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Prosess- og maskinoperatører",
+      "minor": "Operatører innen bearbeiding og produksjon av tekstiler, pels, skinn og lær",
+      "unitGroup": "Spinne- og nøstemaskinoperatører"
+    }
+  },
+  {
+    "ssyk": "8152",
+    "nameSwedish": "Operatører innen tekstilproduksjon mv.",
+    "nameEnglish": "Weaving and knitting machine operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "81",
+    "minorGroup": "815",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Prosess- og maskinoperatører",
+      "minor": "Operatører innen bearbeiding og produksjon av tekstiler, pels, skinn og lær",
+      "unitGroup": "Operatører innen tekstilproduksjon mv."
+    }
+  },
+  {
+    "ssyk": "8153",
+    "nameSwedish": "Industrisyere",
+    "nameEnglish": "Sewing machine operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "81",
+    "minorGroup": "815",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Prosess- og maskinoperatører",
+      "minor": "Operatører innen bearbeiding og produksjon av tekstiler, pels, skinn og lær",
+      "unitGroup": "Industrisyere"
+    }
+  },
+  {
+    "ssyk": "8154",
+    "nameSwedish": "Operatører innen tekstilbearbeiding",
+    "nameEnglish": "Bleaching, dyeing and fabric cleaning machine operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "81",
+    "minorGroup": "815",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Prosess- og maskinoperatører",
+      "minor": "Operatører innen bearbeiding og produksjon av tekstiler, pels, skinn og lær",
+      "unitGroup": "Operatører innen tekstilbearbeiding"
+    }
+  },
+  {
+    "ssyk": "8155",
+    "nameSwedish": "Operatører innen pels, skinn- og lærbearbeiding",
+    "nameEnglish": "Fur and leather preparing machine operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "81",
+    "minorGroup": "815",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Prosess- og maskinoperatører",
+      "minor": "Operatører innen bearbeiding og produksjon av tekstiler, pels, skinn og lær",
+      "unitGroup": "Operatører innen pels, skinn- og lærbearbeiding"
+    }
+  },
+  {
+    "ssyk": "8156",
+    "nameSwedish": "Operatører innen skinn og lærprodukter",
+    "nameEnglish": "Shoemaking and related machine operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "81",
+    "minorGroup": "815",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Prosess- og maskinoperatører",
+      "minor": "Operatører innen bearbeiding og produksjon av tekstiler, pels, skinn og lær",
+      "unitGroup": "Operatører innen skinn og lærprodukter"
+    }
+  },
+  {
+    "ssyk": "8157",
+    "nameSwedish": "Renseri- og vaskerimaskinoperatører",
+    "nameEnglish": "Laundry machine operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "81",
+    "minorGroup": "815",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Prosess- og maskinoperatører",
+      "minor": "Operatører innen bearbeiding og produksjon av tekstiler, pels, skinn og lær",
+      "unitGroup": "Renseri- og vaskerimaskinoperatører"
+    }
+  },
+  {
+    "ssyk": "8159",
+    "nameSwedish": "Andre operatører innen produksjon av tekstiler, pels, skinn og lær",
+    "nameEnglish": "Textile, fur and leather products machine operators not elsewhere classified",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "81",
+    "minorGroup": "815",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Prosess- og maskinoperatører",
+      "minor": "Operatører innen bearbeiding og produksjon av tekstiler, pels, skinn og lær",
+      "unitGroup": "Andre operatører innen produksjon av tekstiler, pels, skinn og lær"
+    }
+  },
+  {
+    "ssyk": "8160",
+    "nameSwedish": "Operatører innen næringsmiddelproduksjon",
+    "nameEnglish": "Food and related products machine operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "81",
+    "minorGroup": "816",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Prosess- og maskinoperatører",
+      "minor": "Operatører innen næringsmiddelproduksjon",
+      "unitGroup": "Operatører innen næringsmiddelproduksjon"
+    }
+  },
+  {
+    "ssyk": "8171",
+    "nameSwedish": "Operatører innen treforedling",
+    "nameEnglish": "Pulp and papermaking plant operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "81",
+    "minorGroup": "817",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Prosess- og maskinoperatører",
+      "minor": "Operatører innen treforedling og trelast",
+      "unitGroup": "Operatører innen treforedling"
+    }
+  },
+  {
+    "ssyk": "8172",
+    "nameSwedish": "Operatører innen trelastproduksjon",
+    "nameEnglish": "Wood processing plant operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "81",
+    "minorGroup": "817",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Prosess- og maskinoperatører",
+      "minor": "Operatører innen treforedling og trelast",
+      "unitGroup": "Operatører innen trelastproduksjon"
+    }
+  },
+  {
+    "ssyk": "8181",
+    "nameSwedish": "Operatører innen glass- og keramisk produksjon",
+    "nameEnglish": "Glass and ceramics plant operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "81",
+    "minorGroup": "818",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Prosess- og maskinoperatører",
+      "minor": "Operatører av andre stasjonære maskiner",
+      "unitGroup": "Operatører innen glass- og keramisk produksjon"
+    }
+  },
+  {
+    "ssyk": "8182",
+    "nameSwedish": "Fyrkjele- og turbinoperatører",
+    "nameEnglish": "Steam engine and boiler operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "81",
+    "minorGroup": "818",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Prosess- og maskinoperatører",
+      "minor": "Operatører av andre stasjonære maskiner",
+      "unitGroup": "Fyrkjele- og turbinoperatører"
+    }
+  },
+  {
+    "ssyk": "8183",
+    "nameSwedish": "Pakke-, tappe- og etikettmaskinoperatører",
+    "nameEnglish": "Packing, bottling and labelling machine operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "81",
+    "minorGroup": "818",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Prosess- og maskinoperatører",
+      "minor": "Operatører av andre stasjonære maskiner",
+      "unitGroup": "Pakke-, tappe- og etikettmaskinoperatører"
+    }
+  },
+  {
+    "ssyk": "8189",
+    "nameSwedish": "Andre stasjonære maskinoperatører",
+    "nameEnglish": "Stationary plant and machine operators not elsewhere classified",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "81",
+    "minorGroup": "818",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Prosess- og maskinoperatører",
+      "minor": "Operatører av andre stasjonære maskiner",
+      "unitGroup": "Andre stasjonære maskinoperatører"
+    }
+  },
+  {
+    "ssyk": "8211",
+    "nameSwedish": "Montører av mekaniske produkter",
+    "nameEnglish": "Mechanical machinery assemblers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "82",
+    "minorGroup": "821",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Montører",
+      "minor": "Montører",
+      "unitGroup": "Montører av mekaniske produkter"
+    }
+  },
+  {
+    "ssyk": "8212",
+    "nameSwedish": "Montører av elektriske og elektroniske produkter",
+    "nameEnglish": "Electrical and electronic equipment assemblers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "82",
+    "minorGroup": "821",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Montører",
+      "minor": "Montører",
+      "unitGroup": "Montører av elektriske og elektroniske produkter"
+    }
+  },
+  {
+    "ssyk": "8219",
+    "nameSwedish": "Andre montører",
+    "nameEnglish": "Assemblers not elsewhere classified",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "82",
+    "minorGroup": "821",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Montører",
+      "minor": "Montører",
+      "unitGroup": "Andre montører"
+    }
+  },
+  {
+    "ssyk": "8311",
+    "nameSwedish": "Lokomotiv og T-baneførere",
+    "nameEnglish": "Locomotive engine drivers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "83",
+    "minorGroup": "831",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Transportarbeidere og operatører av mobile maskiner mv.",
+      "minor": "Lokomotiv og T-baneførere mv.",
+      "unitGroup": "Lokomotiv og T-baneførere"
+    }
+  },
+  {
+    "ssyk": "8312",
+    "nameSwedish": "Skiftekonduktører mv",
+    "nameEnglish": "Railway brake, signal and switch operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "83",
+    "minorGroup": "831",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Transportarbeidere og operatører av mobile maskiner mv.",
+      "minor": "Lokomotiv og T-baneførere mv.",
+      "unitGroup": "Skiftekonduktører mv"
+    }
+  },
+  {
+    "ssyk": "8322",
+    "nameSwedish": "Bil-, drosje- og varebilførere",
+    "nameEnglish": "Car, taxi, van and motorcycle drivers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "83",
+    "minorGroup": "832",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Transportarbeidere og operatører av mobile maskiner mv.",
+      "minor": "Bil-, drosje- og varebilførere",
+      "unitGroup": "Bil-, drosje- og varebilførere"
+    }
+  },
+  {
+    "ssyk": "8331",
+    "nameSwedish": "Bussjåfører og trikkeførere",
+    "nameEnglish": "Bus and tram drivers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "83",
+    "minorGroup": "833",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Transportarbeidere og operatører av mobile maskiner mv.",
+      "minor": "Lastebil-, buss- og trikkeførere",
+      "unitGroup": "Bussjåfører og trikkeførere"
+    }
+  },
+  {
+    "ssyk": "8332",
+    "nameSwedish": "Lastebil- og trailersjåfører",
+    "nameEnglish": "Heavy truck and lorry drivers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "83",
+    "minorGroup": "833",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Transportarbeidere og operatører av mobile maskiner mv.",
+      "minor": "Lastebil-, buss- og trikkeførere",
+      "unitGroup": "Lastebil- og trailersjåfører"
+    }
+  },
+  {
+    "ssyk": "8341",
+    "nameSwedish": "Jordbruks- og skogbruksmaskinførere",
+    "nameEnglish": "Mobile farm and forestry plant operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "83",
+    "minorGroup": "834",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Transportarbeidere og operatører av mobile maskiner mv.",
+      "minor": "Operatører av mobile maskiner mv.",
+      "unitGroup": "Jordbruks- og skogbruksmaskinførere"
+    }
+  },
+  {
+    "ssyk": "8342",
+    "nameSwedish": "Anleggsmaskinførere",
+    "nameEnglish": "Earthmoving and related plant operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "83",
+    "minorGroup": "834",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Transportarbeidere og operatører av mobile maskiner mv.",
+      "minor": "Operatører av mobile maskiner mv.",
+      "unitGroup": "Anleggsmaskinførere"
+    }
+  },
+  {
+    "ssyk": "8343",
+    "nameSwedish": "Kran- og heisførere mv.",
+    "nameEnglish": "Crane, hoist and related plant operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "83",
+    "minorGroup": "834",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Transportarbeidere og operatører av mobile maskiner mv.",
+      "minor": "Operatører av mobile maskiner mv.",
+      "unitGroup": "Kran- og heisførere mv."
+    }
+  },
+  {
+    "ssyk": "8344",
+    "nameSwedish": "Truckførere",
+    "nameEnglish": "Lifting truck operators",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "83",
+    "minorGroup": "834",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Transportarbeidere og operatører av mobile maskiner mv.",
+      "minor": "Operatører av mobile maskiner mv.",
+      "unitGroup": "Truckførere"
+    }
+  },
+  {
+    "ssyk": "8350",
+    "nameSwedish": "Dekks- og maskinmannskap (skip)",
+    "nameEnglish": "Ships¿ deck crew and related workers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "8",
+    "subMajorGroup": "83",
+    "minorGroup": "835",
+    "hierarchy": {
+      "major": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "subMajor": "Transportarbeidere og operatører av mobile maskiner mv.",
+      "minor": "Dekks- og maskinmannskap (skip)",
+      "unitGroup": "Dekks- og maskinmannskap (skip)"
+    }
+  },
+  {
+    "ssyk": "9111",
+    "nameSwedish": "Renholdere i private hjem",
+    "nameEnglish": "Domestic cleaners and helpers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "9",
+    "subMajorGroup": "91",
+    "minorGroup": "911",
+    "hierarchy": {
+      "major": "Renholdere, hjelpearbeidere mv.",
+      "subMajor": "Renholdere mv.",
+      "minor": "Renholdere",
+      "unitGroup": "Renholdere i private hjem"
+    }
+  },
+  {
+    "ssyk": "9112",
+    "nameSwedish": "Renholdere i bedrifter",
+    "nameEnglish": "Cleaners and helpers in offices, hotels and other local kinds of activity units",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "9",
+    "subMajorGroup": "91",
+    "minorGroup": "911",
+    "hierarchy": {
+      "major": "Renholdere, hjelpearbeidere mv.",
+      "subMajor": "Renholdere mv.",
+      "minor": "Renholdere",
+      "unitGroup": "Renholdere i bedrifter"
+    }
+  },
+  {
+    "ssyk": "9122",
+    "nameSwedish": "Bilvaskere",
+    "nameEnglish": "Vehicle cleaners",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "9",
+    "subMajorGroup": "91",
+    "minorGroup": "912",
+    "hierarchy": {
+      "major": "Renholdere, hjelpearbeidere mv.",
+      "subMajor": "Renholdere mv.",
+      "minor": "Bilvaskere, vinduspussere mv.",
+      "unitGroup": "Bilvaskere"
+    }
+  },
+  {
+    "ssyk": "9123",
+    "nameSwedish": "Vinduspussere",
+    "nameEnglish": "Window cleaners",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "9",
+    "subMajorGroup": "91",
+    "minorGroup": "912",
+    "hierarchy": {
+      "major": "Renholdere, hjelpearbeidere mv.",
+      "subMajor": "Renholdere mv.",
+      "minor": "Bilvaskere, vinduspussere mv.",
+      "unitGroup": "Vinduspussere"
+    }
+  },
+  {
+    "ssyk": "9129",
+    "nameSwedish": "Andre rengjørere",
+    "nameEnglish": "Other cleaning workers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "9",
+    "subMajorGroup": "91",
+    "minorGroup": "912",
+    "hierarchy": {
+      "major": "Renholdere, hjelpearbeidere mv.",
+      "subMajor": "Renholdere mv.",
+      "minor": "Bilvaskere, vinduspussere mv.",
+      "unitGroup": "Andre rengjørere"
+    }
+  },
+  {
+    "ssyk": "9211",
+    "nameSwedish": "Hjelpearbeidere i nyttevekstproduksjon",
+    "nameEnglish": "Crop farm labourers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "9",
+    "subMajorGroup": "92",
+    "minorGroup": "921",
+    "hierarchy": {
+      "major": "Renholdere, hjelpearbeidere mv.",
+      "subMajor": "Hjelpearbeidere i jordbruk, skogbruk og fiske",
+      "minor": "Hjelpearbeidere i jordbruk, skogbruk og fiske",
+      "unitGroup": "Hjelpearbeidere i nyttevekstproduksjon"
+    }
+  },
+  {
+    "ssyk": "9212",
+    "nameSwedish": "Hjelpearbeidere i husdyrproduksjon",
+    "nameEnglish": "Livestock farm labourers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "9",
+    "subMajorGroup": "92",
+    "minorGroup": "921",
+    "hierarchy": {
+      "major": "Renholdere, hjelpearbeidere mv.",
+      "subMajor": "Hjelpearbeidere i jordbruk, skogbruk og fiske",
+      "minor": "Hjelpearbeidere i jordbruk, skogbruk og fiske",
+      "unitGroup": "Hjelpearbeidere i husdyrproduksjon"
+    }
+  },
+  {
+    "ssyk": "9213",
+    "nameSwedish": "Hjelpearbeidere i kombinasjonsbruk",
+    "nameEnglish": "Mixed crop and livestock farm labourers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "9",
+    "subMajorGroup": "92",
+    "minorGroup": "921",
+    "hierarchy": {
+      "major": "Renholdere, hjelpearbeidere mv.",
+      "subMajor": "Hjelpearbeidere i jordbruk, skogbruk og fiske",
+      "minor": "Hjelpearbeidere i jordbruk, skogbruk og fiske",
+      "unitGroup": "Hjelpearbeidere i kombinasjonsbruk"
+    }
+  },
+  {
+    "ssyk": "9214",
+    "nameSwedish": "Hjelpearbeidere i gartneri mv.",
+    "nameEnglish": "Garden and horticultural labourers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "9",
+    "subMajorGroup": "92",
+    "minorGroup": "921",
+    "hierarchy": {
+      "major": "Renholdere, hjelpearbeidere mv.",
+      "subMajor": "Hjelpearbeidere i jordbruk, skogbruk og fiske",
+      "minor": "Hjelpearbeidere i jordbruk, skogbruk og fiske",
+      "unitGroup": "Hjelpearbeidere i gartneri mv."
+    }
+  },
+  {
+    "ssyk": "9215",
+    "nameSwedish": "Hjelpearbeidere i skogbruk",
+    "nameEnglish": "Forestry labourers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "9",
+    "subMajorGroup": "92",
+    "minorGroup": "921",
+    "hierarchy": {
+      "major": "Renholdere, hjelpearbeidere mv.",
+      "subMajor": "Hjelpearbeidere i jordbruk, skogbruk og fiske",
+      "minor": "Hjelpearbeidere i jordbruk, skogbruk og fiske",
+      "unitGroup": "Hjelpearbeidere i skogbruk"
+    }
+  },
+  {
+    "ssyk": "9216",
+    "nameSwedish": "Hjelpearbeidere innen havbruk",
+    "nameEnglish": "Fishery and aquaculture labourers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "9",
+    "subMajorGroup": "92",
+    "minorGroup": "921",
+    "hierarchy": {
+      "major": "Renholdere, hjelpearbeidere mv.",
+      "subMajor": "Hjelpearbeidere i jordbruk, skogbruk og fiske",
+      "minor": "Hjelpearbeidere i jordbruk, skogbruk og fiske",
+      "unitGroup": "Hjelpearbeidere innen havbruk"
+    }
+  },
+  {
+    "ssyk": "9311",
+    "nameSwedish": "Hjelpearbeidere i bergverk",
+    "nameEnglish": "Mining and quarrying labourers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "9",
+    "subMajorGroup": "93",
+    "minorGroup": "931",
+    "hierarchy": {
+      "major": "Renholdere, hjelpearbeidere mv.",
+      "subMajor": "Hjelpearbeidere i bergverk, industri, bygg og anlegg og transport",
+      "minor": "Hjelpearbeidere i bergverk, bygg og anlegg",
+      "unitGroup": "Hjelpearbeidere i bergverk"
+    }
+  },
+  {
+    "ssyk": "9312",
+    "nameSwedish": "Hjelpearbeidere i anlegg",
+    "nameEnglish": "Civil engineering labourers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "9",
+    "subMajorGroup": "93",
+    "minorGroup": "931",
+    "hierarchy": {
+      "major": "Renholdere, hjelpearbeidere mv.",
+      "subMajor": "Hjelpearbeidere i bergverk, industri, bygg og anlegg og transport",
+      "minor": "Hjelpearbeidere i bergverk, bygg og anlegg",
+      "unitGroup": "Hjelpearbeidere i anlegg"
+    }
+  },
+  {
+    "ssyk": "9313",
+    "nameSwedish": "Hjelpearbeidere i bygg",
+    "nameEnglish": "Building construction labourers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "9",
+    "subMajorGroup": "93",
+    "minorGroup": "931",
+    "hierarchy": {
+      "major": "Renholdere, hjelpearbeidere mv.",
+      "subMajor": "Hjelpearbeidere i bergverk, industri, bygg og anlegg og transport",
+      "minor": "Hjelpearbeidere i bergverk, bygg og anlegg",
+      "unitGroup": "Hjelpearbeidere i bygg"
+    }
+  },
+  {
+    "ssyk": "9321",
+    "nameSwedish": "Håndpakkere mv.",
+    "nameEnglish": "Hand packers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "9",
+    "subMajorGroup": "93",
+    "minorGroup": "932",
+    "hierarchy": {
+      "major": "Renholdere, hjelpearbeidere mv.",
+      "subMajor": "Hjelpearbeidere i bergverk, industri, bygg og anlegg og transport",
+      "minor": "Hjelpearbeidere i industri",
+      "unitGroup": "Håndpakkere mv."
+    }
+  },
+  {
+    "ssyk": "9329",
+    "nameSwedish": "Andre hjelpearbeidere i industri",
+    "nameEnglish": "Manufacturing labourers not elsewhere classified",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "9",
+    "subMajorGroup": "93",
+    "minorGroup": "932",
+    "hierarchy": {
+      "major": "Renholdere, hjelpearbeidere mv.",
+      "subMajor": "Hjelpearbeidere i bergverk, industri, bygg og anlegg og transport",
+      "minor": "Hjelpearbeidere i industri",
+      "unitGroup": "Andre hjelpearbeidere i industri"
+    }
+  },
+  {
+    "ssyk": "9331",
+    "nameSwedish": "Førere av ikke-motorisert kjøretøy",
+    "nameEnglish": "Hand and pedal vehicle drivers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "9",
+    "subMajorGroup": "93",
+    "minorGroup": "933",
+    "hierarchy": {
+      "major": "Renholdere, hjelpearbeidere mv.",
+      "subMajor": "Hjelpearbeidere i bergverk, industri, bygg og anlegg og transport",
+      "minor": "Hjelpearbeidere innen transport og lager",
+      "unitGroup": "Førere av ikke-motorisert kjøretøy"
+    }
+  },
+  {
+    "ssyk": "9333",
+    "nameSwedish": "Laste- og lossearbeidere",
+    "nameEnglish": "Freight handlers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "9",
+    "subMajorGroup": "93",
+    "minorGroup": "933",
+    "hierarchy": {
+      "major": "Renholdere, hjelpearbeidere mv.",
+      "subMajor": "Hjelpearbeidere i bergverk, industri, bygg og anlegg og transport",
+      "minor": "Hjelpearbeidere innen transport og lager",
+      "unitGroup": "Laste- og lossearbeidere"
+    }
+  },
+  {
+    "ssyk": "9334",
+    "nameSwedish": "Varepåfyllere",
+    "nameEnglish": "Shelf fillers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "9",
+    "subMajorGroup": "93",
+    "minorGroup": "933",
+    "hierarchy": {
+      "major": "Renholdere, hjelpearbeidere mv.",
+      "subMajor": "Hjelpearbeidere i bergverk, industri, bygg og anlegg og transport",
+      "minor": "Hjelpearbeidere innen transport og lager",
+      "unitGroup": "Varepåfyllere"
+    }
+  },
+  {
+    "ssyk": "9412",
+    "nameSwedish": "Kjøkkenassistenter",
+    "nameEnglish": "Kitchen helpers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "9",
+    "subMajorGroup": "94",
+    "minorGroup": "941",
+    "hierarchy": {
+      "major": "Renholdere, hjelpearbeidere mv.",
+      "subMajor": "Kjøkkenassistenter",
+      "minor": "Kjøkkenassistenter",
+      "unitGroup": "Kjøkkenassistenter"
+    }
+  },
+  {
+    "ssyk": "9510",
+    "nameSwedish": "Reklamedistributører mv.",
+    "nameEnglish": "Street and related service workers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "9",
+    "subMajorGroup": "95",
+    "minorGroup": "951",
+    "hierarchy": {
+      "major": "Renholdere, hjelpearbeidere mv.",
+      "subMajor": "Reklamedistributører mv.",
+      "minor": "Reklamedistributører mv.",
+      "unitGroup": "Reklamedistributører mv."
+    }
+  },
+  {
+    "ssyk": "9611",
+    "nameSwedish": "Renovasjonsarbeidere",
+    "nameEnglish": "Garbage and recycling collectors",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "9",
+    "subMajorGroup": "96",
+    "minorGroup": "961",
+    "hierarchy": {
+      "major": "Renholdere, hjelpearbeidere mv.",
+      "subMajor": "Renovasjons- og gjenvinningsarbeidere mv.",
+      "minor": "Renovasjons- og gjenvinningsarbeidere",
+      "unitGroup": "Renovasjonsarbeidere"
+    }
+  },
+  {
+    "ssyk": "9612",
+    "nameSwedish": "Gjenvinningsarbeidere",
+    "nameEnglish": "Refuse sorters",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "9",
+    "subMajorGroup": "96",
+    "minorGroup": "961",
+    "hierarchy": {
+      "major": "Renholdere, hjelpearbeidere mv.",
+      "subMajor": "Renovasjons- og gjenvinningsarbeidere mv.",
+      "minor": "Renovasjons- og gjenvinningsarbeidere",
+      "unitGroup": "Gjenvinningsarbeidere"
+    }
+  },
+  {
+    "ssyk": "9613",
+    "nameSwedish": "Gatefeiere mv.",
+    "nameEnglish": "Sweepers and related labourers",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "9",
+    "subMajorGroup": "96",
+    "minorGroup": "961",
+    "hierarchy": {
+      "major": "Renholdere, hjelpearbeidere mv.",
+      "subMajor": "Renovasjons- og gjenvinningsarbeidere mv.",
+      "minor": "Renovasjons- og gjenvinningsarbeidere",
+      "unitGroup": "Gatefeiere mv."
+    }
+  },
+  {
+    "ssyk": "9621",
+    "nameSwedish": "Bud mv.",
+    "nameEnglish": "Messengers, package deliverers and luggage porters",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "9",
+    "subMajorGroup": "96",
+    "minorGroup": "962",
+    "hierarchy": {
+      "major": "Renholdere, hjelpearbeidere mv.",
+      "subMajor": "Renovasjons- og gjenvinningsarbeidere mv.",
+      "minor": "Andre hjelpearbeidere",
+      "unitGroup": "Bud mv."
+    }
+  },
+  {
+    "ssyk": "9622",
+    "nameSwedish": "Altmuligmann",
+    "nameEnglish": "Odd job persons",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "9",
+    "subMajorGroup": "96",
+    "minorGroup": "962",
+    "hierarchy": {
+      "major": "Renholdere, hjelpearbeidere mv.",
+      "subMajor": "Renovasjons- og gjenvinningsarbeidere mv.",
+      "minor": "Andre hjelpearbeidere",
+      "unitGroup": "Altmuligmann"
+    }
+  },
+  {
+    "ssyk": "9623",
+    "nameSwedish": "Måleravlesere mv.",
+    "nameEnglish": "Meter readers and vending-machine collectors",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "9",
+    "subMajorGroup": "96",
+    "minorGroup": "962",
+    "hierarchy": {
+      "major": "Renholdere, hjelpearbeidere mv.",
+      "subMajor": "Renovasjons- og gjenvinningsarbeidere mv.",
+      "minor": "Andre hjelpearbeidere",
+      "unitGroup": "Måleravlesere mv."
+    }
+  },
+  {
+    "ssyk": "9629",
+    "nameSwedish": "Andre hjelpearbeidere",
+    "nameEnglish": "Elementary workers not elsewhere classified",
+    "description": "",
+    "descriptionEnglish": "",
+    "majorGroup": "9",
+    "subMajorGroup": "96",
+    "minorGroup": "962",
+    "hierarchy": {
+      "major": "Renholdere, hjelpearbeidere mv.",
+      "subMajor": "Renovasjons- og gjenvinningsarbeidere mv.",
+      "minor": "Andre hjelpearbeidere",
+      "unitGroup": "Andre hjelpearbeidere"
+    }
+  }
+]

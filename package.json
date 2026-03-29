@@ -1,12 +1,14 @@
 {
-  "name": "temp-app",
+  "name": "norway-job-market-visualizer",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "pipeline": "tsx scripts/01_fetch_nav_outlook.ts && tsx scripts/02_fetch_styrk.ts && tsx scripts/03_fetch_ssb_employment.ts && tsx scripts/04_score_occupations.ts && tsx scripts/05_merge.ts && tsx scripts/06_validate.ts",
+    "pipeline:fetch": "tsx scripts/01_fetch_nav_outlook.ts && tsx scripts/02_fetch_styrk.ts && tsx scripts/03_fetch_ssb_employment.ts"
   },
   "dependencies": {
     "@ai-sdk/openai": "^3.0.48",

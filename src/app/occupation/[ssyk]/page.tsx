@@ -1,6 +1,6 @@
 import React from 'react';
 import fs from 'fs';
-import path from 'path';
+import { countryConfig } from '@/config/country.config';
 import type { Occupation } from '@/lib/types';
 import { OccupationCard } from '@/components/OccupationCard';
 import { DisclaimerBanner } from '@/components/DisclaimerBanner';
@@ -10,7 +10,7 @@ import { ArrowLeft } from 'lucide-react';
 
 // Pre-render pages if possible or fetch dynamically
 export async function generateStaticParams() {
-  const dataFile = path.resolve(process.cwd(), 'data/occupations.json');
+  const dataFile = countryConfig.paths.mergedOccupationsJson;
   if (!fs.existsSync(dataFile)) {
     return [];
   }
@@ -26,20 +26,20 @@ export async function generateMetadata(
   { params }: { params: Promise<{ ssyk: string }> }
 ): Promise<Metadata> {
   const ssyk = (await params).ssyk;
-  const dataFile = path.resolve(process.cwd(), 'data/occupations.json');
-  let title = `Occupation SSYK ${ssyk}`;
+  const dataFile = countryConfig.paths.mergedOccupationsJson;
+  let title = `Occupation STYRK ${ssyk}`;
   
   if (fs.existsSync(dataFile)) {
     try {
       const occupations: Occupation[] = JSON.parse(fs.readFileSync(dataFile, 'utf-8'));
       const occ = occupations.find((o) => o.ssyk === ssyk);
-      if (occ) title = `${occ.nameEnglish || occ.nameSwedish} - SSYK ${ssyk}`;
+      if (occ) title = `${occ.nameEnglish || occ.nameSwedish} - STYRK ${ssyk}`;
     } catch (e) {}
   }
 
   return {
-    title: `${title} | Sweden Job Market Visualizer`,
-    description: `AI Exposure and Adoption profile for ${title} in the Swedish labor market.`,
+    title: `${title} | Norway Job Market Visualizer`,
+    description: `AI Exposure and Adoption profile for ${title} in the Norwegian labour market.`,
   };
 }
 
@@ -48,7 +48,7 @@ export default async function OccupationPage(
 ) {
   const ssyk = (await params).ssyk;
   // Use async read to not block
-  const dataFile = path.resolve(process.cwd(), 'data/occupations.json');
+  const dataFile = countryConfig.paths.mergedOccupationsJson;
   if (!fs.existsSync(dataFile)) {
     return <div className="p-8">Data file not found</div>;
   }
@@ -92,7 +92,7 @@ export default async function OccupationPage(
       </main>
 
       <footer className="py-12 border-t border-slate-900 text-center text-slate-600 text-xs bg-slate-950 relative z-10">
-        <p>© 2026 Sweden Job Market Visualizer. Inspired by Andrej Karpathy.</p>
+        <p>© 2026 Norway Job Market Visualizer. Inspired by Andrej Karpathy.</p>
       </footer>
     </div>
   );

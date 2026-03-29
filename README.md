@@ -1,85 +1,57 @@
-# Sweden Job Market Visualizer
+# Norway Job Market Visualizer
 
-Interactive AI Exposure & Adoption Analysis of Swedish labor market occupations.
+Interactive AI exposure and adoption analysis for **Norwegian** labour market occupations (**STYRK-08**), using official **SSB** statistics and optional **OpenAI** scoring.
 
-### 🌟 Inspiration
-This project is deeply inspired by [Andrej Karpathy's analysis of US occupations](https://karpathy.ai/jobs/). We have adapted his methodology for the Swedish context, utilizing local data from SCB and Arbetsförmedlingen to provide a specialized view of the Nordic labor market.
+Forked from [hamidfarmani/sweden-job-market-visualizer](https://github.com/hamidfarmani/sweden-job-market-visualizer).
 
----
+### Inspiration
 
-## Data Pipeline
-
-Run these scripts **in order** when setting up from scratch, or when you want to refresh the dataset.
-All scripts require `OPENAI_API_KEY` set in `.env.local`.
-
-| # | Script | What it does | How often |
-|---|--------|-------------|-----------|
-| 01 | `npx tsx scripts/01_fetch_yrkesprognoser.ts` | Downloads Arbetsförmedlingen forecast data (bristvärde, outlook text) and **translates** the Swedish forecast text to English using `gpt-5.4-mini`. Writes `data/raw/yrkesprognoser.json`. | Monthly (Arbetsförmedlingen updates quarterly) |
-| 02 | `npx tsx scripts/02_fetch_ssyk.ts` | Downloads SSYK 2012 occupation codes from JobTech taxonomy, fetches real employment counts from SCB (`YREG56N` table, national level 2021), and **translates** all names + descriptions to English. Writes `data/raw/ssyk_occupations.json`. | Yearly (SSYK taxonomy is stable) |
-| 03 | `npx tsx scripts/03_score_occupations.ts` | Scores every occupation for **Theoretical AI Exposure** (0–10) and **Current Adoption** (0–10) using `gpt-5.4-mini`. Results are cached in `data/scores.db` (SQLite) so re-runs are fast and cheap. **Rationale text is always returned in English.** | Once, or when you want to re-score with a new model |
-| 04 | `npx tsx scripts/04_merge.ts` | Joins all three datasets into `data/occupations.json`, the file the Next.js app reads. | After any of the above scripts |
-| 05 | `npx tsx scripts/05_validate.ts` | Sanity-checks the merged file (missing scores, null values, etc.). | After `04_merge` |
-
-**Quick full refresh:**
-```bash
-npx tsx scripts/01_fetch_yrkesprognoser.ts
-npx tsx scripts/02_fetch_ssyk.ts
-npx tsx scripts/03_score_occupations.ts
-npx tsx scripts/04_merge.ts
-npx tsx scripts/05_validate.ts
-```
-
-**Full clean-slate reset (delete all cached data and start from scratch):**
-```bash
-# Delete everything cached
-rm -f data/scores.db data/occupations.json data/raw/yrkesprognoser.json data/raw/ssyk_occupations.json
-
-# Re-run the full pipeline
-npx tsx scripts/01_fetch_yrkesprognoser.ts
-npx tsx scripts/02_fetch_ssyk.ts
-npx tsx scripts/03_score_occupations.ts   # takes ~15–30 min for all 400 occupations
-npx tsx scripts/04_merge.ts
-npx tsx scripts/05_validate.ts
-```
-
-> After a clean-slate run, all scores and translations will be fully generated for the UI.
+Inspired by [Andrej Karpathy's US jobs visualizer](https://karpathy.ai/jobs/). This fork adapts the same pipeline idea for Norway: **KLASS** (STYRK), **SSB** register employment (PxWebApi), and **model-generated** exposure/adoption scores cached in SQLite.
 
 ---
 
-## Inspecting the Database
+## Data pipeline
+
+Configuration lives in [`src/config/country.config.ts`](src/config/country.config.ts). Run scripts **in order**:
+
+| # | Script | Output |
+|---|--------|--------|
+| 01 | `scripts/01_fetch_nav_outlook.ts` | `data/raw/nav_outlook.json` (v1: empty records; extend when a NAV/EURES feed is wired) |
+| 02 | `scripts/02_fetch_styrk.ts` | `data/raw/styrk.json` — STYRK-08 from **SSB KLASS** (nb + en) |
+| 03 | `scripts/03_fetch_ssb_employment.ts` | `data/raw/ssb_employment.json` — **SSB** table **12542** (employed by 4-digit occupation, Q4; year via `SSB_EMPLOYMENT_YEAR`, default `2024`) |
+| 04 | `scripts/04_score_occupations.ts` | `data/scores.db` — OpenAI scores (needs `OPENAI_API_KEY`, or `PIPELINE_ALLOW_SIMULATED_SCORES=1` for fixed local test scores only) |
+| 05 | `scripts/05_merge.ts` | `data/processed/occupations.json` — merged dataset + provenance fields |
+| 06 | `scripts/06_validate.ts` | Validation summary |
+
+**One command:**
 
 ```bash
-# List scored occupations
-sqlite3 data/scores.db "SELECT ssyk, theoreticalExposure, currentAdoption, scoredAt FROM scores ORDER BY theoreticalExposure DESC LIMIT 20;"
-
-# Count scored vs total
-sqlite3 data/scores.db "SELECT COUNT(*) FROM scores;"
-
-# Check a specific occupation
-sqlite3 data/scores.db "SELECT * FROM scores WHERE ssyk = '2512';"
+pnpm install
+pnpm run pipeline
 ```
 
----
-
-## Environment Variables
-
-Create `.env.local` in the project root:
+**Fetch only (no AI):**
 
 ```bash
-OPENAI_API_KEY=sk-...          # Required for scoring and translation
-ADMIN_SECRET=your-secret       # Optional: protects the /api/score endpoint
+pnpm run pipeline:fetch
 ```
 
----
+Then merge after scoring, or merge without scores (scores will be null in the UI until you run step 04):
 
-## Tech Stack
+```bash
+pnpm exec tsx scripts/05_merge.ts
+pnpm exec tsx scripts/06_validate.ts
+```
 
-- **Next.js 16** (App Router, TypeScript)
-- **ECharts** (Treemap + Scatter visualizations)
-- **Zustand** (global UI state)
-- **Vercel AI SDK** + `gpt-5.4-mini` (scoring + translation)
-- **SQLite** via `better-sqlite3` (score cache)
-- **Shadcn/UI + Tailwind CSS**
+### Environment
+
+Create `.env.local`:
+
+```bash
+OPENAI_API_KEY=sk-...                    # Required for step 04 (unless PIPELINE_ALLOW_SIMULATED_SCORES=1)
+PIPELINE_ALLOW_SIMULATED_SCORES=1       # Optional: only for local testing — fixed dummy scores
+ADMIN_SECRET=your-secret                # Optional: protects POST /api/score
+```
 
 ---
 
@@ -87,12 +59,37 @@ ADMIN_SECRET=your-secret       # Optional: protects the /api/score endpoint
 
 ```
 data/raw/
-  yrkesprognoser.json   ← from 01, includes English forecast text
-  ssyk_occupations.json ← from 02, includes English names + descriptions
+  styrk.json           ← 02 KLASS
+  ssb_employment.json ← 03 SSB PxWebApi
+  nav_outlook.json     ← 01 (v1 may be empty)
 data/
-  scores.db             ← SQLite cache from 03 (AI scores)
-  occupations.json      ← merged output from 04 (what the app reads)
+  scores.db            ← 04 SQLite cache (gitignored)
+data/processed/
+  occupations.json     ← 05 merged file the app reads
 ```
 
-The API route (`/api/occupations`) reads `occupations.json` and applies search/filter params.
-The UI never calls the LLM at runtime — all AI work happens offline in the pipeline scripts.
+The app reads **`data/processed/occupations.json`** via [`src/app/api/occupations/route.ts`](src/app/api/occupations/route.ts). LLM work runs **offline** in the pipeline, not on each page view.
+
+---
+
+## Tech stack
+
+- **Next.js 16** (App Router, TypeScript)
+- **ECharts** (treemap + scatter)
+- **Zustand**, **Shadcn/UI**, **Tailwind CSS**
+- **Vercel AI SDK** + OpenAI (pipeline scoring)
+- **SQLite** (`better-sqlite3`) for score cache
+
+---
+
+## Inspecting scores (SQLite)
+
+```bash
+sqlite3 data/scores.db "SELECT ssyk, theoreticalExposure, currentAdoption, modelName FROM scores LIMIT 20;"
+```
+
+---
+
+## License / credits
+
+Upstream: Sweden Job Market Visualizer by Hamid Farmani. This fork focuses on Norwegian sources (SSB, KLASS) and STYRK-08.

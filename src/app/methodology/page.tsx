@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { DisclaimerBanner } from '@/components/DisclaimerBanner';
 
 export const metadata = {
-  title: 'Methodology | Sweden Job Market Visualizer',
+  title: 'Methodology | Norway Job Market Visualizer',
 };
 
 export default function MethodologyPage() {
@@ -21,7 +21,7 @@ export default function MethodologyPage() {
           </div>
           <h1 className="text-3xl md:text-5xl font-black text-slate-50 tracking-tight mb-4">Methodology & Limitations</h1>
           <p className="text-lg text-slate-400">
-            How we calculate AI Exposure and Current Adoption scores for the Swedish Labor Market.
+            How we calculate AI Exposure and Current Adoption scores for the Norwegian labour market.
           </p>
         </div>
       </header>
@@ -30,16 +30,16 @@ export default function MethodologyPage() {
         <div className="prose prose-invert prose-slate prose-lg max-w-none">
           <h2 className="text-slate-100">Overview</h2>
           <p>
-            The <strong>Sweden Job Market Visualizer</strong> is an exploration tool designed to prompt thinking about skills transition. It is heavily inspired by
+            The <strong>Norway Job Market Visualizer</strong> is an exploration tool designed to prompt thinking about skills transition. It is heavily inspired by
             <a href="https://karpathy.ai/jobs/" target="_blank" rel="noreferrer" className="text-blue-400 px-1 hover:text-blue-300">Andrej Karpathy's jobs visualizer</a>,
-            but rebuilt specifically to reflect Swedish occupational structures (SSYK 2012) and Swedish labor market dynamics.
+            but rebuilt specifically to reflect Norwegian occupational structures (STYRK-08) and Norwegian labor market dynamics.
           </p>
 
           <div className="bg-amber-900/20 border border-amber-700/50 p-6 rounded-lg my-8">
             <h3 className="text-amber-400 mt-0">CRITICAL: Exposure ≠ Displacement</h3>
             <p className="text-amber-200 mb-0">
               A high "AI Exposure" score does <strong>not</strong> mean a job is going away. Throughout economic history, automation of specific tasks often
-              increases the overall value and demand for the human in the loop. Furthermore, the Swedish labor market is heavily unionized and features
+              increases the overall value and demand for the human in the loop. Furthermore, the Norwegian labor market is heavily unionized and features
               a large public welfare sector (education, healthcare, social work) where many tasks are statutory human responsibilities that cannot be legally delegated to software.
               <strong>Please use this tool to think about how your daily tasks might change, not whether your job title will exist.</strong>
             </p>
@@ -52,7 +52,7 @@ export default function MethodologyPage() {
               <ul className="text-sm mb-0">
                 <li><strong>Skills exploration:</strong> Identifying which of your daily tasks might soon be assisted by AI.</li>
                 <li><strong>Career planning:</strong> Thinking about pivoting towards the "human-in-the-loop" aspects of your profession.</li>
-                <li><strong>Policy discussions:</strong> Starting conversations about workforce transition and lifelong learning in Sweden.</li>
+                <li><strong>Policy discussions:</strong> Starting conversations about workforce transition and lifelong learning in Norway.</li>
               </ul>
             </div>
             <div className="bg-red-900/10 border border-red-800/50 p-5 rounded-lg">
@@ -67,8 +67,8 @@ export default function MethodologyPage() {
 
           <h2>Data Sources & Methodology</h2>
           <ul>
-            <li><strong>SCB (Statistics Sweden) & JobTech Taxonomy:</strong> Underpins the occupational hierarchy (SSYK 2012) and the number of employed persons per occupation. <em>Note: Our employment counts now use high-precision 2021 national statistics from the SCB 4-digit SSYK registry (YREG60N).</em></li>
-            <li><strong>Arbetsförmedlingen (Swedish Public Employment Service):</strong> Provides the labor market outlook and shortage index (Yrkesprognoser). Text is automatically translated to English during our pipeline build.</li>
+            <li><strong>SCB (Statistics Norway) & JobTech Taxonomy:</strong> Underpins the occupational hierarchy (STYRK-08) and the number of employed persons per occupation. <em>Note: Our employment counts now use high-precision 2021 national statistics from the SCB 4-digit STYRK registry (YREG60N).</em></li>
+            <li><strong>Arbetsförmedlingen (Norwegian Public Employment Service):</strong> Provides the labor market outlook and shortage index (Yrkesprognoser). Text is automatically translated to English during our pipeline build.</li>
             <li><strong>Vercel AI SDK (LLMs):</strong> Used during the build pipeline to assess and score each occupation against a strict rubric. Current scores are generated using <code>gpt-5.4-mini</code>.</li>
           </ul>
 
@@ -83,18 +83,18 @@ export default function MethodologyPage() {
 - 9–10: Almost entirely screen/knowledge-based; output is text, code, data, or decisions AI models excel at
 - 7–8: Majority of tasks are cognitive/digital but with some physical or interpersonal components
 - 5–6: Mixed — significant cognitive tasks that AI could assist with, significant physical/relational tasks it cannot
-- 3–4: Mostly physical, hands-on, interpersonal, or highly context-dependent (Swedish welfare/care setting)
+- 3–4: Mostly physical, hands-on, interpersonal, or highly context-dependent (Norwegian welfare/care setting)
 - 1–2: Almost entirely physical, outdoor, or dependent on real-world embodiment
 - 0: No plausible AI impact on core task structure`}
           </pre>
 
           <h3>2. Current AI Adoption (0-10)</h3>
           <p>
-            This score attempts to measure what is actually happening in Swedish workplaces <em>right now</em>. It looks for observable signals that employers are buying tools (like GitHub Copilot, AI medical transcription, or automated customer service).
+            This score attempts to measure what is actually happening in Norwegian workplaces <em>right now</em>. It looks for observable signals that employers are buying tools (like GitHub Copilot, AI medical transcription, or automated customer service).
           </p>
           <pre className="bg-slate-900 text-slate-300 p-4 rounded-md text-sm overflow-x-auto whitespace-pre-wrap">
             {`Rate "currentAdoption" (0–10) based on OBSERVABLE signals:
-- 8–10: Tools actively used in Sweden today
+- 8–10: Tools actively used in Norway today
 - 6–7: Significant tooling available and many employers adopting
 - 4–5: Early adoption — some employers experimenting, tools exist but not mainstream
 - 2–3: Marginal — a few pilot programs, mostly talk
@@ -104,10 +104,10 @@ export default function MethodologyPage() {
           <h2>Limitations and Bias</h2>
           <p>
             <strong>LLM Self-Referential Bias:</strong> We use an LLM (such as GPT-4o or Claude 3.5 Sonnet) to score these jobs. LLMs tend to overestimate their own capabilities and underestimate the friction of enterprise deployment.
-            We try to mitigate this by writing prompts that explicitly remind the model about Swedish labor friction, but bias remains.
+            We try to mitigate this by writing prompts that explicitly remind the model about Norwegian labor friction, but bias remains.
           </p>
           <p>
-            <strong>Coarse Categories:</strong> SSYK code 2412 ("Personalspecialister") lumps together technical recruiters, compensation analysts, and HR business partners. The AI exposure for these sub-roles varies wildly, but they receive a single aggregate score here.
+            <strong>Coarse Categories:</strong> STYRK code 2412 ("Personalspecialister") lumps together technical recruiters, compensation analysts, and HR business partners. The AI exposure for these sub-roles varies wildly, but they receive a single aggregate score here.
           </p>
         </div>
       </main>
