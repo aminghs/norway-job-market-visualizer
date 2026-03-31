@@ -4,11 +4,55 @@ import React, { useMemo } from 'react';
 import ReactECharts from 'echarts-for-react';
 import { useAppStore } from '@/lib/store';
 import type { Occupation } from '@/lib/types';
-import * as echarts from 'echarts';
 import { MAJOR_GROUP_NAMES } from '@/lib/ssyk-groups';
 
 interface TreemapProps {
   data: Occupation[];
+}
+
+/** ECharts treemap label formatter argument (subset we use). */
+interface TreemapLabelParams {
+  name: string;
+  value?: number;
+}
+
+interface TreemapLeafData {
+  name: string;
+  value: number;
+  ssyk: string;
+  colorValue: number | null;
+  label: {
+    show: boolean;
+    position: string;
+    formatter: (params: TreemapLabelParams) => string;
+    rich: Record<
+      string,
+      { color: string; fontWeight?: string; fontSize: number; padding?: number[] }
+    >;
+  };
+  itemStyle: {
+    color: string;
+    borderWidth: number;
+    borderColor: string;
+    gapWidth: number;
+  };
+}
+
+interface TreemapGroupNode {
+  name: string;
+  itemStyle: { borderWidth: number };
+  children: TreemapLeafData[];
+}
+
+interface TreemapTooltipInfo {
+  name: string;
+  value?: number;
+  treePathInfo: { name?: string }[];
+  data?: { ssyk?: string; colorValue?: number | null };
+}
+
+interface TreemapClickParams {
+  data?: { ssyk?: string };
 }
 
 export function Treemap({ data }: TreemapProps) {
@@ -23,7 +67,7 @@ export function Treemap({ data }: TreemapProps) {
 
   const chartOptions = useMemo(() => {
     // Group occupations by majorGroup
-    const groupMap = new Map<string, any>();
+    const groupMap = new Map<string, TreemapGroupNode>();
 
     // SSYK 2012 Major Groups (from shared constant)
     const majorGroupNames = MAJOR_GROUP_NAMES;
@@ -39,7 +83,7 @@ export function Treemap({ data }: TreemapProps) {
         groupMap.set(occ.majorGroup, g);
       }
 
-      let val = occ.employed && occ.employed > 0 ? occ.employed : 1;
+      const val = occ.employed && occ.employed > 0 ? occ.employed : 1;
       let colorValue: number | null = 0;
 
       if (metric === 'theoreticalExposure') {
@@ -78,7 +122,7 @@ export function Treemap({ data }: TreemapProps) {
         label: {
           show: true,
           position: 'insideTopLeft',
-          formatter: (params: any) => {
+          formatter: (params: TreemapLabelParams) => {
             return `{name|${params.name}}\n{emp|${(params.value || 0).toLocaleString('en-US')} employed}`;
           },
           rich: {
@@ -101,7 +145,7 @@ export function Treemap({ data }: TreemapProps) {
         backgroundColor: '#1e293b',
         borderColor: '#334155',
         textStyle: { color: '#f8fafc' },
-        formatter: (info: any) => {
+        formatter: (info: TreemapTooltipInfo) => {
           if (info.treePathInfo.length === 2) {
             // hovering on major group level
             return `<strong>${info.name}</strong><br />${(info.value || 0).toLocaleString('en-US')
@@ -173,7 +217,7 @@ export function Treemap({ data }: TreemapProps) {
   }, [data, metric]);
 
   const onEvents = {
-    'click': (params: any) => {
+    'click': (params: TreemapClickParams) => {
       if (params.data?.ssyk) {
         setSelectedSsyk(params.data.ssyk);
       }
