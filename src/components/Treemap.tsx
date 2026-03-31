@@ -40,14 +40,16 @@ export function Treemap({ data }: TreemapProps) {
       }
 
       let val = occ.employed && occ.employed > 0 ? occ.employed : 1;
-      let colorValue = 0;
+      let colorValue: number | null = 0;
 
       if (metric === 'theoreticalExposure') {
         colorValue = occ.scores?.theoreticalExposure || 0;
       } else if (metric === 'currentAdoption') {
         colorValue = occ.scores?.currentAdoption || 0;
       } else if (metric === 'outlook') {
-        colorValue = occ.forecast?.outlookScore || 3;
+        const os = occ.forecast?.outlookScore;
+        colorValue =
+          typeof os === 'number' && !Number.isNaN(os) ? os : null;
       }
 
       let childColor = '#422006';
@@ -56,12 +58,16 @@ export function Treemap({ data }: TreemapProps) {
       const heatColors = ['#14532d', '#166534', '#ca8a04', '#b91c1c', '#7f1d1d'];
 
       if (metric === 'theoreticalExposure') {
-        childColor = getColor(colorValue, 0, 10, heatColors);
+        childColor = getColor(colorValue ?? 0, 0, 10, heatColors);
       } else if (metric === 'currentAdoption') {
-        childColor = getColor(colorValue, 0, 10, heatColors);
+        childColor = getColor(colorValue ?? 0, 0, 10, heatColors);
       } else {
-        // 1=Competition (Red), 5=Shortage (Green)
-        childColor = getColor(colorValue, 1, 5, ['#7f1d1d', '#b91c1c', '#ca8a04', '#166534', '#14532d']);
+        // 1=Competition (Red), 5=Shortage (Green). No NAV outlook => neutral (not "3" = orange).
+        if (colorValue == null) {
+          childColor = '#422006';
+        } else {
+          childColor = getColor(colorValue, 1, 5, ['#7f1d1d', '#b91c1c', '#ca8a04', '#166534', '#14532d']);
+        }
       }
 
       g.children.push({
@@ -104,7 +110,13 @@ export function Treemap({ data }: TreemapProps) {
           const occName = info.name;
           const emp = (info.value || 0).toLocaleString('en-US');
           const ssyk = info.data?.ssyk || 'N/A';
-          const score = info.data?.colorValue != null ? info.data.colorValue.toFixed(1) : 'N/A';
+          const cv = info.data?.colorValue;
+          const score =
+            cv === null || cv === undefined
+              ? 'N/A'
+              : typeof cv === 'number'
+                ? cv.toFixed(1)
+                : 'N/A';
           const metricLabels: Record<string, string> = {
             theoreticalExposure: 'Exposure',
             currentAdoption: 'Adoption',
