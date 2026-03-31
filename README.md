@@ -2,6 +2,8 @@
 
 Interactive AI exposure and adoption analysis for **Norwegian** labour market occupations (**STYRK-08**), using official **SSB** statistics and optional **OpenAI** scoring.
 
+**Live demo:** [norway-job-market-visualizer on Vercel](https://norway-job-market-visualizer-rkoyyjhrr-aminghs-projects.vercel.app/)
+
 Forked from [hamidfarmani/sweden-job-market-visualizer](https://github.com/hamidfarmani/sweden-job-market-visualizer).
 
 ### Inspiration
